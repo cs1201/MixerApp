@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "b6bcc2c83771d96a2b6ce87b00d76a6a"
+build_time: [562191889, 364052000]
+inputs:
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/horizontalFader.swift": [561990472, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/verticalMeter.swift": [561583718, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/EQViewController.swift": [562191888, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/CompKnobStyleKit.swift": [561925939, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/ViewController.swift": [562190762, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/muteButton.swift": [561158430, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/startViewController.swift": [561120976, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/Knob+Touches.swift": [561925434, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/soloButton.swift": [561158430, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/AppDelegate.swift": [528193494, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/CompKnobView.swift": [561926636, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/AudioMixer.swift": [562183874, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/KnobStyleKit.swift": [561913478, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/CompKnob+Touches.swift": [561925740, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/KnobView.swift": [561917363, 0]
+  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/verticalFader.swift": [561170349, 0]

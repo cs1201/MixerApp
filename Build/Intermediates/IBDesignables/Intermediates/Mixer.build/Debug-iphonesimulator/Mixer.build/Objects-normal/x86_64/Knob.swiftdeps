@@ -1,0 +1,835 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KnobDelegate"
+- "Knob"
+provides-nominal:
+- "P5Mixer12KnobDelegate"
+- "C5Mixer4Knob"
+provides-member:
+- ["P5Mixer12KnobDelegate", ""]
+- ["C5Mixer4Knob", ""]
+provides-dynamic-lookup:
+- "draw"
+- "knobFill"
+- "knobSensitivity"
+- "knobValue"
+- "lastX"
+- "lastY"
+- "maximum"
+- "minimum"
+- "prepareForInterfaceBuilder"
+- "requiresConstraintBasedLayout"
+- "setPercentagesWithTouchPoint"
+- "value"
+depends-top-level:
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "/"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "Double"
+- "Int"
+- "Knob"
+- "KnobDelegate"
+- !private "KnobStyleKit"
+- "NSCoder"
+- "UIView"
+depends-member:
+- !private ["P8AudioKit11AKParameter", "init"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "KnobStyleKit"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "clipsToBounds"]
+- !private ["Ps9AnyObject", "contentMode"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "drawKnobOne"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isUserInteractionEnabled"]
+- !private ["Ps9AnyObject", "knobSensitivity"]
+- !private ["Ps9AnyObject", "knobValue"]
+- !private ["Ps9AnyObject", "lastX"]
+- !private ["Ps9AnyObject", "lastY"]
+- !private ["Ps9AnyObject", "maximum"]
+- !private ["Ps9AnyObject", "minimum"]
+- !private ["Ps9AnyObject", "prepareForInterfaceBuilder"]
+- !private ["Ps9AnyObject", "setNeedsDisplay"]
+- !private ["Ps9AnyObject", "tag"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "CGFloat"]
+- !private ["PSo15CALayerDelegate", "CGRect"]
+- !private ["PSo15CALayerDelegate", "Double"]
+- !private ["PSo15CALayerDelegate", "KnobStyleKit"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "clipsToBounds"]
+- !private ["PSo15CALayerDelegate", "contentMode"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "isUserInteractionEnabled"]
+- !private ["PSo15CALayerDelegate", "knobSensitivity"]
+- !private ["PSo15CALayerDelegate", "knobValue"]
+- !private ["PSo15CALayerDelegate", "lastX"]
+- !private ["PSo15CALayerDelegate", "lastY"]
+- !private ["PSo15CALayerDelegate", "maximum"]
+- !private ["PSo15CALayerDelegate", "minimum"]
+- !private ["PSo15CALayerDelegate", "prepareForInterfaceBuilder"]
+- !private ["PSo15CALayerDelegate", "setNeedsDisplay"]
+- !private ["PSo15CALayerDelegate", "tag"]
+- !private ["PSo15CALayerDelegate", "value"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "KnobStyleKit"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "clipsToBounds"]
+- !private ["Ps7CVarArg", "contentMode"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "drawKnobOne"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isUserInteractionEnabled"]
+- !private ["Ps7CVarArg", "knobSensitivity"]
+- !private ["Ps7CVarArg", "knobValue"]
+- !private ["Ps7CVarArg", "lastX"]
+- !private ["Ps7CVarArg", "lastY"]
+- !private ["Ps7CVarArg", "maximum"]
+- !private ["Ps7CVarArg", "minimum"]
+- !private ["Ps7CVarArg", "prepareForInterfaceBuilder"]
+- !private ["Ps7CVarArg", "setNeedsDisplay"]
+- !private ["Ps7CVarArg", "tag"]
+- !private ["Ps7CVarArg", "value"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "KnobStyleKit"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "clipsToBounds"]
+- !private ["Ps28CustomDebugStringConvertible", "contentMode"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "drawKnobOne"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "knobSensitivity"]
+- !private ["Ps28CustomDebugStringConvertible", "knobValue"]
+- !private ["Ps28CustomDebugStringConvertible", "lastX"]
+- !private ["Ps28CustomDebugStringConvertible", "lastY"]
+- !private ["Ps28CustomDebugStringConvertible", "maximum"]
+- !private ["Ps28CustomDebugStringConvertible", "minimum"]
+- !private ["Ps28CustomDebugStringConvertible", "prepareForInterfaceBuilder"]
+- !private ["Ps28CustomDebugStringConvertible", "setNeedsDisplay"]
+- !private ["Ps28CustomDebugStringConvertible", "tag"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "KnobStyleKit"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "clipsToBounds"]
+- !private ["Ps23CustomStringConvertible", "contentMode"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "drawKnobOne"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps23CustomStringConvertible", "knobSensitivity"]
+- !private ["Ps23CustomStringConvertible", "knobValue"]
+- !private ["Ps23CustomStringConvertible", "lastX"]
+- !private ["Ps23CustomStringConvertible", "lastY"]
+- !private ["Ps23CustomStringConvertible", "maximum"]
+- !private ["Ps23CustomStringConvertible", "minimum"]
+- !private ["Ps23CustomStringConvertible", "prepareForInterfaceBuilder"]
+- !private ["Ps23CustomStringConvertible", "setNeedsDisplay"]
+- !private ["Ps23CustomStringConvertible", "tag"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "KnobStyleKit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "clipsToBounds"]
+- !private ["Ps9Equatable", "contentMode"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "drawKnobOne"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isUserInteractionEnabled"]
+- !private ["Ps9Equatable", "knobSensitivity"]
+- !private ["Ps9Equatable", "knobValue"]
+- !private ["Ps9Equatable", "lastX"]
+- !private ["Ps9Equatable", "lastY"]
+- !private ["Ps9Equatable", "maximum"]
+- !private ["Ps9Equatable", "minimum"]
+- !private ["Ps9Equatable", "prepareForInterfaceBuilder"]
+- !private ["Ps9Equatable", "redraw"]
+- !private ["Ps9Equatable", "scaleAspectFit"]
+- !private ["Ps9Equatable", "setNeedsDisplay"]
+- !private ["Ps9Equatable", "tag"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "KnobStyleKit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "clipsToBounds"]
+- !private ["Ps8Hashable", "contentMode"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "drawKnobOne"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isUserInteractionEnabled"]
+- !private ["Ps8Hashable", "knobSensitivity"]
+- !private ["Ps8Hashable", "knobValue"]
+- !private ["Ps8Hashable", "lastX"]
+- !private ["Ps8Hashable", "lastY"]
+- !private ["Ps8Hashable", "maximum"]
+- !private ["Ps8Hashable", "minimum"]
+- !private ["Ps8Hashable", "prepareForInterfaceBuilder"]
+- !private ["Ps8Hashable", "redraw"]
+- !private ["Ps8Hashable", "scaleAspectFit"]
+- !private ["Ps8Hashable", "setNeedsDisplay"]
+- !private ["Ps8Hashable", "tag"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
+- ["C5Mixer4Knob", "Bool"]
+- ["C5Mixer4Knob", "CGFloat"]
+- ["C5Mixer4Knob", "CGPoint"]
+- ["C5Mixer4Knob", "CGRect"]
+- ["C5Mixer4Knob", "Double"]
+- ["C5Mixer4Knob", "KnobDelegate"]
+- !private ["C5Mixer4Knob", "KnobStyleKit"]
+- ["C5Mixer4Knob", "NSCoder"]
+- !private ["C5Mixer4Knob", "bounds"]
+- !private ["C5Mixer4Knob", "clipsToBounds"]
+- !private ["C5Mixer4Knob", "contentMode"]
+- ["C5Mixer4Knob", "deinit"]
+- ["C5Mixer4Knob", "delegate"]
+- ["C5Mixer4Knob", "draw"]
+- ["C5Mixer4Knob", "init"]
+- !private ["C5Mixer4Knob", "isUserInteractionEnabled"]
+- ["C5Mixer4Knob", "knobFill"]
+- ["C5Mixer4Knob", "knobSensitivity"]
+- ["C5Mixer4Knob", "knobValue"]
+- ["C5Mixer4Knob", "lastX"]
+- ["C5Mixer4Knob", "lastY"]
+- ["C5Mixer4Knob", "maximum"]
+- ["C5Mixer4Knob", "minimum"]
+- ["C5Mixer4Knob", "prepareForInterfaceBuilder"]
+- ["C5Mixer4Knob", "requiresConstraintBasedLayout"]
+- !private ["C5Mixer4Knob", "setNeedsDisplay"]
+- ["C5Mixer4Knob", "setPercentagesWithTouchPoint"]
+- !private ["C5Mixer4Knob", "tag"]
+- ["C5Mixer4Knob", "value"]
+- ["P5Mixer12KnobDelegate", "Double"]
+- ["P5Mixer12KnobDelegate", "Int"]
+- ["P5Mixer12KnobDelegate", "updateKnobValue"]
+- !private ["C5Mixer12KnobStyleKit", "drawKnobOne"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "Double"]
+- !private ["PSo8NSCoding", "KnobStyleKit"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "clipsToBounds"]
+- !private ["PSo8NSCoding", "contentMode"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isUserInteractionEnabled"]
+- !private ["PSo8NSCoding", "knobSensitivity"]
+- !private ["PSo8NSCoding", "knobValue"]
+- !private ["PSo8NSCoding", "lastX"]
+- !private ["PSo8NSCoding", "lastY"]
+- !private ["PSo8NSCoding", "maximum"]
+- !private ["PSo8NSCoding", "minimum"]
+- !private ["PSo8NSCoding", "prepareForInterfaceBuilder"]
+- !private ["PSo8NSCoding", "setNeedsDisplay"]
+- !private ["PSo8NSCoding", "tag"]
+- !private ["PSo8NSCoding", "value"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "KnobDelegate"]
+- !private ["CSo8NSObject", "KnobStyleKit"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "clipsToBounds"]
+- !private ["CSo8NSObject", "contentMode"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "draw"]
+- !private ["CSo8NSObject", "drawKnobOne"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isUserInteractionEnabled"]
+- ["CSo8NSObject", "knobFill"]
+- ["CSo8NSObject", "knobSensitivity"]
+- ["CSo8NSObject", "knobValue"]
+- ["CSo8NSObject", "lastX"]
+- ["CSo8NSObject", "lastY"]
+- ["CSo8NSObject", "maximum"]
+- ["CSo8NSObject", "minimum"]
+- ["CSo8NSObject", "prepareForInterfaceBuilder"]
+- ["CSo8NSObject", "requiresConstraintBasedLayout"]
+- !private ["CSo8NSObject", "setNeedsDisplay"]
+- ["CSo8NSObject", "setPercentagesWithTouchPoint"]
+- !private ["CSo8NSObject", "tag"]
+- ["CSo8NSObject", "value"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "KnobStyleKit"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "clipsToBounds"]
+- !private ["PSo16NSObjectProtocol", "contentMode"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "drawKnobOne"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isUserInteractionEnabled"]
+- !private ["PSo16NSObjectProtocol", "knobSensitivity"]
+- !private ["PSo16NSObjectProtocol", "knobValue"]
+- !private ["PSo16NSObjectProtocol", "lastX"]
+- !private ["PSo16NSObjectProtocol", "lastY"]
+- !private ["PSo16NSObjectProtocol", "maximum"]
+- !private ["PSo16NSObjectProtocol", "minimum"]
+- !private ["PSo16NSObjectProtocol", "prepareForInterfaceBuilder"]
+- !private ["PSo16NSObjectProtocol", "setNeedsDisplay"]
+- !private ["PSo16NSObjectProtocol", "tag"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["P8AudioKit7Numeric", "init"]
+- !private ["Ps16RawRepresentable", "redraw"]
+- !private ["Ps16RawRepresentable", "scaleAspectFit"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGFloat"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRect"]
+- !private ["PSo29UIAccessibilityIdentification", "Double"]
+- !private ["PSo29UIAccessibilityIdentification", "KnobStyleKit"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
+- !private ["PSo29UIAccessibilityIdentification", "contentMode"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isUserInteractionEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "knobSensitivity"]
+- !private ["PSo29UIAccessibilityIdentification", "knobValue"]
+- !private ["PSo29UIAccessibilityIdentification", "lastX"]
+- !private ["PSo29UIAccessibilityIdentification", "lastY"]
+- !private ["PSo29UIAccessibilityIdentification", "maximum"]
+- !private ["PSo29UIAccessibilityIdentification", "minimum"]
+- !private ["PSo29UIAccessibilityIdentification", "prepareForInterfaceBuilder"]
+- !private ["PSo29UIAccessibilityIdentification", "setNeedsDisplay"]
+- !private ["PSo29UIAccessibilityIdentification", "tag"]
+- !private ["PSo29UIAccessibilityIdentification", "value"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGFloat"]
+- !private ["PSo12UIAppearance", "CGRect"]
+- !private ["PSo12UIAppearance", "Double"]
+- !private ["PSo12UIAppearance", "KnobStyleKit"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "clipsToBounds"]
+- !private ["PSo12UIAppearance", "contentMode"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isUserInteractionEnabled"]
+- !private ["PSo12UIAppearance", "knobSensitivity"]
+- !private ["PSo12UIAppearance", "knobValue"]
+- !private ["PSo12UIAppearance", "lastX"]
+- !private ["PSo12UIAppearance", "lastY"]
+- !private ["PSo12UIAppearance", "maximum"]
+- !private ["PSo12UIAppearance", "minimum"]
+- !private ["PSo12UIAppearance", "prepareForInterfaceBuilder"]
+- !private ["PSo12UIAppearance", "setNeedsDisplay"]
+- !private ["PSo12UIAppearance", "tag"]
+- !private ["PSo12UIAppearance", "value"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "Double"]
+- !private ["PSo21UIAppearanceContainer", "KnobStyleKit"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "clipsToBounds"]
+- !private ["PSo21UIAppearanceContainer", "contentMode"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isUserInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "knobSensitivity"]
+- !private ["PSo21UIAppearanceContainer", "knobValue"]
+- !private ["PSo21UIAppearanceContainer", "lastX"]
+- !private ["PSo21UIAppearanceContainer", "lastY"]
+- !private ["PSo21UIAppearanceContainer", "maximum"]
+- !private ["PSo21UIAppearanceContainer", "minimum"]
+- !private ["PSo21UIAppearanceContainer", "prepareForInterfaceBuilder"]
+- !private ["PSo21UIAppearanceContainer", "setNeedsDisplay"]
+- !private ["PSo21UIAppearanceContainer", "tag"]
+- !private ["PSo21UIAppearanceContainer", "value"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CGFloat"]
+- !private ["PSo17UICoordinateSpace", "CGRect"]
+- !private ["PSo17UICoordinateSpace", "Double"]
+- !private ["PSo17UICoordinateSpace", "KnobStyleKit"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "clipsToBounds"]
+- !private ["PSo17UICoordinateSpace", "contentMode"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "isUserInteractionEnabled"]
+- !private ["PSo17UICoordinateSpace", "knobSensitivity"]
+- !private ["PSo17UICoordinateSpace", "knobValue"]
+- !private ["PSo17UICoordinateSpace", "lastX"]
+- !private ["PSo17UICoordinateSpace", "lastY"]
+- !private ["PSo17UICoordinateSpace", "maximum"]
+- !private ["PSo17UICoordinateSpace", "minimum"]
+- !private ["PSo17UICoordinateSpace", "prepareForInterfaceBuilder"]
+- !private ["PSo17UICoordinateSpace", "setNeedsDisplay"]
+- !private ["PSo17UICoordinateSpace", "tag"]
+- !private ["PSo17UICoordinateSpace", "value"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGFloat"]
+- !private ["PSo13UIDynamicItem", "CGRect"]
+- !private ["PSo13UIDynamicItem", "Double"]
+- !private ["PSo13UIDynamicItem", "KnobStyleKit"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "clipsToBounds"]
+- !private ["PSo13UIDynamicItem", "contentMode"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "isUserInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "knobSensitivity"]
+- !private ["PSo13UIDynamicItem", "knobValue"]
+- !private ["PSo13UIDynamicItem", "lastX"]
+- !private ["PSo13UIDynamicItem", "lastY"]
+- !private ["PSo13UIDynamicItem", "maximum"]
+- !private ["PSo13UIDynamicItem", "minimum"]
+- !private ["PSo13UIDynamicItem", "prepareForInterfaceBuilder"]
+- !private ["PSo13UIDynamicItem", "setNeedsDisplay"]
+- !private ["PSo13UIDynamicItem", "tag"]
+- !private ["PSo13UIDynamicItem", "value"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "Double"]
+- !private ["PSo18UIFocusEnvironment", "KnobStyleKit"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "clipsToBounds"]
+- !private ["PSo18UIFocusEnvironment", "contentMode"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "knobSensitivity"]
+- !private ["PSo18UIFocusEnvironment", "knobValue"]
+- !private ["PSo18UIFocusEnvironment", "lastX"]
+- !private ["PSo18UIFocusEnvironment", "lastY"]
+- !private ["PSo18UIFocusEnvironment", "maximum"]
+- !private ["PSo18UIFocusEnvironment", "minimum"]
+- !private ["PSo18UIFocusEnvironment", "prepareForInterfaceBuilder"]
+- !private ["PSo18UIFocusEnvironment", "setNeedsDisplay"]
+- !private ["PSo18UIFocusEnvironment", "tag"]
+- !private ["PSo18UIFocusEnvironment", "value"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGFloat"]
+- !private ["PSo11UIFocusItem", "CGRect"]
+- !private ["PSo11UIFocusItem", "Double"]
+- !private ["PSo11UIFocusItem", "KnobStyleKit"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "clipsToBounds"]
+- !private ["PSo11UIFocusItem", "contentMode"]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isUserInteractionEnabled"]
+- !private ["PSo11UIFocusItem", "knobSensitivity"]
+- !private ["PSo11UIFocusItem", "knobValue"]
+- !private ["PSo11UIFocusItem", "lastX"]
+- !private ["PSo11UIFocusItem", "lastY"]
+- !private ["PSo11UIFocusItem", "maximum"]
+- !private ["PSo11UIFocusItem", "minimum"]
+- !private ["PSo11UIFocusItem", "prepareForInterfaceBuilder"]
+- !private ["PSo11UIFocusItem", "setNeedsDisplay"]
+- !private ["PSo11UIFocusItem", "tag"]
+- !private ["PSo11UIFocusItem", "value"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "Double"]
+- ["CSo11UIResponder", "KnobDelegate"]
+- !private ["CSo11UIResponder", "KnobStyleKit"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "clipsToBounds"]
+- !private ["CSo11UIResponder", "contentMode"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "draw"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isUserInteractionEnabled"]
+- ["CSo11UIResponder", "knobFill"]
+- ["CSo11UIResponder", "knobSensitivity"]
+- ["CSo11UIResponder", "knobValue"]
+- ["CSo11UIResponder", "lastX"]
+- ["CSo11UIResponder", "lastY"]
+- ["CSo11UIResponder", "maximum"]
+- ["CSo11UIResponder", "minimum"]
+- ["CSo11UIResponder", "prepareForInterfaceBuilder"]
+- ["CSo11UIResponder", "requiresConstraintBasedLayout"]
+- !private ["CSo11UIResponder", "setNeedsDisplay"]
+- ["CSo11UIResponder", "setPercentagesWithTouchPoint"]
+- !private ["CSo11UIResponder", "tag"]
+- ["CSo11UIResponder", "value"]
+- !private ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "Double"]
+- !private ["PSo30UIResponderStandardEditActions", "KnobStyleKit"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "clipsToBounds"]
+- !private ["PSo30UIResponderStandardEditActions", "contentMode"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isUserInteractionEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "knobSensitivity"]
+- !private ["PSo30UIResponderStandardEditActions", "knobValue"]
+- !private ["PSo30UIResponderStandardEditActions", "lastX"]
+- !private ["PSo30UIResponderStandardEditActions", "lastY"]
+- !private ["PSo30UIResponderStandardEditActions", "maximum"]
+- !private ["PSo30UIResponderStandardEditActions", "minimum"]
+- !private ["PSo30UIResponderStandardEditActions", "prepareForInterfaceBuilder"]
+- !private ["PSo30UIResponderStandardEditActions", "setNeedsDisplay"]
+- !private ["PSo30UIResponderStandardEditActions", "tag"]
+- !private ["PSo30UIResponderStandardEditActions", "value"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "Double"]
+- !private ["PSo18UITraitEnvironment", "KnobStyleKit"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "clipsToBounds"]
+- !private ["PSo18UITraitEnvironment", "contentMode"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UITraitEnvironment", "knobSensitivity"]
+- !private ["PSo18UITraitEnvironment", "knobValue"]
+- !private ["PSo18UITraitEnvironment", "lastX"]
+- !private ["PSo18UITraitEnvironment", "lastY"]
+- !private ["PSo18UITraitEnvironment", "maximum"]
+- !private ["PSo18UITraitEnvironment", "minimum"]
+- !private ["PSo18UITraitEnvironment", "prepareForInterfaceBuilder"]
+- !private ["PSo18UITraitEnvironment", "setNeedsDisplay"]
+- !private ["PSo18UITraitEnvironment", "tag"]
+- !private ["PSo18UITraitEnvironment", "value"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "Double"]
+- ["CSo6UIView", "KnobDelegate"]
+- !private ["CSo6UIView", "KnobStyleKit"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "clipsToBounds"]
+- !private ["CSo6UIView", "contentMode"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "draw"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "isUserInteractionEnabled"]
+- ["CSo6UIView", "knobFill"]
+- ["CSo6UIView", "knobSensitivity"]
+- ["CSo6UIView", "knobValue"]
+- ["CSo6UIView", "lastX"]
+- ["CSo6UIView", "lastY"]
+- ["CSo6UIView", "maximum"]
+- ["CSo6UIView", "minimum"]
+- ["CSo6UIView", "prepareForInterfaceBuilder"]
+- ["CSo6UIView", "requiresConstraintBasedLayout"]
+- !private ["CSo6UIView", "setNeedsDisplay"]
+- ["CSo6UIView", "setPercentagesWithTouchPoint"]
+- !private ["CSo6UIView", "tag"]
+- ["CSo6UIView", "value"]
+- ["CSo6UIView", ""]
+- !private ["OSC17UIViewContentMode", "redraw"]
+- !private ["OSC17UIViewContentMode", "scaleAspectFit"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGFloat"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGRect"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Double"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "KnobStyleKit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "clipsToBounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentMode"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isUserInteractionEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "knobSensitivity"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "knobValue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lastX"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lastY"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "maximum"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "minimum"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "prepareForInterfaceBuilder"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsDisplay"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tag"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "value"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "KnobStyleKit"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "clipsToBounds"]
+- !private ["Ps9_Hashable", "contentMode"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "drawKnobOne"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isUserInteractionEnabled"]
+- !private ["Ps9_Hashable", "knobSensitivity"]
+- !private ["Ps9_Hashable", "knobValue"]
+- !private ["Ps9_Hashable", "lastX"]
+- !private ["Ps9_Hashable", "lastY"]
+- !private ["Ps9_Hashable", "maximum"]
+- !private ["Ps9_Hashable", "minimum"]
+- !private ["Ps9_Hashable", "prepareForInterfaceBuilder"]
+- !private ["Ps9_Hashable", "redraw"]
+- !private ["Ps9_Hashable", "scaleAspectFit"]
+- !private ["Ps9_Hashable", "setNeedsDisplay"]
+- !private ["Ps9_Hashable", "tag"]
+- !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "P8AudioKit11AKParameter"
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "C5Mixer4Knob"
+- "P5Mixer12KnobDelegate"
+- !private "C5Mixer12KnobStyleKit"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "P8AudioKit7Numeric"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "OSC17UIViewContentMode"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "120b0197c9a23d8e0b62e85cf66c8b8b"

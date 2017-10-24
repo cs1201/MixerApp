@@ -1,0 +1,653 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ContainerViewController"
+provides-nominal:
+- "C5Mixer23ContainerViewController"
+provides-member:
+- ["C5Mixer23ContainerViewController", ""]
+provides-dynamic-lookup:
+- "currentViewController"
+- "didReceiveMemoryWarning"
+- "firstLinkedSubView"
+- "prepare"
+- "segueIdentifierReceivedFromParent"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CGRect"
+- "ContainerViewController"
+- "Dictionary"
+- "String"
+- "UIStoryboardSegue"
+- "UIViewController"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- ["Ps9AnyObject", "Dictionary"]
+- !private ["Ps9AnyObject", "addChildViewController"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "containerViewObjects"]
+- !private ["Ps9AnyObject", "destination"]
+- !private ["Ps9AnyObject", "didMove"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "firstLinkedSubView"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "performSegue"]
+- !private ["Ps9AnyObject", "removeFromSuperview"]
+- !private ["Ps9AnyObject", "segueIdentifier"]
+- !private ["Ps9AnyObject", "segueIdentifierReceivedFromParent"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewController"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "removeFromSuperview"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "CGRect"]
+- ["Ps7CVarArg", "Dictionary"]
+- !private ["Ps7CVarArg", "addChildViewController"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "containerViewObjects"]
+- !private ["Ps7CVarArg", "destination"]
+- !private ["Ps7CVarArg", "didMove"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "firstLinkedSubView"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "identifier"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "performSegue"]
+- !private ["Ps7CVarArg", "removeFromSuperview"]
+- !private ["Ps7CVarArg", "segueIdentifier"]
+- !private ["Ps7CVarArg", "segueIdentifierReceivedFromParent"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewController"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- ["C5Mixer23ContainerViewController", "Bool"]
+- !private ["C5Mixer23ContainerViewController", "CGRect"]
+- ["C5Mixer23ContainerViewController", "Dictionary"]
+- ["C5Mixer23ContainerViewController", "String"]
+- ["C5Mixer23ContainerViewController", "UIStoryboardSegue"]
+- ["C5Mixer23ContainerViewController", "UIViewController"]
+- !private ["C5Mixer23ContainerViewController", "addChildViewController"]
+- !private ["C5Mixer23ContainerViewController", "containerViewObjects"]
+- ["C5Mixer23ContainerViewController", "currentViewController"]
+- ["C5Mixer23ContainerViewController", "deinit"]
+- ["C5Mixer23ContainerViewController", "didReceiveMemoryWarning"]
+- ["C5Mixer23ContainerViewController", "firstLinkedSubView"]
+- ["C5Mixer23ContainerViewController", "init"]
+- !private ["C5Mixer23ContainerViewController", "performSegue"]
+- ["C5Mixer23ContainerViewController", "prepare"]
+- !private ["C5Mixer23ContainerViewController", "segueIdentifier"]
+- ["C5Mixer23ContainerViewController", "segueIdentifierReceivedFromParent"]
+- !private ["C5Mixer23ContainerViewController", "view"]
+- !private ["C5Mixer23ContainerViewController", "viewController"]
+- ["C5Mixer23ContainerViewController", "viewDidAppear"]
+- ["C5Mixer23ContainerViewController", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- ["Ps28CustomDebugStringConvertible", "Dictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "addChildViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "containerViewObjects"]
+- !private ["Ps28CustomDebugStringConvertible", "destination"]
+- !private ["Ps28CustomDebugStringConvertible", "didMove"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "firstLinkedSubView"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromSuperview"]
+- !private ["Ps28CustomDebugStringConvertible", "segueIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "segueIdentifierReceivedFromParent"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewController"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- ["Ps23CustomStringConvertible", "Dictionary"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addChildViewController"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "containerViewObjects"]
+- !private ["Ps23CustomStringConvertible", "destination"]
+- !private ["Ps23CustomStringConvertible", "didMove"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "firstLinkedSubView"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- !private ["Ps23CustomStringConvertible", "removeFromSuperview"]
+- !private ["Ps23CustomStringConvertible", "segueIdentifier"]
+- !private ["Ps23CustomStringConvertible", "segueIdentifierReceivedFromParent"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewController"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "CGRect"]
+- ["Ps9Equatable", "Dictionary"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addChildViewController"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "containerViewObjects"]
+- !private ["Ps9Equatable", "destination"]
+- !private ["Ps9Equatable", "didMove"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "firstLinkedSubView"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "performSegue"]
+- !private ["Ps9Equatable", "removeFromSuperview"]
+- !private ["Ps9Equatable", "segueIdentifier"]
+- !private ["Ps9Equatable", "segueIdentifierReceivedFromParent"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewController"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps8Hashable", "CGRect"]
+- ["Ps8Hashable", "Dictionary"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addChildViewController"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "containerViewObjects"]
+- !private ["Ps8Hashable", "destination"]
+- !private ["Ps8Hashable", "didMove"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "firstLinkedSubView"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "identifier"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "performSegue"]
+- !private ["Ps8Hashable", "removeFromSuperview"]
+- !private ["Ps8Hashable", "segueIdentifier"]
+- !private ["Ps8Hashable", "segueIdentifierReceivedFromParent"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewController"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "CGRect"]
+- ["PSo8NSCoding", "Dictionary"]
+- !private ["PSo8NSCoding", "addChildViewController"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "containerViewObjects"]
+- !private ["PSo8NSCoding", "didMove"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "firstLinkedSubView"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "performSegue"]
+- !private ["PSo8NSCoding", "removeFromSuperview"]
+- !private ["PSo8NSCoding", "segueIdentifier"]
+- !private ["PSo8NSCoding", "segueIdentifierReceivedFromParent"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "viewController"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "CGRect"]
+- ["PSo26NSExtensionRequestHandling", "Dictionary"]
+- !private ["PSo26NSExtensionRequestHandling", "addChildViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "containerViewObjects"]
+- !private ["PSo26NSExtensionRequestHandling", "didMove"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "firstLinkedSubView"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "segueIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "segueIdentifierReceivedFromParent"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "viewController"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "Dictionary"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "addChildViewController"]
+- !private ["CSo8NSObject", "addSubview"]
+- ["CSo8NSObject", "containerViewObjects"]
+- ["CSo8NSObject", "currentViewController"]
+- !private ["CSo8NSObject", "destination"]
+- !private ["CSo8NSObject", "didMove"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "firstLinkedSubView"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "performSegue"]
+- ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "removeFromSuperview"]
+- ["CSo8NSObject", "segueIdentifier"]
+- ["CSo8NSObject", "segueIdentifierReceivedFromParent"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewController"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- ["PSo16NSObjectProtocol", "Dictionary"]
+- !private ["PSo16NSObjectProtocol", "addChildViewController"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "containerViewObjects"]
+- !private ["PSo16NSObjectProtocol", "destination"]
+- !private ["PSo16NSObjectProtocol", "didMove"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "firstLinkedSubView"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
+- !private ["PSo16NSObjectProtocol", "segueIdentifier"]
+- !private ["PSo16NSObjectProtocol", "segueIdentifierReceivedFromParent"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewController"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["P8AudioKit10Occupiable", "init"]
+- !private ["P8AudioKit10Occupiable", "subscript"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "removeFromSuperview"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- ["PSo21UIAppearanceContainer", "Dictionary"]
+- !private ["PSo21UIAppearanceContainer", "addChildViewController"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "containerViewObjects"]
+- !private ["PSo21UIAppearanceContainer", "didMove"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "firstLinkedSubView"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- !private ["PSo21UIAppearanceContainer", "removeFromSuperview"]
+- !private ["PSo21UIAppearanceContainer", "segueIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "segueIdentifierReceivedFromParent"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "viewController"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CGRect"]
+- ["PSo18UIContentContainer", "Dictionary"]
+- !private ["PSo18UIContentContainer", "addChildViewController"]
+- !private ["PSo18UIContentContainer", "containerViewObjects"]
+- !private ["PSo18UIContentContainer", "didMove"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "firstLinkedSubView"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- !private ["PSo18UIContentContainer", "segueIdentifier"]
+- !private ["PSo18UIContentContainer", "segueIdentifierReceivedFromParent"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIContentContainer", "viewController"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "removeFromSuperview"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- ["PSo18UIFocusEnvironment", "Dictionary"]
+- !private ["PSo18UIFocusEnvironment", "addChildViewController"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "containerViewObjects"]
+- !private ["PSo18UIFocusEnvironment", "didMove"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "firstLinkedSubView"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- !private ["PSo18UIFocusEnvironment", "removeFromSuperview"]
+- !private ["PSo18UIFocusEnvironment", "segueIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "segueIdentifierReceivedFromParent"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "viewController"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["PSo11UIFocusItem", "removeFromSuperview"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "Dictionary"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "addChildViewController"]
+- !private ["CSo11UIResponder", "addSubview"]
+- ["CSo11UIResponder", "containerViewObjects"]
+- ["CSo11UIResponder", "currentViewController"]
+- !private ["CSo11UIResponder", "didMove"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "firstLinkedSubView"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "performSegue"]
+- ["CSo11UIResponder", "prepare"]
+- !private ["CSo11UIResponder", "removeFromSuperview"]
+- ["CSo11UIResponder", "segueIdentifier"]
+- ["CSo11UIResponder", "segueIdentifierReceivedFromParent"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewController"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- ["PSo30UIResponderStandardEditActions", "Dictionary"]
+- !private ["PSo30UIResponderStandardEditActions", "addChildViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "containerViewObjects"]
+- !private ["PSo30UIResponderStandardEditActions", "didMove"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "firstLinkedSubView"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- !private ["PSo30UIResponderStandardEditActions", "removeFromSuperview"]
+- !private ["PSo30UIResponderStandardEditActions", "segueIdentifier"]
+- !private ["PSo30UIResponderStandardEditActions", "segueIdentifierReceivedFromParent"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "viewController"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "CGRect"]
+- ["PSo16UIStateRestoring", "Dictionary"]
+- !private ["PSo16UIStateRestoring", "addChildViewController"]
+- !private ["PSo16UIStateRestoring", "containerViewObjects"]
+- !private ["PSo16UIStateRestoring", "didMove"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "firstLinkedSubView"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- !private ["PSo16UIStateRestoring", "segueIdentifier"]
+- !private ["PSo16UIStateRestoring", "segueIdentifierReceivedFromParent"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo16UIStateRestoring", "viewController"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destination"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- ["PSo18UITraitEnvironment", "Dictionary"]
+- !private ["PSo18UITraitEnvironment", "addChildViewController"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "containerViewObjects"]
+- !private ["PSo18UITraitEnvironment", "didMove"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "firstLinkedSubView"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- !private ["PSo18UITraitEnvironment", "removeFromSuperview"]
+- !private ["PSo18UITraitEnvironment", "segueIdentifier"]
+- !private ["PSo18UITraitEnvironment", "segueIdentifierReceivedFromParent"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "viewController"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "removeFromSuperview"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "CGRect"]
+- ["CSo16UIViewController", "Dictionary"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UIViewController"]
+- !private ["CSo16UIViewController", "addChildViewController"]
+- ["CSo16UIViewController", "containerViewObjects"]
+- ["CSo16UIViewController", "currentViewController"]
+- !private ["CSo16UIViewController", "didMove"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "firstLinkedSubView"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "performSegue"]
+- ["CSo16UIViewController", "prepare"]
+- ["CSo16UIViewController", "segueIdentifier"]
+- ["CSo16UIViewController", "segueIdentifierReceivedFromParent"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewController"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "removeFromSuperview"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "CGRect"]
+- ["Ps9_Hashable", "Dictionary"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addChildViewController"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "containerViewObjects"]
+- !private ["Ps9_Hashable", "destination"]
+- !private ["Ps9_Hashable", "didMove"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "firstLinkedSubView"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "identifier"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "performSegue"]
+- !private ["Ps9_Hashable", "removeFromSuperview"]
+- !private ["Ps9_Hashable", "segueIdentifier"]
+- !private ["Ps9_Hashable", "segueIdentifierReceivedFromParent"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewController"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "C5Mixer23ContainerViewController"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "P8AudioKit10Occupiable"
+- "Ps8Sequence"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "deb445863b6345e83d53220930c0bdb3"

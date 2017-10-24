@@ -1,0 +1,466 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "faderSlider"
+provides-nominal:
+- "C5Mixer11faderSlider"
+provides-member:
+- ["C5Mixer11faderSlider", ""]
+provides-dynamic-lookup:
+- "draw"
+- "faderImage"
+depends-top-level:
+- !private "-"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "CGAffineTransform"
+- !private "CGFloat"
+- "CGRect"
+- !private "Double"
+- "UIImage"
+- "UISlider"
+- "faderSlider"
+depends-member:
+- !private ["P8AudioKit11AKParameter", "pi"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "pi"]
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "faderImage"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "setThumbImage"]
+- !private ["Ps9AnyObject", "transform"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "pi"]
+- !private ["PSo15CALayerDelegate", "CGAffineTransform"]
+- !private ["PSo15CALayerDelegate", "CGFloat"]
+- !private ["PSo15CALayerDelegate", "Double"]
+- !private ["PSo15CALayerDelegate", "faderImage"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "setThumbImage"]
+- !private ["PSo15CALayerDelegate", "transform"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["VSC17CGAffineTransform", "init"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps7CVarArg", "CGAffineTransform"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "faderImage"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pi"]
+- !private ["Ps7CVarArg", "setThumbImage"]
+- !private ["Ps7CVarArg", "transform"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransform"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "faderImage"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "setThumbImage"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pi"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pi"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransform"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "faderImage"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "pi"]
+- !private ["Ps23CustomStringConvertible", "setThumbImage"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "pi"]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "faderImage"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "normal"]
+- !private ["Ps9Equatable", "pi"]
+- !private ["Ps9Equatable", "setThumbImage"]
+- !private ["Ps9Equatable", "transform"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "normal"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "pi"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "pi"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "pi"]
+- !private ["Ps8Hashable", "CGAffineTransform"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "faderImage"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pi"]
+- !private ["Ps8Hashable", "setThumbImage"]
+- !private ["Ps8Hashable", "transform"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "pi"]
+- !private ["PSo8NSCoding", "CGAffineTransform"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "Double"]
+- !private ["PSo8NSCoding", "faderImage"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "setThumbImage"]
+- !private ["PSo8NSCoding", "transform"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo8NSObject", "CGAffineTransform"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "faderImage"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "setThumbImage"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "faderImage"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setThumbImage"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["P8AudioKit7Numeric", "pi"]
+- !private ["Ps9OptionSet", "normal"]
+- !private ["Ps16RawRepresentable", "normal"]
+- !private ["Ps10SetAlgebra", "normal"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "pi"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pi"]
+- !private ["PSo29UIAccessibilityIdentification", "CGAffineTransform"]
+- !private ["PSo29UIAccessibilityIdentification", "CGFloat"]
+- !private ["PSo29UIAccessibilityIdentification", "Double"]
+- !private ["PSo29UIAccessibilityIdentification", "faderImage"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "setThumbImage"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGAffineTransform"]
+- !private ["PSo12UIAppearance", "CGFloat"]
+- !private ["PSo12UIAppearance", "Double"]
+- !private ["PSo12UIAppearance", "faderImage"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "setThumbImage"]
+- !private ["PSo12UIAppearance", "transform"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGAffineTransform"]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "Double"]
+- !private ["PSo21UIAppearanceContainer", "faderImage"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "setThumbImage"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo9UIControl", "CGAffineTransform"]
+- !private ["CSo9UIControl", "CGFloat"]
+- ["CSo9UIControl", "CGRect"]
+- !private ["CSo9UIControl", "Double"]
+- ["CSo9UIControl", "UIImage"]
+- ["CSo9UIControl", "draw"]
+- ["CSo9UIControl", "faderImage"]
+- ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "setThumbImage"]
+- !private ["CSo9UIControl", "transform"]
+- !private ["VSC14UIControlState", "normal"]
+- !private ["PSo17UICoordinateSpace", "CGAffineTransform"]
+- !private ["PSo17UICoordinateSpace", "CGFloat"]
+- !private ["PSo17UICoordinateSpace", "Double"]
+- !private ["PSo17UICoordinateSpace", "faderImage"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "setThumbImage"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGAffineTransform"]
+- !private ["PSo13UIDynamicItem", "CGFloat"]
+- !private ["PSo13UIDynamicItem", "Double"]
+- !private ["PSo13UIDynamicItem", "faderImage"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "setThumbImage"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGAffineTransform"]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "Double"]
+- !private ["PSo18UIFocusEnvironment", "faderImage"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "setThumbImage"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGAffineTransform"]
+- !private ["PSo11UIFocusItem", "CGFloat"]
+- !private ["PSo11UIFocusItem", "Double"]
+- !private ["PSo11UIFocusItem", "faderImage"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "setThumbImage"]
+- !private ["PSo11UIFocusItem", "transform"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo11UIResponder", "CGAffineTransform"]
+- !private ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "Double"]
+- ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "draw"]
+- ["CSo11UIResponder", "faderImage"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "setThumbImage"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["PSo30UIResponderStandardEditActions", "CGAffineTransform"]
+- !private ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- !private ["PSo30UIResponderStandardEditActions", "Double"]
+- !private ["PSo30UIResponderStandardEditActions", "faderImage"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "setThumbImage"]
+- !private ["PSo30UIResponderStandardEditActions", "transform"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo8UISlider", "CGAffineTransform"]
+- !private ["CSo8UISlider", "CGFloat"]
+- ["CSo8UISlider", "CGRect"]
+- !private ["CSo8UISlider", "Double"]
+- ["CSo8UISlider", "UIImage"]
+- ["CSo8UISlider", "draw"]
+- ["CSo8UISlider", "faderImage"]
+- ["CSo8UISlider", "init"]
+- !private ["CSo8UISlider", "setThumbImage"]
+- !private ["CSo8UISlider", "transform"]
+- ["CSo8UISlider", ""]
+- !private ["PSo18UITraitEnvironment", "CGAffineTransform"]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "Double"]
+- !private ["PSo18UITraitEnvironment", "faderImage"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "setThumbImage"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "CGAffineTransform"]
+- !private ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "Double"]
+- ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "draw"]
+- ["CSo6UIView", "faderImage"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "setThumbImage"]
+- !private ["CSo6UIView", "transform"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "pi"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "pi"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGAffineTransform"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGFloat"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "Double"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "faderImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setThumbImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "pi"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "pi"]
+- !private ["Ps9_Hashable", "CGAffineTransform"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "faderImage"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "pi"]
+- !private ["Ps9_Hashable", "setThumbImage"]
+- !private ["Ps9_Hashable", "transform"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "pi"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pi"]
+- !private ["C5Mixer11faderSlider", "CGAffineTransform"]
+- !private ["C5Mixer11faderSlider", "CGFloat"]
+- ["C5Mixer11faderSlider", "CGRect"]
+- !private ["C5Mixer11faderSlider", "Double"]
+- ["C5Mixer11faderSlider", "UIImage"]
+- ["C5Mixer11faderSlider", "deinit"]
+- ["C5Mixer11faderSlider", "draw"]
+- ["C5Mixer11faderSlider", "faderImage"]
+- ["C5Mixer11faderSlider", "init"]
+- !private ["C5Mixer11faderSlider", "setThumbImage"]
+- !private ["C5Mixer11faderSlider", "transform"]
+depends-nominal:
+- !private "P8AudioKit11AKParameter"
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "P8AudioKit7Numeric"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo9UIControl"
+- !private "VSC14UIControlState"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo8UISlider"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+- "C5Mixer11faderSlider"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "6be67ae05a418fedd00c5b9e2a86e3fe"

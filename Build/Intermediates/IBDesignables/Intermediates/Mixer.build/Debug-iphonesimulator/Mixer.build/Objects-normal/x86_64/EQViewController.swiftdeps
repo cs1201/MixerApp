@@ -1,0 +1,1024 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EQViewController"
+provides-nominal:
+- "C5Mixer16EQViewController"
+provides-member:
+- ["C5Mixer16EQViewController", ""]
+provides-dynamic-lookup:
+- "hf1Freq"
+- "hf1FreqLabel"
+- "hf1Gain"
+- "hf1GainLabel"
+- "hf2Freq"
+- "hf2FreqLabel"
+- "hf2Gain"
+- "hf2GainLabel"
+- "hf3Freq"
+- "hf3FreqLabel"
+- "hf3Gain"
+- "hf3GainLabel"
+- "hf4Freq"
+- "hf4FreqLabel"
+- "hf4Gain"
+- "hf4GainLabel"
+- "hf5Freq"
+- "hf5FreqLabel"
+- "hf5Gain"
+- "hf5GainLabel"
+- "lf1Freq"
+- "lf1FreqLabel"
+- "lf1Gain"
+- "lf1GainLabel"
+- "lf2Freq"
+- "lf2FreqLabel"
+- "lf2Gain"
+- "lf2GainLabel"
+- "lf3Freq"
+- "lf3FreqLabel"
+- "lf3Gain"
+- "lf3GainLabel"
+- "lf4Freq"
+- "lf4FreqLabel"
+- "lf4Gain"
+- "lf4GainLabel"
+- "lf5Freq"
+- "lf5FreqLabel"
+- "lf5Gain"
+- "lf5GainLabel"
+- "mf1Freq"
+- "mf1FreqLabel"
+- "mf1Gain"
+- "mf1GainLabel"
+- "mf1Q"
+- "mf2Freq"
+- "mf2FreqLabel"
+- "mf2Gain"
+- "mf2GainLabel"
+- "mf2Q"
+- "mf3Freq"
+- "mf3FreqLabel"
+- "mf3Gain"
+- "mf3GainLabel"
+- "mf3Q"
+- "mf4Freq"
+- "mf4FreqLabel"
+- "mf4Gain"
+- "mf4GainLabel"
+- "mf4Q"
+- "mf5Freq"
+- "mf5FreqLabel"
+- "mf5Gain"
+- "mf5GainLabel"
+- "mf5Q"
+- "updateKnobValue"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "AudioMixerSkeleton"
+- "Double"
+- "EQViewController"
+- "Int"
+- "KnobDelegate"
+- "KnobView"
+- !private "StringLiteralType"
+- "UILabel"
+- "UIViewController"
+- !private "~="
+depends-member:
+- !private ["P8AudioKit11AKParameter", "init"]
+- !private ["Ps9AnyObject", "AudioMixerSkeleton"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "audioMixer"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "drumEQ"]
+- !private ["Ps9AnyObject", "hf1Freq"]
+- !private ["Ps9AnyObject", "hf1FreqLabel"]
+- !private ["Ps9AnyObject", "hf1Gain"]
+- !private ["Ps9AnyObject", "hf1GainLabel"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lf1Freq"]
+- !private ["Ps9AnyObject", "lf1FreqLabel"]
+- !private ["Ps9AnyObject", "lf1Gain"]
+- !private ["Ps9AnyObject", "lf1GainLabel"]
+- !private ["Ps9AnyObject", "mf1Freq"]
+- !private ["Ps9AnyObject", "mf1FreqLabel"]
+- !private ["Ps9AnyObject", "mf1Gain"]
+- !private ["Ps9AnyObject", "mf1GainLabel"]
+- !private ["Ps9AnyObject", "mf1Q"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "updateKnobValue"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["C5Mixer18AudioMixerSkeleton", "drumEQ"]
+- !private ["C5Mixer18AudioMixerSkeleton", "sharedInstance"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "AudioMixerSkeleton"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "audioMixer"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "hf1Freq"]
+- !private ["Ps7CVarArg", "hf1FreqLabel"]
+- !private ["Ps7CVarArg", "hf1Gain"]
+- !private ["Ps7CVarArg", "hf1GainLabel"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lf1Freq"]
+- !private ["Ps7CVarArg", "lf1FreqLabel"]
+- !private ["Ps7CVarArg", "lf1Gain"]
+- !private ["Ps7CVarArg", "lf1GainLabel"]
+- !private ["Ps7CVarArg", "mf1Freq"]
+- !private ["Ps7CVarArg", "mf1FreqLabel"]
+- !private ["Ps7CVarArg", "mf1Gain"]
+- !private ["Ps7CVarArg", "mf1GainLabel"]
+- !private ["Ps7CVarArg", "mf1Q"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "updateKnobValue"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AudioMixerSkeleton"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "audioMixer"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "hf1Freq"]
+- !private ["Ps28CustomDebugStringConvertible", "hf1FreqLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "hf1Gain"]
+- !private ["Ps28CustomDebugStringConvertible", "hf1GainLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lf1Freq"]
+- !private ["Ps28CustomDebugStringConvertible", "lf1FreqLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "lf1Gain"]
+- !private ["Ps28CustomDebugStringConvertible", "lf1GainLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "mf1Freq"]
+- !private ["Ps28CustomDebugStringConvertible", "mf1FreqLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "mf1Gain"]
+- !private ["Ps28CustomDebugStringConvertible", "mf1GainLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "mf1Q"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "updateKnobValue"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "AudioMixerSkeleton"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "audioMixer"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "hf1Freq"]
+- !private ["Ps23CustomStringConvertible", "hf1FreqLabel"]
+- !private ["Ps23CustomStringConvertible", "hf1Gain"]
+- !private ["Ps23CustomStringConvertible", "hf1GainLabel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lf1Freq"]
+- !private ["Ps23CustomStringConvertible", "lf1FreqLabel"]
+- !private ["Ps23CustomStringConvertible", "lf1Gain"]
+- !private ["Ps23CustomStringConvertible", "lf1GainLabel"]
+- !private ["Ps23CustomStringConvertible", "mf1Freq"]
+- !private ["Ps23CustomStringConvertible", "mf1FreqLabel"]
+- !private ["Ps23CustomStringConvertible", "mf1Gain"]
+- !private ["Ps23CustomStringConvertible", "mf1GainLabel"]
+- !private ["Ps23CustomStringConvertible", "mf1Q"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "updateKnobValue"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C5Mixer16EQViewController", "AudioMixerSkeleton"]
+- ["C5Mixer16EQViewController", "Double"]
+- ["C5Mixer16EQViewController", "Int"]
+- ["C5Mixer16EQViewController", "KnobView"]
+- ["C5Mixer16EQViewController", "UILabel"]
+- ["C5Mixer16EQViewController", "audioMixer"]
+- ["C5Mixer16EQViewController", "deinit"]
+- ["C5Mixer16EQViewController", "hf1Freq"]
+- ["C5Mixer16EQViewController", "hf1FreqLabel"]
+- ["C5Mixer16EQViewController", "hf1Gain"]
+- ["C5Mixer16EQViewController", "hf1GainLabel"]
+- ["C5Mixer16EQViewController", "hf2Freq"]
+- ["C5Mixer16EQViewController", "hf2FreqLabel"]
+- ["C5Mixer16EQViewController", "hf2Gain"]
+- ["C5Mixer16EQViewController", "hf2GainLabel"]
+- ["C5Mixer16EQViewController", "hf3Freq"]
+- ["C5Mixer16EQViewController", "hf3FreqLabel"]
+- ["C5Mixer16EQViewController", "hf3Gain"]
+- ["C5Mixer16EQViewController", "hf3GainLabel"]
+- ["C5Mixer16EQViewController", "hf4Freq"]
+- ["C5Mixer16EQViewController", "hf4FreqLabel"]
+- ["C5Mixer16EQViewController", "hf4Gain"]
+- ["C5Mixer16EQViewController", "hf4GainLabel"]
+- ["C5Mixer16EQViewController", "hf5Freq"]
+- ["C5Mixer16EQViewController", "hf5FreqLabel"]
+- ["C5Mixer16EQViewController", "hf5Gain"]
+- ["C5Mixer16EQViewController", "hf5GainLabel"]
+- ["C5Mixer16EQViewController", "init"]
+- ["C5Mixer16EQViewController", "lf1Freq"]
+- ["C5Mixer16EQViewController", "lf1FreqLabel"]
+- ["C5Mixer16EQViewController", "lf1Gain"]
+- ["C5Mixer16EQViewController", "lf1GainLabel"]
+- ["C5Mixer16EQViewController", "lf2Freq"]
+- ["C5Mixer16EQViewController", "lf2FreqLabel"]
+- ["C5Mixer16EQViewController", "lf2Gain"]
+- ["C5Mixer16EQViewController", "lf2GainLabel"]
+- ["C5Mixer16EQViewController", "lf3Freq"]
+- ["C5Mixer16EQViewController", "lf3FreqLabel"]
+- ["C5Mixer16EQViewController", "lf3Gain"]
+- ["C5Mixer16EQViewController", "lf3GainLabel"]
+- ["C5Mixer16EQViewController", "lf4Freq"]
+- ["C5Mixer16EQViewController", "lf4FreqLabel"]
+- ["C5Mixer16EQViewController", "lf4Gain"]
+- ["C5Mixer16EQViewController", "lf4GainLabel"]
+- ["C5Mixer16EQViewController", "lf5Freq"]
+- ["C5Mixer16EQViewController", "lf5FreqLabel"]
+- ["C5Mixer16EQViewController", "lf5Gain"]
+- ["C5Mixer16EQViewController", "lf5GainLabel"]
+- ["C5Mixer16EQViewController", "mf1Freq"]
+- ["C5Mixer16EQViewController", "mf1FreqLabel"]
+- ["C5Mixer16EQViewController", "mf1Gain"]
+- ["C5Mixer16EQViewController", "mf1GainLabel"]
+- ["C5Mixer16EQViewController", "mf1Q"]
+- ["C5Mixer16EQViewController", "mf2Freq"]
+- ["C5Mixer16EQViewController", "mf2FreqLabel"]
+- ["C5Mixer16EQViewController", "mf2Gain"]
+- ["C5Mixer16EQViewController", "mf2GainLabel"]
+- ["C5Mixer16EQViewController", "mf2Q"]
+- ["C5Mixer16EQViewController", "mf3Freq"]
+- ["C5Mixer16EQViewController", "mf3FreqLabel"]
+- ["C5Mixer16EQViewController", "mf3Gain"]
+- ["C5Mixer16EQViewController", "mf3GainLabel"]
+- ["C5Mixer16EQViewController", "mf3Q"]
+- ["C5Mixer16EQViewController", "mf4Freq"]
+- ["C5Mixer16EQViewController", "mf4FreqLabel"]
+- ["C5Mixer16EQViewController", "mf4Gain"]
+- ["C5Mixer16EQViewController", "mf4GainLabel"]
+- ["C5Mixer16EQViewController", "mf4Q"]
+- ["C5Mixer16EQViewController", "mf5Freq"]
+- ["C5Mixer16EQViewController", "mf5FreqLabel"]
+- ["C5Mixer16EQViewController", "mf5Gain"]
+- ["C5Mixer16EQViewController", "mf5GainLabel"]
+- ["C5Mixer16EQViewController", "mf5Q"]
+- ["C5Mixer16EQViewController", "updateKnobValue"]
+- ["C5Mixer16EQViewController", "viewDidLoad"]
+- !private ["Ps9Equatable", "AudioMixerSkeleton"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "audioMixer"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "hf1Freq"]
+- !private ["Ps9Equatable", "hf1FreqLabel"]
+- !private ["Ps9Equatable", "hf1Gain"]
+- !private ["Ps9Equatable", "hf1GainLabel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lf1Freq"]
+- !private ["Ps9Equatable", "lf1FreqLabel"]
+- !private ["Ps9Equatable", "lf1Gain"]
+- !private ["Ps9Equatable", "lf1GainLabel"]
+- !private ["Ps9Equatable", "mf1Freq"]
+- !private ["Ps9Equatable", "mf1FreqLabel"]
+- !private ["Ps9Equatable", "mf1Gain"]
+- !private ["Ps9Equatable", "mf1GainLabel"]
+- !private ["Ps9Equatable", "mf1Q"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "updateKnobValue"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "AudioMixerSkeleton"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "audioMixer"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "hf1Freq"]
+- !private ["Ps8Hashable", "hf1FreqLabel"]
+- !private ["Ps8Hashable", "hf1Gain"]
+- !private ["Ps8Hashable", "hf1GainLabel"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lf1Freq"]
+- !private ["Ps8Hashable", "lf1FreqLabel"]
+- !private ["Ps8Hashable", "lf1Gain"]
+- !private ["Ps8Hashable", "lf1GainLabel"]
+- !private ["Ps8Hashable", "mf1Freq"]
+- !private ["Ps8Hashable", "mf1FreqLabel"]
+- !private ["Ps8Hashable", "mf1Gain"]
+- !private ["Ps8Hashable", "mf1GainLabel"]
+- !private ["Ps8Hashable", "mf1Q"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "updateKnobValue"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["P5Mixer12KnobDelegate", "AudioMixerSkeleton"]
+- !private ["P5Mixer12KnobDelegate", "Int"]
+- !private ["P5Mixer12KnobDelegate", "audioMixer"]
+- !private ["P5Mixer12KnobDelegate", "hf1Freq"]
+- !private ["P5Mixer12KnobDelegate", "hf1FreqLabel"]
+- !private ["P5Mixer12KnobDelegate", "hf1Gain"]
+- !private ["P5Mixer12KnobDelegate", "hf1GainLabel"]
+- !private ["P5Mixer12KnobDelegate", "lf1Freq"]
+- !private ["P5Mixer12KnobDelegate", "lf1FreqLabel"]
+- !private ["P5Mixer12KnobDelegate", "lf1Gain"]
+- !private ["P5Mixer12KnobDelegate", "lf1GainLabel"]
+- !private ["P5Mixer12KnobDelegate", "mf1Freq"]
+- !private ["P5Mixer12KnobDelegate", "mf1FreqLabel"]
+- !private ["P5Mixer12KnobDelegate", "mf1Gain"]
+- !private ["P5Mixer12KnobDelegate", "mf1GainLabel"]
+- !private ["P5Mixer12KnobDelegate", "mf1Q"]
+- ["P5Mixer12KnobDelegate", "updateKnobValue"]
+- ["P5Mixer12KnobDelegate", ""]
+- !private ["C5Mixer8KnobView", "delegate"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "AudioMixerSkeleton"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "audioMixer"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "hf1Freq"]
+- !private ["PSo8NSCoding", "hf1FreqLabel"]
+- !private ["PSo8NSCoding", "hf1Gain"]
+- !private ["PSo8NSCoding", "hf1GainLabel"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lf1Freq"]
+- !private ["PSo8NSCoding", "lf1FreqLabel"]
+- !private ["PSo8NSCoding", "lf1Gain"]
+- !private ["PSo8NSCoding", "lf1GainLabel"]
+- !private ["PSo8NSCoding", "mf1Freq"]
+- !private ["PSo8NSCoding", "mf1FreqLabel"]
+- !private ["PSo8NSCoding", "mf1Gain"]
+- !private ["PSo8NSCoding", "mf1GainLabel"]
+- !private ["PSo8NSCoding", "mf1Q"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateKnobValue"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "AudioMixerSkeleton"]
+- !private ["PSo26NSExtensionRequestHandling", "Int"]
+- !private ["PSo26NSExtensionRequestHandling", "audioMixer"]
+- !private ["PSo26NSExtensionRequestHandling", "hf1Freq"]
+- !private ["PSo26NSExtensionRequestHandling", "hf1FreqLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "hf1Gain"]
+- !private ["PSo26NSExtensionRequestHandling", "hf1GainLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "lf1Freq"]
+- !private ["PSo26NSExtensionRequestHandling", "lf1FreqLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "lf1Gain"]
+- !private ["PSo26NSExtensionRequestHandling", "lf1GainLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "mf1Freq"]
+- !private ["PSo26NSExtensionRequestHandling", "mf1FreqLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "mf1Gain"]
+- !private ["PSo26NSExtensionRequestHandling", "mf1GainLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "mf1Q"]
+- ["PSo26NSExtensionRequestHandling", "updateKnobValue"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AudioMixerSkeleton"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "KnobView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "audioMixer"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "hf1Freq"]
+- ["CSo8NSObject", "hf1FreqLabel"]
+- ["CSo8NSObject", "hf1Gain"]
+- ["CSo8NSObject", "hf1GainLabel"]
+- ["CSo8NSObject", "hf2Freq"]
+- ["CSo8NSObject", "hf2FreqLabel"]
+- ["CSo8NSObject", "hf2Gain"]
+- ["CSo8NSObject", "hf2GainLabel"]
+- ["CSo8NSObject", "hf3Freq"]
+- ["CSo8NSObject", "hf3FreqLabel"]
+- ["CSo8NSObject", "hf3Gain"]
+- ["CSo8NSObject", "hf3GainLabel"]
+- ["CSo8NSObject", "hf4Freq"]
+- ["CSo8NSObject", "hf4FreqLabel"]
+- ["CSo8NSObject", "hf4Gain"]
+- ["CSo8NSObject", "hf4GainLabel"]
+- ["CSo8NSObject", "hf5Freq"]
+- ["CSo8NSObject", "hf5FreqLabel"]
+- ["CSo8NSObject", "hf5Gain"]
+- ["CSo8NSObject", "hf5GainLabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lf1Freq"]
+- ["CSo8NSObject", "lf1FreqLabel"]
+- ["CSo8NSObject", "lf1Gain"]
+- ["CSo8NSObject", "lf1GainLabel"]
+- ["CSo8NSObject", "lf2Freq"]
+- ["CSo8NSObject", "lf2FreqLabel"]
+- ["CSo8NSObject", "lf2Gain"]
+- ["CSo8NSObject", "lf2GainLabel"]
+- ["CSo8NSObject", "lf3Freq"]
+- ["CSo8NSObject", "lf3FreqLabel"]
+- ["CSo8NSObject", "lf3Gain"]
+- ["CSo8NSObject", "lf3GainLabel"]
+- ["CSo8NSObject", "lf4Freq"]
+- ["CSo8NSObject", "lf4FreqLabel"]
+- ["CSo8NSObject", "lf4Gain"]
+- ["CSo8NSObject", "lf4GainLabel"]
+- ["CSo8NSObject", "lf5Freq"]
+- ["CSo8NSObject", "lf5FreqLabel"]
+- ["CSo8NSObject", "lf5Gain"]
+- ["CSo8NSObject", "lf5GainLabel"]
+- ["CSo8NSObject", "mf1Freq"]
+- ["CSo8NSObject", "mf1FreqLabel"]
+- ["CSo8NSObject", "mf1Gain"]
+- ["CSo8NSObject", "mf1GainLabel"]
+- ["CSo8NSObject", "mf1Q"]
+- ["CSo8NSObject", "mf2Freq"]
+- ["CSo8NSObject", "mf2FreqLabel"]
+- ["CSo8NSObject", "mf2Gain"]
+- ["CSo8NSObject", "mf2GainLabel"]
+- ["CSo8NSObject", "mf2Q"]
+- ["CSo8NSObject", "mf3Freq"]
+- ["CSo8NSObject", "mf3FreqLabel"]
+- ["CSo8NSObject", "mf3Gain"]
+- ["CSo8NSObject", "mf3GainLabel"]
+- ["CSo8NSObject", "mf3Q"]
+- ["CSo8NSObject", "mf4Freq"]
+- ["CSo8NSObject", "mf4FreqLabel"]
+- ["CSo8NSObject", "mf4Gain"]
+- ["CSo8NSObject", "mf4GainLabel"]
+- ["CSo8NSObject", "mf4Q"]
+- ["CSo8NSObject", "mf5Freq"]
+- ["CSo8NSObject", "mf5FreqLabel"]
+- ["CSo8NSObject", "mf5Gain"]
+- ["CSo8NSObject", "mf5GainLabel"]
+- ["CSo8NSObject", "mf5Q"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updateKnobValue"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "AudioMixerSkeleton"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "audioMixer"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "hf1Freq"]
+- !private ["PSo16NSObjectProtocol", "hf1FreqLabel"]
+- !private ["PSo16NSObjectProtocol", "hf1Gain"]
+- !private ["PSo16NSObjectProtocol", "hf1GainLabel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lf1Freq"]
+- !private ["PSo16NSObjectProtocol", "lf1FreqLabel"]
+- !private ["PSo16NSObjectProtocol", "lf1Gain"]
+- !private ["PSo16NSObjectProtocol", "lf1GainLabel"]
+- !private ["PSo16NSObjectProtocol", "mf1Freq"]
+- !private ["PSo16NSObjectProtocol", "mf1FreqLabel"]
+- !private ["PSo16NSObjectProtocol", "mf1Gain"]
+- !private ["PSo16NSObjectProtocol", "mf1GainLabel"]
+- !private ["PSo16NSObjectProtocol", "mf1Q"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "updateKnobValue"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P8AudioKit7Numeric", "init"]
+- !private ["P8AudioKit10Occupiable", "init"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "AudioMixerSkeleton"]
+- !private ["PSo21UIAppearanceContainer", "Int"]
+- !private ["PSo21UIAppearanceContainer", "audioMixer"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "hf1Freq"]
+- !private ["PSo21UIAppearanceContainer", "hf1FreqLabel"]
+- !private ["PSo21UIAppearanceContainer", "hf1Gain"]
+- !private ["PSo21UIAppearanceContainer", "hf1GainLabel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "lf1Freq"]
+- !private ["PSo21UIAppearanceContainer", "lf1FreqLabel"]
+- !private ["PSo21UIAppearanceContainer", "lf1Gain"]
+- !private ["PSo21UIAppearanceContainer", "lf1GainLabel"]
+- !private ["PSo21UIAppearanceContainer", "mf1Freq"]
+- !private ["PSo21UIAppearanceContainer", "mf1FreqLabel"]
+- !private ["PSo21UIAppearanceContainer", "mf1Gain"]
+- !private ["PSo21UIAppearanceContainer", "mf1GainLabel"]
+- !private ["PSo21UIAppearanceContainer", "mf1Q"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateKnobValue"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AudioMixerSkeleton"]
+- !private ["PSo18UIContentContainer", "Int"]
+- !private ["PSo18UIContentContainer", "audioMixer"]
+- !private ["PSo18UIContentContainer", "hf1Freq"]
+- !private ["PSo18UIContentContainer", "hf1FreqLabel"]
+- !private ["PSo18UIContentContainer", "hf1Gain"]
+- !private ["PSo18UIContentContainer", "hf1GainLabel"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "lf1Freq"]
+- !private ["PSo18UIContentContainer", "lf1FreqLabel"]
+- !private ["PSo18UIContentContainer", "lf1Gain"]
+- !private ["PSo18UIContentContainer", "lf1GainLabel"]
+- !private ["PSo18UIContentContainer", "mf1Freq"]
+- !private ["PSo18UIContentContainer", "mf1FreqLabel"]
+- !private ["PSo18UIContentContainer", "mf1Gain"]
+- !private ["PSo18UIContentContainer", "mf1GainLabel"]
+- !private ["PSo18UIContentContainer", "mf1Q"]
+- ["PSo18UIContentContainer", "updateKnobValue"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "AudioMixerSkeleton"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- !private ["PSo18UIFocusEnvironment", "audioMixer"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "hf1Freq"]
+- !private ["PSo18UIFocusEnvironment", "hf1FreqLabel"]
+- !private ["PSo18UIFocusEnvironment", "hf1Gain"]
+- !private ["PSo18UIFocusEnvironment", "hf1GainLabel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "lf1Freq"]
+- !private ["PSo18UIFocusEnvironment", "lf1FreqLabel"]
+- !private ["PSo18UIFocusEnvironment", "lf1Gain"]
+- !private ["PSo18UIFocusEnvironment", "lf1GainLabel"]
+- !private ["PSo18UIFocusEnvironment", "mf1Freq"]
+- !private ["PSo18UIFocusEnvironment", "mf1FreqLabel"]
+- !private ["PSo18UIFocusEnvironment", "mf1Gain"]
+- !private ["PSo18UIFocusEnvironment", "mf1GainLabel"]
+- !private ["PSo18UIFocusEnvironment", "mf1Q"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateKnobValue"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AudioMixerSkeleton"]
+- ["CSo11UIResponder", "Double"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "KnobView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "audioMixer"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "hf1Freq"]
+- ["CSo11UIResponder", "hf1FreqLabel"]
+- ["CSo11UIResponder", "hf1Gain"]
+- ["CSo11UIResponder", "hf1GainLabel"]
+- ["CSo11UIResponder", "hf2Freq"]
+- ["CSo11UIResponder", "hf2FreqLabel"]
+- ["CSo11UIResponder", "hf2Gain"]
+- ["CSo11UIResponder", "hf2GainLabel"]
+- ["CSo11UIResponder", "hf3Freq"]
+- ["CSo11UIResponder", "hf3FreqLabel"]
+- ["CSo11UIResponder", "hf3Gain"]
+- ["CSo11UIResponder", "hf3GainLabel"]
+- ["CSo11UIResponder", "hf4Freq"]
+- ["CSo11UIResponder", "hf4FreqLabel"]
+- ["CSo11UIResponder", "hf4Gain"]
+- ["CSo11UIResponder", "hf4GainLabel"]
+- ["CSo11UIResponder", "hf5Freq"]
+- ["CSo11UIResponder", "hf5FreqLabel"]
+- ["CSo11UIResponder", "hf5Gain"]
+- ["CSo11UIResponder", "hf5GainLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lf1Freq"]
+- ["CSo11UIResponder", "lf1FreqLabel"]
+- ["CSo11UIResponder", "lf1Gain"]
+- ["CSo11UIResponder", "lf1GainLabel"]
+- ["CSo11UIResponder", "lf2Freq"]
+- ["CSo11UIResponder", "lf2FreqLabel"]
+- ["CSo11UIResponder", "lf2Gain"]
+- ["CSo11UIResponder", "lf2GainLabel"]
+- ["CSo11UIResponder", "lf3Freq"]
+- ["CSo11UIResponder", "lf3FreqLabel"]
+- ["CSo11UIResponder", "lf3Gain"]
+- ["CSo11UIResponder", "lf3GainLabel"]
+- ["CSo11UIResponder", "lf4Freq"]
+- ["CSo11UIResponder", "lf4FreqLabel"]
+- ["CSo11UIResponder", "lf4Gain"]
+- ["CSo11UIResponder", "lf4GainLabel"]
+- ["CSo11UIResponder", "lf5Freq"]
+- ["CSo11UIResponder", "lf5FreqLabel"]
+- ["CSo11UIResponder", "lf5Gain"]
+- ["CSo11UIResponder", "lf5GainLabel"]
+- ["CSo11UIResponder", "mf1Freq"]
+- ["CSo11UIResponder", "mf1FreqLabel"]
+- ["CSo11UIResponder", "mf1Gain"]
+- ["CSo11UIResponder", "mf1GainLabel"]
+- ["CSo11UIResponder", "mf1Q"]
+- ["CSo11UIResponder", "mf2Freq"]
+- ["CSo11UIResponder", "mf2FreqLabel"]
+- ["CSo11UIResponder", "mf2Gain"]
+- ["CSo11UIResponder", "mf2GainLabel"]
+- ["CSo11UIResponder", "mf2Q"]
+- ["CSo11UIResponder", "mf3Freq"]
+- ["CSo11UIResponder", "mf3FreqLabel"]
+- ["CSo11UIResponder", "mf3Gain"]
+- ["CSo11UIResponder", "mf3GainLabel"]
+- ["CSo11UIResponder", "mf3Q"]
+- ["CSo11UIResponder", "mf4Freq"]
+- ["CSo11UIResponder", "mf4FreqLabel"]
+- ["CSo11UIResponder", "mf4Gain"]
+- ["CSo11UIResponder", "mf4GainLabel"]
+- ["CSo11UIResponder", "mf4Q"]
+- ["CSo11UIResponder", "mf5Freq"]
+- ["CSo11UIResponder", "mf5FreqLabel"]
+- ["CSo11UIResponder", "mf5Gain"]
+- ["CSo11UIResponder", "mf5GainLabel"]
+- ["CSo11UIResponder", "mf5Q"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateKnobValue"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "AudioMixerSkeleton"]
+- !private ["PSo30UIResponderStandardEditActions", "Int"]
+- !private ["PSo30UIResponderStandardEditActions", "audioMixer"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "hf1Freq"]
+- !private ["PSo30UIResponderStandardEditActions", "hf1FreqLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "hf1Gain"]
+- !private ["PSo30UIResponderStandardEditActions", "hf1GainLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "lf1Freq"]
+- !private ["PSo30UIResponderStandardEditActions", "lf1FreqLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "lf1Gain"]
+- !private ["PSo30UIResponderStandardEditActions", "lf1GainLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "mf1Freq"]
+- !private ["PSo30UIResponderStandardEditActions", "mf1FreqLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "mf1Gain"]
+- !private ["PSo30UIResponderStandardEditActions", "mf1GainLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "mf1Q"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "updateKnobValue"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "AudioMixerSkeleton"]
+- !private ["PSo16UIStateRestoring", "Int"]
+- !private ["PSo16UIStateRestoring", "audioMixer"]
+- !private ["PSo16UIStateRestoring", "hf1Freq"]
+- !private ["PSo16UIStateRestoring", "hf1FreqLabel"]
+- !private ["PSo16UIStateRestoring", "hf1Gain"]
+- !private ["PSo16UIStateRestoring", "hf1GainLabel"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "lf1Freq"]
+- !private ["PSo16UIStateRestoring", "lf1FreqLabel"]
+- !private ["PSo16UIStateRestoring", "lf1Gain"]
+- !private ["PSo16UIStateRestoring", "lf1GainLabel"]
+- !private ["PSo16UIStateRestoring", "mf1Freq"]
+- !private ["PSo16UIStateRestoring", "mf1FreqLabel"]
+- !private ["PSo16UIStateRestoring", "mf1Gain"]
+- !private ["PSo16UIStateRestoring", "mf1GainLabel"]
+- !private ["PSo16UIStateRestoring", "mf1Q"]
+- ["PSo16UIStateRestoring", "updateKnobValue"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "AudioMixerSkeleton"]
+- !private ["PSo18UITraitEnvironment", "Int"]
+- !private ["PSo18UITraitEnvironment", "audioMixer"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "hf1Freq"]
+- !private ["PSo18UITraitEnvironment", "hf1FreqLabel"]
+- !private ["PSo18UITraitEnvironment", "hf1Gain"]
+- !private ["PSo18UITraitEnvironment", "hf1GainLabel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "lf1Freq"]
+- !private ["PSo18UITraitEnvironment", "lf1FreqLabel"]
+- !private ["PSo18UITraitEnvironment", "lf1Gain"]
+- !private ["PSo18UITraitEnvironment", "lf1GainLabel"]
+- !private ["PSo18UITraitEnvironment", "mf1Freq"]
+- !private ["PSo18UITraitEnvironment", "mf1FreqLabel"]
+- !private ["PSo18UITraitEnvironment", "mf1Gain"]
+- !private ["PSo18UITraitEnvironment", "mf1GainLabel"]
+- !private ["PSo18UITraitEnvironment", "mf1Q"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateKnobValue"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AudioMixerSkeleton"]
+- ["CSo16UIViewController", "Double"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "KnobView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "audioMixer"]
+- ["CSo16UIViewController", "hf1Freq"]
+- ["CSo16UIViewController", "hf1FreqLabel"]
+- ["CSo16UIViewController", "hf1Gain"]
+- ["CSo16UIViewController", "hf1GainLabel"]
+- ["CSo16UIViewController", "hf2Freq"]
+- ["CSo16UIViewController", "hf2FreqLabel"]
+- ["CSo16UIViewController", "hf2Gain"]
+- ["CSo16UIViewController", "hf2GainLabel"]
+- ["CSo16UIViewController", "hf3Freq"]
+- ["CSo16UIViewController", "hf3FreqLabel"]
+- ["CSo16UIViewController", "hf3Gain"]
+- ["CSo16UIViewController", "hf3GainLabel"]
+- ["CSo16UIViewController", "hf4Freq"]
+- ["CSo16UIViewController", "hf4FreqLabel"]
+- ["CSo16UIViewController", "hf4Gain"]
+- ["CSo16UIViewController", "hf4GainLabel"]
+- ["CSo16UIViewController", "hf5Freq"]
+- ["CSo16UIViewController", "hf5FreqLabel"]
+- ["CSo16UIViewController", "hf5Gain"]
+- ["CSo16UIViewController", "hf5GainLabel"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "lf1Freq"]
+- ["CSo16UIViewController", "lf1FreqLabel"]
+- ["CSo16UIViewController", "lf1Gain"]
+- ["CSo16UIViewController", "lf1GainLabel"]
+- ["CSo16UIViewController", "lf2Freq"]
+- ["CSo16UIViewController", "lf2FreqLabel"]
+- ["CSo16UIViewController", "lf2Gain"]
+- ["CSo16UIViewController", "lf2GainLabel"]
+- ["CSo16UIViewController", "lf3Freq"]
+- ["CSo16UIViewController", "lf3FreqLabel"]
+- ["CSo16UIViewController", "lf3Gain"]
+- ["CSo16UIViewController", "lf3GainLabel"]
+- ["CSo16UIViewController", "lf4Freq"]
+- ["CSo16UIViewController", "lf4FreqLabel"]
+- ["CSo16UIViewController", "lf4Gain"]
+- ["CSo16UIViewController", "lf4GainLabel"]
+- ["CSo16UIViewController", "lf5Freq"]
+- ["CSo16UIViewController", "lf5FreqLabel"]
+- ["CSo16UIViewController", "lf5Gain"]
+- ["CSo16UIViewController", "lf5GainLabel"]
+- ["CSo16UIViewController", "mf1Freq"]
+- ["CSo16UIViewController", "mf1FreqLabel"]
+- ["CSo16UIViewController", "mf1Gain"]
+- ["CSo16UIViewController", "mf1GainLabel"]
+- ["CSo16UIViewController", "mf1Q"]
+- ["CSo16UIViewController", "mf2Freq"]
+- ["CSo16UIViewController", "mf2FreqLabel"]
+- ["CSo16UIViewController", "mf2Gain"]
+- ["CSo16UIViewController", "mf2GainLabel"]
+- ["CSo16UIViewController", "mf2Q"]
+- ["CSo16UIViewController", "mf3Freq"]
+- ["CSo16UIViewController", "mf3FreqLabel"]
+- ["CSo16UIViewController", "mf3Gain"]
+- ["CSo16UIViewController", "mf3GainLabel"]
+- ["CSo16UIViewController", "mf3Q"]
+- ["CSo16UIViewController", "mf4Freq"]
+- ["CSo16UIViewController", "mf4FreqLabel"]
+- ["CSo16UIViewController", "mf4Gain"]
+- ["CSo16UIViewController", "mf4GainLabel"]
+- ["CSo16UIViewController", "mf4Q"]
+- ["CSo16UIViewController", "mf5Freq"]
+- ["CSo16UIViewController", "mf5FreqLabel"]
+- ["CSo16UIViewController", "mf5Gain"]
+- ["CSo16UIViewController", "mf5GainLabel"]
+- ["CSo16UIViewController", "mf5Q"]
+- ["CSo16UIViewController", "updateKnobValue"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AudioMixerSkeleton"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "audioMixer"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "hf1Freq"]
+- !private ["Ps9_Hashable", "hf1FreqLabel"]
+- !private ["Ps9_Hashable", "hf1Gain"]
+- !private ["Ps9_Hashable", "hf1GainLabel"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lf1Freq"]
+- !private ["Ps9_Hashable", "lf1FreqLabel"]
+- !private ["Ps9_Hashable", "lf1Gain"]
+- !private ["Ps9_Hashable", "lf1GainLabel"]
+- !private ["Ps9_Hashable", "mf1Freq"]
+- !private ["Ps9_Hashable", "mf1FreqLabel"]
+- !private ["Ps9_Hashable", "mf1Gain"]
+- !private ["Ps9_Hashable", "mf1GainLabel"]
+- !private ["Ps9_Hashable", "mf1Q"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "updateKnobValue"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "P8AudioKit11AKParameter"
+- "Ps9AnyObject"
+- !private "C5Mixer18AudioMixerSkeleton"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C5Mixer16EQViewController"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "P5Mixer12KnobDelegate"
+- !private "C5Mixer8KnobView"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P8AudioKit7Numeric"
+- !private "P8AudioKit10Occupiable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "bad4f1c73215c011064c3cec8b6c83b2"

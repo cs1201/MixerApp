@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C5Mixer12CompKnobView", ""]
+- ["C5Mixer12CompKnobView", "touchesBegan"]
+- ["C5Mixer12CompKnobView", "touchesMoved"]
+provides-dynamic-lookup:
+- "touchesBegan"
+- "touchesMoved"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CompKnobView"
+- "Set"
+- "UIEvent"
+- "UITouch"
+depends-member:
+- !private ["Ps9AnyObject", "lastX"]
+- !private ["Ps9AnyObject", "lastY"]
+- !private ["Ps9AnyObject", "location"]
+- !private ["Ps9AnyObject", "setPercentagesWithTouchPoint"]
+- !private ["PSo15CALayerDelegate", "lastX"]
+- !private ["PSo15CALayerDelegate", "lastY"]
+- !private ["PSo15CALayerDelegate", "setPercentagesWithTouchPoint"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps7CVarArg", "lastX"]
+- !private ["Ps7CVarArg", "lastY"]
+- !private ["Ps7CVarArg", "location"]
+- !private ["Ps7CVarArg", "setPercentagesWithTouchPoint"]
+- ["C5Mixer12CompKnobView", "Set"]
+- ["C5Mixer12CompKnobView", "UIEvent"]
+- ["C5Mixer12CompKnobView", "UITouch"]
+- !private ["C5Mixer12CompKnobView", "lastX"]
+- !private ["C5Mixer12CompKnobView", "lastY"]
+- !private ["C5Mixer12CompKnobView", "setPercentagesWithTouchPoint"]
+- ["C5Mixer12CompKnobView", "touchesBegan"]
+- ["C5Mixer12CompKnobView", "touchesMoved"]
+- !private ["Ps28CustomDebugStringConvertible", "lastX"]
+- !private ["Ps28CustomDebugStringConvertible", "lastY"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- !private ["Ps28CustomDebugStringConvertible", "setPercentagesWithTouchPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "lastX"]
+- !private ["Ps23CustomStringConvertible", "lastY"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- !private ["Ps23CustomStringConvertible", "setPercentagesWithTouchPoint"]
+- !private ["Ps9Equatable", "lastX"]
+- !private ["Ps9Equatable", "lastY"]
+- !private ["Ps9Equatable", "location"]
+- !private ["Ps9Equatable", "setPercentagesWithTouchPoint"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps8Hashable", "lastX"]
+- !private ["Ps8Hashable", "lastY"]
+- !private ["Ps8Hashable", "location"]
+- !private ["Ps8Hashable", "setPercentagesWithTouchPoint"]
+- !private ["PSo8NSCoding", "lastX"]
+- !private ["PSo8NSCoding", "lastY"]
+- !private ["PSo8NSCoding", "setPercentagesWithTouchPoint"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UITouch"]
+- !private ["CSo8NSObject", "lastX"]
+- !private ["CSo8NSObject", "lastY"]
+- !private ["CSo8NSObject", "location"]
+- !private ["CSo8NSObject", "setPercentagesWithTouchPoint"]
+- ["CSo8NSObject", "touchesBegan"]
+- ["CSo8NSObject", "touchesMoved"]
+- !private ["PSo16NSObjectProtocol", "lastX"]
+- !private ["PSo16NSObjectProtocol", "lastY"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- !private ["PSo16NSObjectProtocol", "setPercentagesWithTouchPoint"]
+- !private ["PSo29UIAccessibilityIdentification", "lastX"]
+- !private ["PSo29UIAccessibilityIdentification", "lastY"]
+- !private ["PSo29UIAccessibilityIdentification", "setPercentagesWithTouchPoint"]
+- !private ["PSo12UIAppearance", "lastX"]
+- !private ["PSo12UIAppearance", "lastY"]
+- !private ["PSo12UIAppearance", "setPercentagesWithTouchPoint"]
+- !private ["PSo21UIAppearanceContainer", "lastX"]
+- !private ["PSo21UIAppearanceContainer", "lastY"]
+- !private ["PSo21UIAppearanceContainer", "setPercentagesWithTouchPoint"]
+- !private ["PSo17UICoordinateSpace", "lastX"]
+- !private ["PSo17UICoordinateSpace", "lastY"]
+- !private ["PSo17UICoordinateSpace", "setPercentagesWithTouchPoint"]
+- !private ["PSo13UIDynamicItem", "lastX"]
+- !private ["PSo13UIDynamicItem", "lastY"]
+- !private ["PSo13UIDynamicItem", "setPercentagesWithTouchPoint"]
+- !private ["PSo18UIFocusEnvironment", "lastX"]
+- !private ["PSo18UIFocusEnvironment", "lastY"]
+- !private ["PSo18UIFocusEnvironment", "setPercentagesWithTouchPoint"]
+- !private ["PSo11UIFocusItem", "lastX"]
+- !private ["PSo11UIFocusItem", "lastY"]
+- !private ["PSo11UIFocusItem", "setPercentagesWithTouchPoint"]
+- ["CSo11UIResponder", "Set"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UITouch"]
+- !private ["CSo11UIResponder", "lastX"]
+- !private ["CSo11UIResponder", "lastY"]
+- !private ["CSo11UIResponder", "setPercentagesWithTouchPoint"]
+- ["CSo11UIResponder", "touchesBegan"]
+- ["CSo11UIResponder", "touchesMoved"]
+- !private ["PSo30UIResponderStandardEditActions", "lastX"]
+- !private ["PSo30UIResponderStandardEditActions", "lastY"]
+- !private ["PSo30UIResponderStandardEditActions", "setPercentagesWithTouchPoint"]
+- !private ["CSo7UITouch", "location"]
+- !private ["PSo18UITraitEnvironment", "lastX"]
+- !private ["PSo18UITraitEnvironment", "lastY"]
+- !private ["PSo18UITraitEnvironment", "setPercentagesWithTouchPoint"]
+- ["CSo6UIView", "Set"]
+- ["CSo6UIView", "UIEvent"]
+- ["CSo6UIView", "UITouch"]
+- !private ["CSo6UIView", "lastX"]
+- !private ["CSo6UIView", "lastY"]
+- !private ["CSo6UIView", "setPercentagesWithTouchPoint"]
+- ["CSo6UIView", "touchesBegan"]
+- ["CSo6UIView", "touchesMoved"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lastX"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "lastY"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setPercentagesWithTouchPoint"]
+- !private ["Ps9_Hashable", "lastX"]
+- !private ["Ps9_Hashable", "lastY"]
+- !private ["Ps9_Hashable", "location"]
+- !private ["Ps9_Hashable", "setPercentagesWithTouchPoint"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "VSC7CGPoint"
+- !private "Ps7CVarArg"
+- "C5Mixer12CompKnobView"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo7UITouch"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "91666ba61e0b6d16c793707e8dc5750f"

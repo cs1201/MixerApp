@@ -1,0 +1,594 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "muteButton"
+provides-nominal:
+- "C5Mixer10muteButton"
+provides-member:
+- ["C5Mixer10muteButton", ""]
+provides-dynamic-lookup:
+- "activateButton"
+- "buttonPressed"
+- "initButton"
+- "isOn"
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGRect"
+- "NSCoder"
+- "TernaryPrecedence"
+- "UIButton"
+- !private "UIColor"
+- "muteButton"
+depends-member:
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "activateButton"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "black"]
+- !private ["Ps9AnyObject", "borderWidth"]
+- !private ["Ps9AnyObject", "buttonPressed"]
+- !private ["Ps9AnyObject", "darkGray"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initButton"]
+- !private ["Ps9AnyObject", "isOn"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "muteButton"]
+- !private ["Ps9AnyObject", "red"]
+- !private ["Ps9AnyObject", "setTitleColor"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "borderWidth"]
+- !private ["PSo15CALayerDelegate", "UIColor"]
+- !private ["PSo15CALayerDelegate", "activateButton"]
+- !private ["PSo15CALayerDelegate", "addTarget"]
+- !private ["PSo15CALayerDelegate", "backgroundColor"]
+- !private ["PSo15CALayerDelegate", "buttonPressed"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "initButton"]
+- !private ["PSo15CALayerDelegate", "isOn"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo15CALayerDelegate", "muteButton"]
+- !private ["PSo15CALayerDelegate", "setTitleColor"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "borderWidth"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "activateButton"]
+- !private ["Ps7CVarArg", "addTarget"]
+- !private ["Ps7CVarArg", "backgroundColor"]
+- !private ["Ps7CVarArg", "black"]
+- !private ["Ps7CVarArg", "borderWidth"]
+- !private ["Ps7CVarArg", "buttonPressed"]
+- !private ["Ps7CVarArg", "darkGray"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initButton"]
+- !private ["Ps7CVarArg", "isOn"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "muteButton"]
+- !private ["Ps7CVarArg", "red"]
+- !private ["Ps7CVarArg", "setTitleColor"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "activateButton"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "black"]
+- !private ["Ps28CustomDebugStringConvertible", "borderWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "buttonPressed"]
+- !private ["Ps28CustomDebugStringConvertible", "darkGray"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initButton"]
+- !private ["Ps28CustomDebugStringConvertible", "isOn"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "muteButton"]
+- !private ["Ps28CustomDebugStringConvertible", "red"]
+- !private ["Ps28CustomDebugStringConvertible", "setTitleColor"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activateButton"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "black"]
+- !private ["Ps23CustomStringConvertible", "borderWidth"]
+- !private ["Ps23CustomStringConvertible", "buttonPressed"]
+- !private ["Ps23CustomStringConvertible", "darkGray"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initButton"]
+- !private ["Ps23CustomStringConvertible", "isOn"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "muteButton"]
+- !private ["Ps23CustomStringConvertible", "red"]
+- !private ["Ps23CustomStringConvertible", "setTitleColor"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activateButton"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "black"]
+- !private ["Ps9Equatable", "borderWidth"]
+- !private ["Ps9Equatable", "buttonPressed"]
+- !private ["Ps9Equatable", "darkGray"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initButton"]
+- !private ["Ps9Equatable", "isOn"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "muteButton"]
+- !private ["Ps9Equatable", "normal"]
+- !private ["Ps9Equatable", "red"]
+- !private ["Ps9Equatable", "setTitleColor"]
+- !private ["Ps9Equatable", "touchUpInside"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "normal"]
+- !private ["Ps25ExpressibleByArrayLiteral", "touchUpInside"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activateButton"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "black"]
+- !private ["Ps8Hashable", "borderWidth"]
+- !private ["Ps8Hashable", "buttonPressed"]
+- !private ["Ps8Hashable", "darkGray"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initButton"]
+- !private ["Ps8Hashable", "isOn"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "muteButton"]
+- !private ["Ps8Hashable", "red"]
+- !private ["Ps8Hashable", "setTitleColor"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "activateButton"]
+- !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "black"]
+- !private ["PSo8NSCoding", "borderWidth"]
+- !private ["PSo8NSCoding", "buttonPressed"]
+- !private ["PSo8NSCoding", "darkGray"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "initButton"]
+- !private ["PSo8NSCoding", "isOn"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "muteButton"]
+- !private ["PSo8NSCoding", "red"]
+- !private ["PSo8NSCoding", "setTitleColor"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "black"]
+- !private ["PSo9NSCopying", "darkGray"]
+- !private ["PSo9NSCopying", "red"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "activateButton"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "black"]
+- !private ["CSo8NSObject", "borderWidth"]
+- ["CSo8NSObject", "buttonPressed"]
+- !private ["CSo8NSObject", "darkGray"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initButton"]
+- ["CSo8NSObject", "isOn"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "muteButton"]
+- !private ["CSo8NSObject", "red"]
+- !private ["CSo8NSObject", "setTitleColor"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "activateButton"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "black"]
+- !private ["PSo16NSObjectProtocol", "borderWidth"]
+- !private ["PSo16NSObjectProtocol", "buttonPressed"]
+- !private ["PSo16NSObjectProtocol", "darkGray"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initButton"]
+- !private ["PSo16NSObjectProtocol", "isOn"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "muteButton"]
+- !private ["PSo16NSObjectProtocol", "red"]
+- !private ["PSo16NSObjectProtocol", "setTitleColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "black"]
+- !private ["PSo14NSSecureCoding", "darkGray"]
+- !private ["PSo14NSSecureCoding", "red"]
+- !private ["Ps9OptionSet", "normal"]
+- !private ["Ps9OptionSet", "touchUpInside"]
+- !private ["Ps16RawRepresentable", "normal"]
+- !private ["Ps16RawRepresentable", "touchUpInside"]
+- !private ["Ps10SetAlgebra", "normal"]
+- !private ["Ps10SetAlgebra", "touchUpInside"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "activateButton"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "buttonPressed"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "initButton"]
+- !private ["PSo29UIAccessibilityIdentification", "isOn"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "muteButton"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitleColor"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "activateButton"]
+- !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "buttonPressed"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "initButton"]
+- !private ["PSo12UIAppearance", "isOn"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "muteButton"]
+- !private ["PSo12UIAppearance", "setTitleColor"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "activateButton"]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "buttonPressed"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "initButton"]
+- !private ["PSo21UIAppearanceContainer", "isOn"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "muteButton"]
+- !private ["PSo21UIAppearanceContainer", "setTitleColor"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo8UIButton", "Bool"]
+- ["CSo8UIButton", "CGRect"]
+- ["CSo8UIButton", "NSCoder"]
+- !private ["CSo8UIButton", "UIColor"]
+- ["CSo8UIButton", "activateButton"]
+- !private ["CSo8UIButton", "addTarget"]
+- !private ["CSo8UIButton", "backgroundColor"]
+- ["CSo8UIButton", "buttonPressed"]
+- ["CSo8UIButton", "init"]
+- ["CSo8UIButton", "initButton"]
+- ["CSo8UIButton", "isOn"]
+- !private ["CSo8UIButton", "layer"]
+- !private ["CSo8UIButton", "muteButton"]
+- !private ["CSo8UIButton", "setTitleColor"]
+- ["CSo8UIButton", ""]
+- !private ["CSo7UIColor", "black"]
+- !private ["CSo7UIColor", "darkGray"]
+- !private ["CSo7UIColor", "red"]
+- ["CSo9UIControl", "Bool"]
+- ["CSo9UIControl", "CGRect"]
+- ["CSo9UIControl", "NSCoder"]
+- !private ["CSo9UIControl", "UIColor"]
+- ["CSo9UIControl", "activateButton"]
+- !private ["CSo9UIControl", "addTarget"]
+- !private ["CSo9UIControl", "backgroundColor"]
+- ["CSo9UIControl", "buttonPressed"]
+- ["CSo9UIControl", "init"]
+- ["CSo9UIControl", "initButton"]
+- ["CSo9UIControl", "isOn"]
+- !private ["CSo9UIControl", "layer"]
+- !private ["CSo9UIControl", "muteButton"]
+- !private ["CSo9UIControl", "setTitleColor"]
+- !private ["VSC15UIControlEvents", "touchUpInside"]
+- !private ["VSC14UIControlState", "normal"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "activateButton"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "buttonPressed"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "initButton"]
+- !private ["PSo17UICoordinateSpace", "isOn"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "muteButton"]
+- !private ["PSo17UICoordinateSpace", "setTitleColor"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "activateButton"]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "buttonPressed"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "initButton"]
+- !private ["PSo13UIDynamicItem", "isOn"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "muteButton"]
+- !private ["PSo13UIDynamicItem", "setTitleColor"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "activateButton"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "buttonPressed"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "initButton"]
+- !private ["PSo18UIFocusEnvironment", "isOn"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "muteButton"]
+- !private ["PSo18UIFocusEnvironment", "setTitleColor"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "UIColor"]
+- !private ["PSo11UIFocusItem", "activateButton"]
+- !private ["PSo11UIFocusItem", "addTarget"]
+- !private ["PSo11UIFocusItem", "backgroundColor"]
+- !private ["PSo11UIFocusItem", "buttonPressed"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "initButton"]
+- !private ["PSo11UIFocusItem", "isOn"]
+- !private ["PSo11UIFocusItem", "layer"]
+- !private ["PSo11UIFocusItem", "muteButton"]
+- !private ["PSo11UIFocusItem", "setTitleColor"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "activateButton"]
+- !private ["CSo11UIResponder", "addTarget"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "buttonPressed"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initButton"]
+- ["CSo11UIResponder", "isOn"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "muteButton"]
+- !private ["CSo11UIResponder", "setTitleColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "activateButton"]
+- !private ["PSo30UIResponderStandardEditActions", "addTarget"]
+- !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
+- !private ["PSo30UIResponderStandardEditActions", "buttonPressed"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "initButton"]
+- !private ["PSo30UIResponderStandardEditActions", "isOn"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- !private ["PSo30UIResponderStandardEditActions", "muteButton"]
+- !private ["PSo30UIResponderStandardEditActions", "setTitleColor"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "activateButton"]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "buttonPressed"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "initButton"]
+- !private ["PSo18UITraitEnvironment", "isOn"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "muteButton"]
+- !private ["PSo18UITraitEnvironment", "setTitleColor"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "UIColor"]
+- ["CSo6UIView", "activateButton"]
+- !private ["CSo6UIView", "addTarget"]
+- !private ["CSo6UIView", "backgroundColor"]
+- ["CSo6UIView", "buttonPressed"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "initButton"]
+- ["CSo6UIView", "isOn"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "muteButton"]
+- !private ["CSo6UIView", "setTitleColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "activateButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addTarget"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "buttonPressed"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "initButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isOn"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "muteButton"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setTitleColor"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps26_ExpressibleByColorLiteral", "black"]
+- !private ["Ps26_ExpressibleByColorLiteral", "darkGray"]
+- !private ["Ps26_ExpressibleByColorLiteral", "red"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "activateButton"]
+- !private ["Ps9_Hashable", "addTarget"]
+- !private ["Ps9_Hashable", "backgroundColor"]
+- !private ["Ps9_Hashable", "black"]
+- !private ["Ps9_Hashable", "borderWidth"]
+- !private ["Ps9_Hashable", "buttonPressed"]
+- !private ["Ps9_Hashable", "darkGray"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initButton"]
+- !private ["Ps9_Hashable", "isOn"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "muteButton"]
+- !private ["Ps9_Hashable", "red"]
+- !private ["Ps9_Hashable", "setTitleColor"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["C5Mixer10muteButton", "Bool"]
+- ["C5Mixer10muteButton", "CGRect"]
+- ["C5Mixer10muteButton", "NSCoder"]
+- !private ["C5Mixer10muteButton", "UIColor"]
+- ["C5Mixer10muteButton", "activateButton"]
+- !private ["C5Mixer10muteButton", "addTarget"]
+- !private ["C5Mixer10muteButton", "backgroundColor"]
+- ["C5Mixer10muteButton", "buttonPressed"]
+- ["C5Mixer10muteButton", "deinit"]
+- ["C5Mixer10muteButton", "init"]
+- ["C5Mixer10muteButton", "initButton"]
+- ["C5Mixer10muteButton", "isOn"]
+- !private ["C5Mixer10muteButton", "layer"]
+- !private ["C5Mixer10muteButton", "muteButton"]
+- !private ["C5Mixer10muteButton", "setTitleColor"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo8UIButton"
+- !private "CSo7UIColor"
+- "CSo9UIControl"
+- !private "VSC15UIControlEvents"
+- !private "VSC14UIControlState"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "C5Mixer10muteButton"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "0cda8a29562daf13f5c77008e4f1a609"
