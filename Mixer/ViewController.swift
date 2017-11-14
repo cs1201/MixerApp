@@ -10,6 +10,7 @@
 // to look at the AudioMixer.swift file first (see LH pane)
 
 import UIKit
+import AudioKit
 
 class ViewController: UIViewController {
     
@@ -18,41 +19,49 @@ class ViewController: UIViewController {
     // Note the ! after UISlider which means
     // "I trust that the resource (slider) is actually there"
     
-
+    //CHANNEL VOLUMES
     @IBOutlet var drumsVolumeSlider: UISlider!
     @IBOutlet var bassVolumeSlider: UISlider!
     @IBOutlet var guitarVolumeSlider: UISlider!
     @IBOutlet var leadVolumeSlider: UISlider!
+    
+    //PAN CONTROLS
     @IBOutlet weak var drumPanLabel: UILabel!
     @IBOutlet weak var bassPanLabel: UILabel!
     @IBOutlet weak var guitarPanLabel: UILabel!
     @IBOutlet weak var leadPanLabel: UILabel!
-    
     @IBOutlet var drumPan: UISlider!
     @IBOutlet var bassPan: UISlider!
     @IBOutlet var guitarPan: UISlider!
     @IBOutlet var leadPan: UISlider!
 
-
+    //MASTER BUS
     @IBOutlet var masterVolumeSlider: UISlider!
-    @IBOutlet weak var reverbSlider: UISlider!
-    @IBOutlet weak var reverbLabel: UILabel!
-    @IBOutlet weak var reverbType: UISegmentedControl!
+
+    //FX BUS LEVELS
+    @IBOutlet weak var reverb1Slider: verticalFader!
+    @IBOutlet weak var reverb2Slider: verticalFader!
+    @IBOutlet weak var delaySlider: verticalFader!
+    @IBOutlet weak var chorusSlider: verticalFader!
+
     
+    //MUTE BUTTONS
     @IBOutlet weak var drumMute: muteButton!
     @IBOutlet weak var bassMute: muteButton!
     @IBOutlet weak var guitarMute: muteButton!
     @IBOutlet weak var leadMute: muteButton!
+    @IBOutlet weak var masterMute: muteButton!
     
+    //SOLO BUTTONS
     @IBOutlet weak var drumSolo: soloButton!
     @IBOutlet weak var bassSolo: soloButton!
     @IBOutlet weak var guitarSolo: soloButton!
     @IBOutlet weak var leadSolo: soloButton!
-
+    //TRANSPORT CONTROLS
     @IBOutlet weak var playhead: horizontalFader!
-    
     @IBOutlet weak var playPause: UIButton!
     
+    //INITIAL VALUES
     var percentVolume = 0
     var reverbAMT = 0
     var drumMuteToggle = false
@@ -63,6 +72,7 @@ class ViewController: UIViewController {
     var bassSoloToggle = false
     var guitarSoloToggle = false
     var leadSoloToggle = false
+    var masterMuteToggle = false
     var playToggle = false
     var meterTimer = Timer()
 
@@ -76,7 +86,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var EQView: UIView!
     @IBOutlet weak var CompView: UIView!
+    @IBOutlet weak var FXSendsView: UIView!
     
+    @IBOutlet weak var outputPlot: EZAudioPlot!
+    var plotGain: Float!
+    @IBOutlet weak var plotZoom: UIStepper!
     
     
     // Create a global variable to link to the Audio Mixer class
@@ -90,10 +104,45 @@ class ViewController: UIViewController {
         
         meterTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: (#selector(self.meterUpdate)), userInfo: nil, repeats: true)
         
+        plotGain = 2.0
         
         
         // Here, we create an instance of our AudioMixer class
         audioMixer = AudioMixerSkeleton.sharedInstance
+        
+        setupPlot(false)
+        //setupPlotZoom()
+    }
+    
+    
+    func setupPlot(_ zoom: Bool) {
+        
+        let plot = AKNodeOutputPlot(audioMixer, frame: outputPlot.bounds)
+        plot.plotType = .rolling
+        plot.shouldFill = true
+        plot.shouldMirror = true
+        plot.shouldCenterYAxis = true
+        plot.backgroundColor = UIColor.cyan
+        plot.color = UIColor.darkGray
+//        plot.gain = 
+        outputPlot.addSubview(plot)
+        
+
+    }
+    
+    func setupPlotZoom(){
+        plotZoom.value = 2.0
+        plotZoom.minimumValue = 0.0
+        plotZoom.maximumValue = 5.0
+        plotZoom.stepValue = 1.0
+    }
+    
+    @IBAction func plotZoom(_ sender: UIStepper) {
+        
+        plotGain = Float(sender.value)
+        
+        //setupPlot(true)
+
     }
     
 
@@ -136,20 +185,24 @@ class ViewController: UIViewController {
         print(sender.value)
     }
     
+//*****************************************************************
+// MARK: - FX BUS Levels
+//*****************************************************************
     
-//*****************************************************************
-// MARK: - REVERB CONTROLS
-//*****************************************************************
-    @IBAction func reverbSlider(_ sender: UISlider) {
-        audioMixer.setReverbLevel(reverbSlider.value)
-        reverbAMT = Int(reverbSlider.value * 100)
-        reverbLabel.text = "Reverb: \(reverbAMT)%"
+    @IBAction func reverb1Slider(_ sender: verticalFader) {
+        audioMixer.FXBusLevel(0, sender.value)
+    }
+    @IBAction func reverb2Slider(_ sender: verticalFader) {
+        audioMixer.FXBusLevel(1, sender.value)
+    }
+    @IBAction func delaySlider(_ sender: verticalFader) {
+        audioMixer.FXBusLevel(2, sender.value)
+    }
+    @IBAction func chorusSlider(_ sender: verticalFader) {
+        audioMixer.FXBusLevel(3, sender.value)
     }
     
-    
-    @IBAction func reverbType(_ sender: UISegmentedControl) {
-        audioMixer.setReverbType(reverbType.selectedSegmentIndex)
-    }
+
     
 //*****************************************************************
 // MARK: - PAN CONTROLS
@@ -217,6 +270,18 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func masterMute(_ sender: muteButton) {
+        if masterMuteToggle == sender.isSelected {
+            audioMixer.setMasterMute(false)
+            masterMuteToggle = true
+        }
+        else {
+            audioMixer.setMasterMute(true)
+            masterMuteToggle = false
+        }
+    }
+    
+    
 //*****************************************************************
 // MARK: - SOLO Buttons
 //*****************************************************************
@@ -267,9 +332,13 @@ class ViewController: UIViewController {
 // MARK: - Master Meter
 //*****************************************************************
     open func meterUpdate(){
+        
+        audioMixer.printRTA()
+        
         if meterMaster != nil {
             
             meterMaster.value = audioMixer.printAmplitude()
+            
             
             //comp1Meter.value = audioMixer.comp1Meter()
             //print(audioMixer.comp1Meter())
@@ -312,7 +381,7 @@ class ViewController: UIViewController {
     // rather than assiging and segue-ing child view controllers means
     // app doesn't have to keep track of and re-assign current values
     // when switching views. However this is more computationally
-    // exhaustive as each view is always running - Just UI though    
+    // exhaustive as each view is always running - Just UI though
     //*****************************************************************
     @IBAction func selectView(_ sender: UISegmentedControl) {
         
@@ -322,9 +391,15 @@ class ViewController: UIViewController {
         case 0:
             self.EQView.alpha = 1.0
             self.CompView.alpha = 0.0
+            self.FXSendsView.alpha = 0.0
         case 1:
             self.EQView.alpha = 0.0
             self.CompView.alpha = 1.0
+            self.FXSendsView.alpha = 0.0
+        case 2:
+            self.EQView.alpha = 0.0
+            self.CompView.alpha = 0.0
+            self.FXSendsView.alpha = 1.0
         default:
             break
         }

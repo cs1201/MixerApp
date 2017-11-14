@@ -11,7 +11,7 @@ import AudioKit
 
 // Declare a class that can be accessed 'publicly' (open) from the ViewController
 
-open class AudioMixerSkeleton {
+open class AudioMixerSkeleton: AKNode {
     
     static let sharedInstance = AudioMixerSkeleton()
     
@@ -22,19 +22,25 @@ open class AudioMixerSkeleton {
     private var bassInit: Double
     private var guitarInit: Double
     private var leadInit: Double
+    private var masterInit: Double
     private var drumMuteOn = false
     private var bassMuteOn = false
     private var guitarMuteOn = false
     private var leadMuteOn = false
+    private var masterMuteOn = false
     var bass: AKAudioPlayer
     var guitar: AKAudioPlayer
     var lead: AKAudioPlayer
-    var volume: Double
+//    var volume: Double
     private var mixer: AKMixer
-    private var reverb: AKReverb
+    
+    //FX
+    private var reverb1: AKReverb
+    private var reverb2: AKReverb
+    private var delay: AKDelay
+    private var chorus: AKPitchShifter
+    
     private var drumMuteToggle = true
-    private var tracker: AKFrequencyTracker
-    private var silence: AKBooster
     private var soloIdentifier = 0
     private var globalSolo = false
     
@@ -43,7 +49,6 @@ open class AudioMixerSkeleton {
     private var lp3 : AKLowShelfFilter
     private var lp4 : AKLowShelfFilter
     private var lp5 : AKLowShelfFilter
-
     
     private var bp1 : AKPeakingParametricEqualizerFilter
     private var bp2 : AKPeakingParametricEqualizerFilter
@@ -51,8 +56,6 @@ open class AudioMixerSkeleton {
     private var bp4 : AKPeakingParametricEqualizerFilter
     private var bp5 : AKPeakingParametricEqualizerFilter
 
-    
-    
     private var hp1: AKHighShelfFilter
     private var hp2: AKHighShelfFilter
     private var hp3: AKHighShelfFilter
@@ -65,12 +68,45 @@ open class AudioMixerSkeleton {
     private var comp4: AKCompressor
     private var comp5: AKCompressor
     
+    private var reverb1_1: AKMixer!
+    private var reverb2_1: AKMixer!
+    private var delay1: AKMixer!
+    private var chorus1: AKMixer!
+    
+    private var reverb1_2: AKMixer!
+    private var reverb2_2: AKMixer!
+    private var delay2: AKMixer!
+    private var chorus2: AKMixer!
+    
+    private var reverb1_3: AKMixer!
+    private var reverb2_3: AKMixer!
+    private var delay3: AKMixer!
+    private var chorus3: AKMixer!
+    
+    private var reverb1_4: AKMixer!
+    private var reverb2_4: AKMixer!
+    private var delay4: AKMixer!
+    private var chorus4: AKMixer!
+    
+    private var reverb1_5: AKMixer!
+    private var reverb2_5: AKMixer!
+    private var delay5: AKMixer!
+    private var chorus5: AKMixer!
+    
+    private var reverb1Mix: AKMixer!
+    private var reverb2Mix: AKMixer!
+    private var delayMix: AKMixer!
+    private var chorusMix: AKMixer!
 
     
     var meter: AKAmplitudeTracker
+    
+    //var rta: AKFFTTap?
 
     
-    private init() {
+    private override init() {
+        
+        
         
         // Load in the 4 audio samples stored in the Resource bank
         
@@ -96,6 +132,7 @@ open class AudioMixerSkeleton {
         bassInit = bass.volume
         guitarInit = guitar.volume
         leadInit = lead.volume
+
         
 
         //3-band filter sections
@@ -126,17 +163,97 @@ open class AudioMixerSkeleton {
         comp5 = AKCompressor(hp5)
         
         
+        //Channel 1 FX Chain
+        reverb1_1 = AKMixer(comp1)
+        reverb2_1 = AKMixer(comp1)
+        delay1 = AKMixer(comp1)
+        chorus1 = AKMixer(comp1)
+        
+        reverb1_1.volume = 0.0
+        reverb2_1.volume = 0.0
+        delay1.volume = 0.0
+        chorus1.volume = 0.0
+        
+        //Channel 2 FX Chain
+        reverb1_2 = AKMixer(comp2)
+        reverb2_2 = AKMixer(comp2)
+        delay2 = AKMixer(comp2)
+        chorus2 = AKMixer(comp2)
+        
+        reverb1_2.volume = 0.0
+        reverb2_2.volume = 0.0
+        delay2.volume = 0.0
+        chorus2.volume = 0.0
+        
+        //Channel 3 FX Chain
+        reverb1_3 = AKMixer(comp3)
+        reverb2_3 = AKMixer(comp3)
+        delay3 = AKMixer(comp3)
+        chorus3 = AKMixer(comp3)
+        
+        reverb1_3.volume = 0.0
+        reverb2_3.volume = 0.0
+        delay3.volume = 0.0
+        chorus3.volume = 0.0
+        
+        //Channel 4 FX Chain
+        reverb1_4 = AKMixer(comp4)
+        reverb2_4 = AKMixer(comp4)
+        delay4 = AKMixer(comp4)
+        chorus4 = AKMixer(comp4)
+        
+        reverb1_4.volume = 0.0
+        reverb2_4.volume = 0.0
+        delay4.volume = 0.0
+        chorus4.volume = 0.0
+        
+        //Channel 5 FX Chain
+        reverb1_5 = AKMixer(comp5)
+        reverb2_5 = AKMixer(comp5)
+        delay5 = AKMixer(comp5)
+        chorus5 = AKMixer(comp5)
+        
+        reverb1_5.volume = 0.0
+        reverb2_5.volume = 0.0
+        delay5.volume = 0.0
+        chorus5.volume = 0.0
+        
+        //FX BUS MIXERS
+        reverb1Mix = AKMixer(reverb1_1)
+        reverb1Mix.volume = 0.0
+        reverb2Mix = AKMixer(reverb2_1)
+        reverb2Mix.volume = 0.0
+        delayMix = AKMixer(delay1)
+        delayMix.volume = 0.0
+        chorusMix = AKMixer(chorus1)
+        chorusMix.volume = 0.0
         
         
-        mixer = AKMixer(comp1, comp2, comp3, comp4)
-        reverb = AKReverb(mixer)
-        meter = AKAmplitudeTracker(reverb)
-        reverb.dryWetMix = 0.0
-        volume = 0.5 //Initialise volume to 0
-        mixer.volume = volume
+        //FX Unit Init
+        reverb1 = AKReverb(reverb1Mix)
+        reverb2 = AKReverb(reverb2Mix)
+        delay = AKDelay(delayMix)
+        chorus = AKPitchShifter(chorusMix)
         
-        tracker = AKFrequencyTracker(reverb, hopSize: 200, peakCount: 2000)
-        silence = AKBooster(tracker, gain: 0)
+        reverb1.dryWetMix = 1.0
+        reverb2.dryWetMix = 1.0
+        delay.dryWetMix = 1.0
+        
+        
+
+        //Send Channels and FX Buse to Main Mixer
+        mixer = AKMixer(comp1, comp2, comp3, comp4, reverb1, reverb2, delay, chorus)
+        //masterInit = mixer.volume
+        
+        //Send output to meter
+        meter = AKAmplitudeTracker(mixer)
+        
+        
+        masterInit = 0.5 //Initialise volume to 0
+        mixer.volume = masterInit
+        
+        //tracker = AKFrequencyTracker(reverb, hopSize: 200, peakCount: 2000)
+        //silence = AKBooster(tracker, gain: 0)
 
         // Connect the mixer's output to be AudioKit's output
         
@@ -156,7 +273,7 @@ open class AudioMixerSkeleton {
         hp3.start()
         hp4.start()
         hp5.start()
-        reverb.start()
+        reverb1.start()
         
         comp1.stop()
         comp2.stop()
@@ -164,7 +281,25 @@ open class AudioMixerSkeleton {
         comp4.stop()
         comp5.stop()
         
+//        reverb1_1.start()
+//        reverb2_1.start()
+//        delay1.start()
+//        chorus1.start()
+        
+//        reverb1Mix.start()
+//        reverb2Mix.start()
+//        delayMix.start()
+//        chorusMix.start()
+        
+        
+        //print(rta.frequency)
+        
         AudioKit.output = meter
+        
+        super.init()
+        
+        self.avAudioNode = meter.avAudioNode
+        
         AudioKit.start()   // start the AudioKit engine
     
     
@@ -173,6 +308,10 @@ open class AudioMixerSkeleton {
         bass.play()
         guitar.play()
         lead.play()
+        
+     //   let rta = AKFFTTap(meter)
+        
+        
     }
   
     // Here we declare functions that can be called from outside
@@ -180,6 +319,26 @@ open class AudioMixerSkeleton {
     // The underscore (_) just means that when this function is
     // called, we can just use the variable; we don't need to
     // give it a named variable label
+    
+    open func printRTA(){
+        //print(rta!.fftData)
+    }
+    
+    open func setReverbLevel(_ reverbLevel: Float){
+        reverb1.dryWetMix = Double(reverbLevel)
+    }
+    
+    open func setReverbType(_ reverbSelected: Int){
+        if reverbSelected == 0 {
+            reverb1.loadFactoryPreset(.smallRoom)
+        }
+        else if reverbSelected == 1 {
+            reverb1.loadFactoryPreset(.largeHall)
+        }
+        else if reverbSelected == 2 {
+            reverb1.loadFactoryPreset(.cathedral)
+        }
+    }
     
     @objc open func printAmplitude() -> Float{
         
@@ -234,22 +393,7 @@ open class AudioMixerSkeleton {
         
     }
     
-    open func setReverbLevel(_ reverbLevel: Float){
-        reverb.dryWetMix = Double(reverbLevel)
-    }
-    
-    open func setReverbType(_ reverbSelected: Int){
-        if reverbSelected == 0 {
-          reverb.loadFactoryPreset(.smallRoom)
-        }
-        else if reverbSelected == 1 {
-            reverb.loadFactoryPreset(.largeHall)
-        }
-        else if reverbSelected == 2 {
-            reverb.loadFactoryPreset(.cathedral)
-        }
-    }
-    
+
     open func setMasterVolume(_ masterVolume: Float){
        //if mixer.isStarted{
         mixer.volume = Double(masterVolume)
@@ -315,6 +459,16 @@ open class AudioMixerSkeleton {
             lead.volume = leadInit
         }else{
             lead.volume = 0
+        }
+    }
+    
+    open func setMasterMute(_ masterMute: Bool){
+        masterMuteOn = !masterMute
+        
+        if masterMute {
+            mixer.volume = masterInit
+        }else{
+            mixer.volume = 0
         }
     }
     
@@ -752,5 +906,122 @@ open class AudioMixerSkeleton {
         return Float(comp5.compressionAmount)
     }
     
+    open func FXSends(_ select: Int, _ value: Double){
+        
+        switch(select){
+        case 0:
+            reverb1_1.volume = value
+        case 1:
+            reverb2_1.volume = value
+        case 2:
+            delay1.volume = value
+        case 3:
+            chorus1.volume = value
+        default:
+            break
+        }
+    }
     
+    
+    //FX EDITING
+    
+    open func FXKnobEdit(_ control: Int, _ value: Double){
+        
+        switch(control){
+            case 0:
+                delay.time = value * 2
+            case 1:
+                delay.feedback = value
+            case 2:
+                delay.lowPassCutoff = value * 15000
+            default:
+                break
+        }
+    }
+    
+    open func FXOn(_ select: Int, _ state: Bool){
+        
+        switch(select){
+        case 0:
+            if state{
+                reverb1.start()
+            }
+            else{
+                reverb1.stop()
+            }
+        case 1:
+            if state{
+                reverb2.start()
+            }
+            else{
+                reverb2.stop()
+            }
+        case 2:
+            if state{
+                delay.start()
+            }
+            else{
+                delay.stop()
+            }
+        case 3:
+            if state{
+                chorus.start()
+            }
+            else{
+                chorus.stop()
+            }
+        default:
+            break
+        }
+    }
+    
+    open func reverb1Select(_ select: Int){
+        
+        switch(select){
+            
+        case 0:
+                reverb1.loadFactoryPreset(.smallRoom)
+        case 1:
+            reverb1.loadFactoryPreset(.largeRoom)
+        case 2:
+            reverb1.loadFactoryPreset(.mediumChamber)
+        case 3:
+            reverb1.loadFactoryPreset(.plate)
+        default:
+            break
+        }
+    }
+    
+    open func reverb2Select(_ select: Int){
+        
+        switch(select){
+            
+        case 0:
+            reverb2.loadFactoryPreset(.mediumHall)
+        case 1:
+            reverb2.loadFactoryPreset(.largeHall2)
+        case 2:
+            reverb2.loadFactoryPreset(.cathedral)
+        default:
+            break
+        }
+    }
+    
+    open func FXBusLevel(_ select: Int, _ value: Float){
+        
+        let value = Double(value)
+        
+        switch(select){
+        case 0:
+            reverb1Mix.volume = value
+        case 1:
+            reverb2Mix.volume = value
+        case 2:
+            delayMix.volume = value
+        case 3:
+            chorusMix.volume = value
+        default:
+            break
+        }
+    }
 }//Closes audioMixer Class

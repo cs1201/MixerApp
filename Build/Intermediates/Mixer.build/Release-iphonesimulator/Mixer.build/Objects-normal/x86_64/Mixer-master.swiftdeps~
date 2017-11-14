@@ -1,10 +1,4 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "3ccb8726f0876a6976818aa9cc6c9c44"
-build_time: [561144234, 130562000]
+options: "62c66224639f07e48f40d1c4cc5c6b5c"
+build_time: [562459861, 789315000]
 inputs:
-  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/ViewController.swift": [9223372036854775807, 0]
-  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/startViewController.swift": [9223372036854775807, 0]
-  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/faderSlider.swift": [9223372036854775807, 0]
-  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/AppDelegate.swift": [9223372036854775807, 0]
-  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/verticalSlider.swift": [9223372036854775807, 0]
-  "/Users/Connor/Desktop/iOS Module/4-Mixer/Mixer/AudioMixer.swift": [9223372036854775807, 0]

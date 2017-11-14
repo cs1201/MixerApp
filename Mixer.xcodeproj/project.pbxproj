@@ -41,6 +41,11 @@
 		B38D12831F9CC3DC007092A2 /* Entypo_25be(0)_48.png in Resources */ = {isa = PBXBuildFile; fileRef = B38D12821F9CC3DC007092A2 /* Entypo_25be(0)_48.png */; };
 		B38D12871F9FE9B9007092A2 /* CompViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D12861F9FE9B9007092A2 /* CompViewController.swift */; };
 		B3AF95201F963BE30002CF60 /* EQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AF951F1F963BE30002CF60 /* EQViewController.swift */; };
+		B3C8C2021FA0D0BF00605E97 /* FXKnobStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C2011FA0D0BF00605E97 /* FXKnobStyleKit.swift */; };
+		B3C8C2041FA0D0CB00605E97 /* FXKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C2031FA0D0CB00605E97 /* FXKnobView.swift */; };
+		B3C8C2061FA0D0D400605E97 /* FXKnob+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C2051FA0D0D400605E97 /* FXKnob+Touches.swift */; };
+		B3C8C2091FA0DC9100605E97 /* FXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C2081FA0DC9100605E97 /* FXViewController.swift */; };
+		B3C8C20B1FA2368A00605E97 /* FXEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C20A1FA2368A00605E97 /* FXEditViewController.swift */; };
 		E436004D1CD77AE900809924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436004C1CD77AE900809924 /* AppDelegate.swift */; };
 		E436004F1CD77AE900809924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436004E1CD77AE900809924 /* ViewController.swift */; };
 		E43600521CD77AE900809924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43600501CD77AE900809924 /* Main.storyboard */; };
@@ -120,6 +125,11 @@
 		B38D12821F9CC3DC007092A2 /* Entypo_25be(0)_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Entypo_25be(0)_48.png"; sourceTree = "<group>"; };
 		B38D12861F9FE9B9007092A2 /* CompViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompViewController.swift; sourceTree = "<group>"; };
 		B3AF951F1F963BE30002CF60 /* EQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EQViewController.swift; sourceTree = "<group>"; };
+		B3C8C2011FA0D0BF00605E97 /* FXKnobStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXKnobStyleKit.swift; sourceTree = "<group>"; };
+		B3C8C2031FA0D0CB00605E97 /* FXKnobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXKnobView.swift; sourceTree = "<group>"; };
+		B3C8C2051FA0D0D400605E97 /* FXKnob+Touches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FXKnob+Touches.swift"; sourceTree = "<group>"; };
+		B3C8C2081FA0DC9100605E97 /* FXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXViewController.swift; sourceTree = "<group>"; };
+		B3C8C20A1FA2368A00605E97 /* FXEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXEditViewController.swift; sourceTree = "<group>"; };
 		E43600491CD77AE900809924 /* Mixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E436004C1CD77AE900809924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E436004E1CD77AE900809924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +210,7 @@
 			children = (
 				B38D12741F9BC285007092A2 /* Faders */,
 				B38D12751F9BC290007092A2 /* Buttons */,
+				B3C8C2071FA0D0E000605E97 /* FX Knob */,
 				B38D127D1F9BC84D007092A2 /* Comp Knob */,
 				B38D126D1F9B912A007092A2 /* Knob */,
 			);
@@ -214,6 +225,16 @@
 				B38D12791F9BC83A007092A2 /* CompKnob+Touches.swift */,
 			);
 			name = "Comp Knob";
+			sourceTree = "<group>";
+		};
+		B3C8C2071FA0D0E000605E97 /* FX Knob */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8C2011FA0D0BF00605E97 /* FXKnobStyleKit.swift */,
+				B3C8C2031FA0D0CB00605E97 /* FXKnobView.swift */,
+				B3C8C2051FA0D0D400605E97 /* FXKnob+Touches.swift */,
+			);
+			name = "FX Knob";
 			sourceTree = "<group>";
 		};
 		E43600401CD77AE900809924 = {
@@ -244,6 +265,8 @@
 				E436004E1CD77AE900809924 /* ViewController.swift */,
 				B3AF951F1F963BE30002CF60 /* EQViewController.swift */,
 				B38D12861F9FE9B9007092A2 /* CompViewController.swift */,
+				B3C8C2081FA0DC9100605E97 /* FXViewController.swift */,
+				B3C8C20A1FA2368A00605E97 /* FXEditViewController.swift */,
 				B360FB341F8F7BF000B04F9E /* startViewController.swift */,
 				E436007F1CD77B8700809924 /* AudioMixer.swift */,
 				B38D12761F9BC29A007092A2 /* Custom Controls */,
@@ -457,16 +480,21 @@
 				B33AD96E1F90F74100EFE929 /* verticalMeter.swift in Sources */,
 				B3AF95201F963BE30002CF60 /* EQViewController.swift in Sources */,
 				B38D127C1F9BC843007092A2 /* CompKnobStyleKit.swift in Sources */,
+				B3C8C2041FA0D0CB00605E97 /* FXKnobView.swift in Sources */,
 				E436004F1CD77AE900809924 /* ViewController.swift in Sources */,
 				B38D12871F9FE9B9007092A2 /* CompViewController.swift in Sources */,
 				B37119E41F8FE70100FC766C /* muteButton.swift in Sources */,
 				B360FB351F8F7BF000B04F9E /* startViewController.swift in Sources */,
+				B3C8C2061FA0D0D400605E97 /* FXKnob+Touches.swift in Sources */,
+				B3C8C2091FA0DC9100605E97 /* FXViewController.swift in Sources */,
 				B38D12731F9B9148007092A2 /* Knob+Touches.swift in Sources */,
+				B3C8C20B1FA2368A00605E97 /* FXEditViewController.swift in Sources */,
 				B37119E61F900ADE00FC766C /* soloButton.swift in Sources */,
 				E436004D1CD77AE900809924 /* AppDelegate.swift in Sources */,
 				B38D12781F9BC7B9007092A2 /* CompKnobView.swift in Sources */,
 				E43600801CD77B8700809924 /* AudioMixer.swift in Sources */,
 				B38D12711F9B9148007092A2 /* KnobStyleKit.swift in Sources */,
+				B3C8C2021FA0D0BF00605E97 /* FXKnobStyleKit.swift in Sources */,
 				B38D127A1F9BC83A007092A2 /* CompKnob+Touches.swift in Sources */,
 				B38D12721F9B9148007092A2 /* KnobView.swift in Sources */,
 				B37119E01F8FDF7800FC766C /* verticalFader.swift in Sources */,

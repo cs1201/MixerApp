@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["C5Mixer16EQViewController", ""]
 provides-dynamic-lookup:
+- "audioMixer"
 - "hf1Freq"
 - "hf1FreqLabel"
 - "hf1Gain"
@@ -87,6 +88,8 @@ depends-top-level:
 - !private "print"
 - !private "~="
 depends-member:
+- !private ["C8AudioKit6AKNode", "drumEQ"]
+- !private ["C8AudioKit6AKNode", "sharedInstance"]
 - !private ["P8AudioKit11AKParameter", "init"]
 - !private ["Ps9AnyObject", "AudioMixerSkeleton"]
 - !private ["Ps9AnyObject", "Int"]
@@ -175,6 +178,7 @@ depends-member:
 - !private ["Ps7CVarArg", "Int"]
 - !private ["Ps7CVarArg", "audioMixer"]
 - !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "drumEQ"]
 - !private ["Ps7CVarArg", "hf1Freq"]
 - !private ["Ps7CVarArg", "hf1FreqLabel"]
 - !private ["Ps7CVarArg", "hf1Gain"]
@@ -242,6 +246,7 @@ depends-member:
 - !private ["Ps7CVarArg", "mf5GainLabel"]
 - !private ["Ps7CVarArg", "mf5Q"]
 - !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "sharedInstance"]
 - !private ["Ps7CVarArg", "text"]
 - ["Ps7CVarArg", "updateKnobValue"]
 - !private ["Ps7CVarArg", "viewDidLoad"]
@@ -251,6 +256,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Int"]
 - !private ["Ps28CustomDebugStringConvertible", "audioMixer"]
 - !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "drumEQ"]
 - !private ["Ps28CustomDebugStringConvertible", "hf1Freq"]
 - !private ["Ps28CustomDebugStringConvertible", "hf1FreqLabel"]
 - !private ["Ps28CustomDebugStringConvertible", "hf1Gain"]
@@ -318,6 +324,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "mf5GainLabel"]
 - !private ["Ps28CustomDebugStringConvertible", "mf5Q"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - ["Ps28CustomDebugStringConvertible", "updateKnobValue"]
 - !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
@@ -331,6 +338,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "audioMixer"]
 - !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "drumEQ"]
 - !private ["Ps23CustomStringConvertible", "hf1Freq"]
 - !private ["Ps23CustomStringConvertible", "hf1FreqLabel"]
 - !private ["Ps23CustomStringConvertible", "hf1Gain"]
@@ -398,6 +406,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "mf5GainLabel"]
 - !private ["Ps23CustomStringConvertible", "mf5Q"]
 - !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - ["Ps23CustomStringConvertible", "updateKnobValue"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
@@ -483,6 +492,7 @@ depends-member:
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "audioMixer"]
 - !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "drumEQ"]
 - !private ["Ps9Equatable", "hf1Freq"]
 - !private ["Ps9Equatable", "hf1FreqLabel"]
 - !private ["Ps9Equatable", "hf1Gain"]
@@ -550,6 +560,7 @@ depends-member:
 - !private ["Ps9Equatable", "mf5GainLabel"]
 - !private ["Ps9Equatable", "mf5Q"]
 - !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "sharedInstance"]
 - !private ["Ps9Equatable", "text"]
 - ["Ps9Equatable", "updateKnobValue"]
 - !private ["Ps9Equatable", "viewDidLoad"]
@@ -564,6 +575,7 @@ depends-member:
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "audioMixer"]
 - !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "drumEQ"]
 - !private ["Ps8Hashable", "hf1Freq"]
 - !private ["Ps8Hashable", "hf1FreqLabel"]
 - !private ["Ps8Hashable", "hf1Gain"]
@@ -631,6 +643,7 @@ depends-member:
 - !private ["Ps8Hashable", "mf5GainLabel"]
 - !private ["Ps8Hashable", "mf5Q"]
 - !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "sharedInstance"]
 - !private ["Ps8Hashable", "text"]
 - ["Ps8Hashable", "updateKnobValue"]
 - !private ["Ps8Hashable", "viewDidLoad"]
@@ -870,6 +883,7 @@ depends-member:
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "audioMixer"]
 - !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "drumEQ"]
 - ["CSo8NSObject", "hf1Freq"]
 - ["CSo8NSObject", "hf1FreqLabel"]
 - ["CSo8NSObject", "hf1Gain"]
@@ -937,6 +951,7 @@ depends-member:
 - ["CSo8NSObject", "mf5GainLabel"]
 - ["CSo8NSObject", "mf5Q"]
 - !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "sharedInstance"]
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "updateKnobValue"]
 - ["CSo8NSObject", "viewDidLoad"]
@@ -944,6 +959,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "audioMixer"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "drumEQ"]
 - !private ["PSo16NSObjectProtocol", "hf1Freq"]
 - !private ["PSo16NSObjectProtocol", "hf1FreqLabel"]
 - !private ["PSo16NSObjectProtocol", "hf1Gain"]
@@ -1011,6 +1027,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "mf5GainLabel"]
 - !private ["PSo16NSObjectProtocol", "mf5Q"]
 - !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "updateKnobValue"]
 - !private ["PSo16NSObjectProtocol", "viewDidLoad"]
@@ -1653,6 +1670,7 @@ depends-member:
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "audioMixer"]
 - !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "drumEQ"]
 - !private ["Ps9_Hashable", "hf1Freq"]
 - !private ["Ps9_Hashable", "hf1FreqLabel"]
 - !private ["Ps9_Hashable", "hf1Gain"]
@@ -1720,6 +1738,7 @@ depends-member:
 - !private ["Ps9_Hashable", "mf5GainLabel"]
 - !private ["Ps9_Hashable", "mf5Q"]
 - !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "sharedInstance"]
 - !private ["Ps9_Hashable", "text"]
 - ["Ps9_Hashable", "updateKnobValue"]
 - !private ["Ps9_Hashable", "viewDidLoad"]
@@ -1732,6 +1751,7 @@ depends-member:
 - !private ["Ps14_SignedInteger", "init"]
 - !private ["Ps11_Strideable", "init"]
 depends-nominal:
+- !private "C8AudioKit6AKNode"
 - !private "P8AudioKit11AKParameter"
 - "Ps9AnyObject"
 - !private "C5Mixer18AudioMixerSkeleton"
