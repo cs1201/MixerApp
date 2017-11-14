@@ -1,0 +1,606 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FXEditViewController"
+provides-nominal:
+- "C5Mixer20FXEditViewController"
+provides-member:
+- ["C5Mixer20FXEditViewController", ""]
+provides-dynamic-lookup:
+- "audioMixer"
+- "delayCutoff"
+- "delayFeedback"
+- "delayOn"
+- "delayTime"
+- "reverb1On"
+- "reverb1Select"
+- "reverb2On"
+- "reverb2Select"
+- "updateFXKnobValue"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "AudioMixerSkeleton"
+- "Double"
+- "FXEditViewController"
+- "FXKnobDelegate"
+- "FXKnobView"
+- "Int"
+- "UISegmentedControl"
+- "UISwitch"
+- "UIViewController"
+depends-member:
+- !private ["C8AudioKit6AKNode", "FXKnobEdit"]
+- !private ["C8AudioKit6AKNode", "FXOn"]
+- !private ["C8AudioKit6AKNode", "reverb1Select"]
+- !private ["C8AudioKit6AKNode", "reverb2Select"]
+- !private ["C8AudioKit6AKNode", "sharedInstance"]
+- !private ["Ps9AnyObject", "AudioMixerSkeleton"]
+- !private ["Ps9AnyObject", "FXKnobEdit"]
+- !private ["Ps9AnyObject", "FXOn"]
+- !private ["Ps9AnyObject", "audioMixer"]
+- !private ["Ps9AnyObject", "delayCutoff"]
+- !private ["Ps9AnyObject", "delayFeedback"]
+- !private ["Ps9AnyObject", "delayTime"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isOn"]
+- !private ["Ps9AnyObject", "knobInit"]
+- !private ["Ps9AnyObject", "reverb1Select"]
+- !private ["Ps9AnyObject", "reverb2Select"]
+- !private ["Ps9AnyObject", "selectedSegmentIndex"]
+- !private ["Ps9AnyObject", "setDelegates"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "updateFXKnobValue"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["C5Mixer18AudioMixerSkeleton", "FXKnobEdit"]
+- !private ["C5Mixer18AudioMixerSkeleton", "FXOn"]
+- !private ["C5Mixer18AudioMixerSkeleton", "reverb1Select"]
+- !private ["C5Mixer18AudioMixerSkeleton", "reverb2Select"]
+- !private ["C5Mixer18AudioMixerSkeleton", "sharedInstance"]
+- !private ["PSo15CALayerDelegate", "delegate"]
+- !private ["PSo15CALayerDelegate", "isOn"]
+- !private ["PSo15CALayerDelegate", "selectedSegmentIndex"]
+- !private ["PSo15CALayerDelegate", "value"]
+- !private ["Ps7CVarArg", "AudioMixerSkeleton"]
+- !private ["Ps7CVarArg", "FXKnobEdit"]
+- !private ["Ps7CVarArg", "FXOn"]
+- !private ["Ps7CVarArg", "audioMixer"]
+- !private ["Ps7CVarArg", "delayCutoff"]
+- !private ["Ps7CVarArg", "delayFeedback"]
+- !private ["Ps7CVarArg", "delayTime"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isOn"]
+- !private ["Ps7CVarArg", "knobInit"]
+- !private ["Ps7CVarArg", "reverb1Select"]
+- !private ["Ps7CVarArg", "reverb2Select"]
+- !private ["Ps7CVarArg", "selectedSegmentIndex"]
+- !private ["Ps7CVarArg", "setDelegates"]
+- !private ["Ps7CVarArg", "sharedInstance"]
+- ["Ps7CVarArg", "updateFXKnobValue"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "AudioMixerSkeleton"]
+- !private ["Ps28CustomDebugStringConvertible", "FXKnobEdit"]
+- !private ["Ps28CustomDebugStringConvertible", "FXOn"]
+- !private ["Ps28CustomDebugStringConvertible", "audioMixer"]
+- !private ["Ps28CustomDebugStringConvertible", "delayCutoff"]
+- !private ["Ps28CustomDebugStringConvertible", "delayFeedback"]
+- !private ["Ps28CustomDebugStringConvertible", "delayTime"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isOn"]
+- !private ["Ps28CustomDebugStringConvertible", "knobInit"]
+- !private ["Ps28CustomDebugStringConvertible", "reverb1Select"]
+- !private ["Ps28CustomDebugStringConvertible", "reverb2Select"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedSegmentIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "setDelegates"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", "updateFXKnobValue"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "AudioMixerSkeleton"]
+- !private ["Ps23CustomStringConvertible", "FXKnobEdit"]
+- !private ["Ps23CustomStringConvertible", "FXOn"]
+- !private ["Ps23CustomStringConvertible", "audioMixer"]
+- !private ["Ps23CustomStringConvertible", "delayCutoff"]
+- !private ["Ps23CustomStringConvertible", "delayFeedback"]
+- !private ["Ps23CustomStringConvertible", "delayTime"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isOn"]
+- !private ["Ps23CustomStringConvertible", "knobInit"]
+- !private ["Ps23CustomStringConvertible", "reverb1Select"]
+- !private ["Ps23CustomStringConvertible", "reverb2Select"]
+- !private ["Ps23CustomStringConvertible", "selectedSegmentIndex"]
+- !private ["Ps23CustomStringConvertible", "setDelegates"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", "updateFXKnobValue"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "AudioMixerSkeleton"]
+- !private ["Ps9Equatable", "FXKnobEdit"]
+- !private ["Ps9Equatable", "FXOn"]
+- !private ["Ps9Equatable", "audioMixer"]
+- !private ["Ps9Equatable", "delayCutoff"]
+- !private ["Ps9Equatable", "delayFeedback"]
+- !private ["Ps9Equatable", "delayTime"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isOn"]
+- !private ["Ps9Equatable", "knobInit"]
+- !private ["Ps9Equatable", "reverb1Select"]
+- !private ["Ps9Equatable", "reverb2Select"]
+- !private ["Ps9Equatable", "selectedSegmentIndex"]
+- !private ["Ps9Equatable", "setDelegates"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", "updateFXKnobValue"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["C5Mixer20FXEditViewController", "AudioMixerSkeleton"]
+- ["C5Mixer20FXEditViewController", "Double"]
+- ["C5Mixer20FXEditViewController", "FXKnobView"]
+- ["C5Mixer20FXEditViewController", "Int"]
+- ["C5Mixer20FXEditViewController", "UISegmentedControl"]
+- ["C5Mixer20FXEditViewController", "UISwitch"]
+- ["C5Mixer20FXEditViewController", "audioMixer"]
+- ["C5Mixer20FXEditViewController", "deinit"]
+- ["C5Mixer20FXEditViewController", "delayCutoff"]
+- ["C5Mixer20FXEditViewController", "delayFeedback"]
+- ["C5Mixer20FXEditViewController", "delayOn"]
+- ["C5Mixer20FXEditViewController", "delayTime"]
+- ["C5Mixer20FXEditViewController", "init"]
+- !private ["C5Mixer20FXEditViewController", "knobInit"]
+- ["C5Mixer20FXEditViewController", "reverb1On"]
+- ["C5Mixer20FXEditViewController", "reverb1Select"]
+- ["C5Mixer20FXEditViewController", "reverb2On"]
+- ["C5Mixer20FXEditViewController", "reverb2Select"]
+- !private ["C5Mixer20FXEditViewController", "setDelegates"]
+- ["C5Mixer20FXEditViewController", "updateFXKnobValue"]
+- ["C5Mixer20FXEditViewController", "viewDidLoad"]
+- !private ["P5Mixer14FXKnobDelegate", "AudioMixerSkeleton"]
+- !private ["P5Mixer14FXKnobDelegate", "audioMixer"]
+- !private ["P5Mixer14FXKnobDelegate", "delayCutoff"]
+- !private ["P5Mixer14FXKnobDelegate", "delayFeedback"]
+- !private ["P5Mixer14FXKnobDelegate", "delayTime"]
+- !private ["P5Mixer14FXKnobDelegate", "knobInit"]
+- !private ["P5Mixer14FXKnobDelegate", "setDelegates"]
+- ["P5Mixer14FXKnobDelegate", "updateFXKnobValue"]
+- ["P5Mixer14FXKnobDelegate", ""]
+- !private ["C5Mixer10FXKnobView", "delegate"]
+- !private ["C5Mixer10FXKnobView", "value"]
+- !private ["Ps8Hashable", "AudioMixerSkeleton"]
+- !private ["Ps8Hashable", "FXKnobEdit"]
+- !private ["Ps8Hashable", "FXOn"]
+- !private ["Ps8Hashable", "audioMixer"]
+- !private ["Ps8Hashable", "delayCutoff"]
+- !private ["Ps8Hashable", "delayFeedback"]
+- !private ["Ps8Hashable", "delayTime"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isOn"]
+- !private ["Ps8Hashable", "knobInit"]
+- !private ["Ps8Hashable", "reverb1Select"]
+- !private ["Ps8Hashable", "reverb2Select"]
+- !private ["Ps8Hashable", "selectedSegmentIndex"]
+- !private ["Ps8Hashable", "setDelegates"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", "updateFXKnobValue"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "AudioMixerSkeleton"]
+- !private ["PSo8NSCoding", "audioMixer"]
+- !private ["PSo8NSCoding", "delayCutoff"]
+- !private ["PSo8NSCoding", "delayFeedback"]
+- !private ["PSo8NSCoding", "delayTime"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isOn"]
+- !private ["PSo8NSCoding", "knobInit"]
+- !private ["PSo8NSCoding", "selectedSegmentIndex"]
+- !private ["PSo8NSCoding", "setDelegates"]
+- ["PSo8NSCoding", "updateFXKnobValue"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "AudioMixerSkeleton"]
+- !private ["PSo26NSExtensionRequestHandling", "audioMixer"]
+- !private ["PSo26NSExtensionRequestHandling", "delayCutoff"]
+- !private ["PSo26NSExtensionRequestHandling", "delayFeedback"]
+- !private ["PSo26NSExtensionRequestHandling", "delayTime"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "knobInit"]
+- !private ["PSo26NSExtensionRequestHandling", "setDelegates"]
+- ["PSo26NSExtensionRequestHandling", "updateFXKnobValue"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AudioMixerSkeleton"]
+- ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "FXKnobEdit"]
+- ["CSo8NSObject", "FXKnobView"]
+- !private ["CSo8NSObject", "FXOn"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "UISegmentedControl"]
+- ["CSo8NSObject", "UISwitch"]
+- ["CSo8NSObject", "audioMixer"]
+- ["CSo8NSObject", "delayCutoff"]
+- ["CSo8NSObject", "delayFeedback"]
+- ["CSo8NSObject", "delayOn"]
+- ["CSo8NSObject", "delayTime"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isOn"]
+- ["CSo8NSObject", "knobInit"]
+- ["CSo8NSObject", "reverb1On"]
+- ["CSo8NSObject", "reverb1Select"]
+- ["CSo8NSObject", "reverb2On"]
+- ["CSo8NSObject", "reverb2Select"]
+- !private ["CSo8NSObject", "selectedSegmentIndex"]
+- ["CSo8NSObject", "setDelegates"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "updateFXKnobValue"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "AudioMixerSkeleton"]
+- !private ["PSo16NSObjectProtocol", "FXKnobEdit"]
+- !private ["PSo16NSObjectProtocol", "FXOn"]
+- !private ["PSo16NSObjectProtocol", "audioMixer"]
+- !private ["PSo16NSObjectProtocol", "delayCutoff"]
+- !private ["PSo16NSObjectProtocol", "delayFeedback"]
+- !private ["PSo16NSObjectProtocol", "delayTime"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isOn"]
+- !private ["PSo16NSObjectProtocol", "knobInit"]
+- !private ["PSo16NSObjectProtocol", "reverb1Select"]
+- !private ["PSo16NSObjectProtocol", "reverb2Select"]
+- !private ["PSo16NSObjectProtocol", "selectedSegmentIndex"]
+- !private ["PSo16NSObjectProtocol", "setDelegates"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "updateFXKnobValue"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "isOn"]
+- !private ["PSo29UIAccessibilityIdentification", "selectedSegmentIndex"]
+- !private ["PSo29UIAccessibilityIdentification", "value"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "isOn"]
+- !private ["PSo12UIAppearance", "selectedSegmentIndex"]
+- !private ["PSo12UIAppearance", "value"]
+- !private ["PSo21UIAppearanceContainer", "AudioMixerSkeleton"]
+- !private ["PSo21UIAppearanceContainer", "audioMixer"]
+- !private ["PSo21UIAppearanceContainer", "delayCutoff"]
+- !private ["PSo21UIAppearanceContainer", "delayFeedback"]
+- !private ["PSo21UIAppearanceContainer", "delayTime"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isOn"]
+- !private ["PSo21UIAppearanceContainer", "knobInit"]
+- !private ["PSo21UIAppearanceContainer", "selectedSegmentIndex"]
+- !private ["PSo21UIAppearanceContainer", "setDelegates"]
+- ["PSo21UIAppearanceContainer", "updateFXKnobValue"]
+- !private ["PSo21UIAppearanceContainer", "value"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AudioMixerSkeleton"]
+- !private ["PSo18UIContentContainer", "audioMixer"]
+- !private ["PSo18UIContentContainer", "delayCutoff"]
+- !private ["PSo18UIContentContainer", "delayFeedback"]
+- !private ["PSo18UIContentContainer", "delayTime"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "knobInit"]
+- !private ["PSo18UIContentContainer", "setDelegates"]
+- ["PSo18UIContentContainer", "updateFXKnobValue"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "isOn"]
+- !private ["CSo9UIControl", "selectedSegmentIndex"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "isOn"]
+- !private ["PSo17UICoordinateSpace", "selectedSegmentIndex"]
+- !private ["PSo17UICoordinateSpace", "value"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "isOn"]
+- !private ["PSo13UIDynamicItem", "selectedSegmentIndex"]
+- !private ["PSo13UIDynamicItem", "value"]
+- !private ["PSo18UIFocusEnvironment", "AudioMixerSkeleton"]
+- !private ["PSo18UIFocusEnvironment", "audioMixer"]
+- !private ["PSo18UIFocusEnvironment", "delayCutoff"]
+- !private ["PSo18UIFocusEnvironment", "delayFeedback"]
+- !private ["PSo18UIFocusEnvironment", "delayTime"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isOn"]
+- !private ["PSo18UIFocusEnvironment", "knobInit"]
+- !private ["PSo18UIFocusEnvironment", "selectedSegmentIndex"]
+- !private ["PSo18UIFocusEnvironment", "setDelegates"]
+- ["PSo18UIFocusEnvironment", "updateFXKnobValue"]
+- !private ["PSo18UIFocusEnvironment", "value"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "delegate"]
+- !private ["PSo11UIFocusItem", "isOn"]
+- !private ["PSo11UIFocusItem", "selectedSegmentIndex"]
+- !private ["PSo11UIFocusItem", "value"]
+- ["CSo11UIResponder", "AudioMixerSkeleton"]
+- ["CSo11UIResponder", "Double"]
+- ["CSo11UIResponder", "FXKnobView"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "UISegmentedControl"]
+- ["CSo11UIResponder", "UISwitch"]
+- ["CSo11UIResponder", "audioMixer"]
+- ["CSo11UIResponder", "delayCutoff"]
+- ["CSo11UIResponder", "delayFeedback"]
+- ["CSo11UIResponder", "delayOn"]
+- ["CSo11UIResponder", "delayTime"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isOn"]
+- ["CSo11UIResponder", "knobInit"]
+- ["CSo11UIResponder", "reverb1On"]
+- ["CSo11UIResponder", "reverb1Select"]
+- ["CSo11UIResponder", "reverb2On"]
+- ["CSo11UIResponder", "reverb2Select"]
+- !private ["CSo11UIResponder", "selectedSegmentIndex"]
+- ["CSo11UIResponder", "setDelegates"]
+- ["CSo11UIResponder", "updateFXKnobValue"]
+- !private ["CSo11UIResponder", "value"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "AudioMixerSkeleton"]
+- !private ["PSo30UIResponderStandardEditActions", "audioMixer"]
+- !private ["PSo30UIResponderStandardEditActions", "delayCutoff"]
+- !private ["PSo30UIResponderStandardEditActions", "delayFeedback"]
+- !private ["PSo30UIResponderStandardEditActions", "delayTime"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isOn"]
+- !private ["PSo30UIResponderStandardEditActions", "knobInit"]
+- !private ["PSo30UIResponderStandardEditActions", "selectedSegmentIndex"]
+- !private ["PSo30UIResponderStandardEditActions", "setDelegates"]
+- ["PSo30UIResponderStandardEditActions", "updateFXKnobValue"]
+- !private ["PSo30UIResponderStandardEditActions", "value"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo18UISegmentedControl", "selectedSegmentIndex"]
+- !private ["PSo16UIStateRestoring", "AudioMixerSkeleton"]
+- !private ["PSo16UIStateRestoring", "audioMixer"]
+- !private ["PSo16UIStateRestoring", "delayCutoff"]
+- !private ["PSo16UIStateRestoring", "delayFeedback"]
+- !private ["PSo16UIStateRestoring", "delayTime"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "knobInit"]
+- !private ["PSo16UIStateRestoring", "setDelegates"]
+- ["PSo16UIStateRestoring", "updateFXKnobValue"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo8UISwitch", "isOn"]
+- !private ["PSo18UITraitEnvironment", "AudioMixerSkeleton"]
+- !private ["PSo18UITraitEnvironment", "audioMixer"]
+- !private ["PSo18UITraitEnvironment", "delayCutoff"]
+- !private ["PSo18UITraitEnvironment", "delayFeedback"]
+- !private ["PSo18UITraitEnvironment", "delayTime"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isOn"]
+- !private ["PSo18UITraitEnvironment", "knobInit"]
+- !private ["PSo18UITraitEnvironment", "selectedSegmentIndex"]
+- !private ["PSo18UITraitEnvironment", "setDelegates"]
+- ["PSo18UITraitEnvironment", "updateFXKnobValue"]
+- !private ["PSo18UITraitEnvironment", "value"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "isOn"]
+- !private ["CSo6UIView", "selectedSegmentIndex"]
+- !private ["CSo6UIView", "value"]
+- ["CSo16UIViewController", "AudioMixerSkeleton"]
+- ["CSo16UIViewController", "Double"]
+- ["CSo16UIViewController", "FXKnobView"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "UISegmentedControl"]
+- ["CSo16UIViewController", "UISwitch"]
+- ["CSo16UIViewController", "audioMixer"]
+- ["CSo16UIViewController", "delayCutoff"]
+- ["CSo16UIViewController", "delayFeedback"]
+- ["CSo16UIViewController", "delayOn"]
+- ["CSo16UIViewController", "delayTime"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "knobInit"]
+- ["CSo16UIViewController", "reverb1On"]
+- ["CSo16UIViewController", "reverb1Select"]
+- ["CSo16UIViewController", "reverb2On"]
+- ["CSo16UIViewController", "reverb2Select"]
+- ["CSo16UIViewController", "setDelegates"]
+- ["CSo16UIViewController", "updateFXKnobValue"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isOn"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectedSegmentIndex"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "value"]
+- !private ["Ps9_Hashable", "AudioMixerSkeleton"]
+- !private ["Ps9_Hashable", "FXKnobEdit"]
+- !private ["Ps9_Hashable", "FXOn"]
+- !private ["Ps9_Hashable", "audioMixer"]
+- !private ["Ps9_Hashable", "delayCutoff"]
+- !private ["Ps9_Hashable", "delayFeedback"]
+- !private ["Ps9_Hashable", "delayTime"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isOn"]
+- !private ["Ps9_Hashable", "knobInit"]
+- !private ["Ps9_Hashable", "reverb1Select"]
+- !private ["Ps9_Hashable", "reverb2Select"]
+- !private ["Ps9_Hashable", "selectedSegmentIndex"]
+- !private ["Ps9_Hashable", "setDelegates"]
+- !private ["Ps9_Hashable", "sharedInstance"]
+- ["Ps9_Hashable", "updateFXKnobValue"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- !private "C8AudioKit6AKNode"
+- "Ps9AnyObject"
+- !private "C5Mixer18AudioMixerSkeleton"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C5Mixer20FXEditViewController"
+- "P5Mixer14FXKnobDelegate"
+- !private "C5Mixer10FXKnobView"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo18UISegmentedControl"
+- "PSo16UIStateRestoring"
+- !private "CSo8UISwitch"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "4c44e030632522a2e74830480bbe0726"

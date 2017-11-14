@@ -133,6 +133,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import AudioKit;
 @import ObjectiveC;
 @import CoreGraphics;
 #endif
@@ -152,6 +153,65 @@ SWIFT_CLASS("_TtC5Mixer11AppDelegate")
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class AKAudioPlayer;
+@class AKAmplitudeTracker;
+@class AVAudioNode;
+
+SWIFT_CLASS("_TtC5Mixer18AudioMixerSkeleton")
+@interface AudioMixerSkeleton : AKNode
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AudioMixerSkeleton * _Nonnull sharedInstance;)
++ (AudioMixerSkeleton * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, strong) AKAudioPlayer * _Nonnull drums;
+@property (nonatomic, strong) AKAudioPlayer * _Nonnull bass;
+@property (nonatomic, strong) AKAudioPlayer * _Nonnull guitar;
+@property (nonatomic, strong) AKAudioPlayer * _Nonnull lead;
+@property (nonatomic, strong) AKAmplitudeTracker * _Nonnull meter;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (void)printRTA;
+- (void)setReverbLevel:(float)reverbLevel;
+- (void)setReverbType:(NSInteger)reverbSelected;
+- (float)printAmplitude SWIFT_WARN_UNUSED_RESULT;
+- (void)setDrumsVolume:(float)drumsVolume;
+- (void)setBassVolume:(float)bassVolume;
+- (void)setGuitarVolume:(float)guitarVolume;
+- (void)setLeadVolume:(float)leadVolume;
+- (void)setMasterVolume:(float)masterVolume;
+- (void)setDrumsPan:(float)drumsPan;
+- (void)setBassPan:(float)bassPan;
+- (void)setGuitarPan:(float)guitarPan;
+- (void)setLeadPan:(float)leadPan;
+- (void)setDrumMute:(BOOL)drumMute;
+- (void)setBassMute:(BOOL)bassMute;
+- (void)setGuitarMute:(BOOL)guitarMute;
+- (void)setLeadMute:(BOOL)leadMute;
+- (void)setMasterMute:(BOOL)masterMute;
+- (void)setDrumSolo:(BOOL)drumSolo;
+- (void)setBassSolo:(BOOL)bassSolo;
+- (void)setGuitarSolo:(BOOL)guitarSolo;
+- (void)setLeadSolo:(BOOL)leadSolo;
+- (void)playPause:(BOOL)playSelect;
+- (double)drumEQ:(NSInteger)controlSelect :(double)value SWIFT_WARN_UNUSED_RESULT;
+- (double)playhead SWIFT_WARN_UNUSED_RESULT;
+- (void)compressor:(NSInteger)controlSelect :(double)value;
+- (void)comp1On:(BOOL)on;
+- (void)comp2On:(BOOL)on;
+- (void)comp3On:(BOOL)on;
+- (void)comp4On:(BOOL)on;
+- (void)comp5On:(BOOL)on;
+- (float)comp1Meter SWIFT_WARN_UNUSED_RESULT;
+- (float)comp2Meter SWIFT_WARN_UNUSED_RESULT;
+- (float)comp3Meter SWIFT_WARN_UNUSED_RESULT;
+- (float)comp4Meter SWIFT_WARN_UNUSED_RESULT;
+- (float)comp5Meter SWIFT_WARN_UNUSED_RESULT;
+- (void)FXSends:(NSInteger)select :(double)value;
+- (void)FXKnobEdit:(NSInteger)control :(double)value;
+- (void)FXOn:(NSInteger)select :(BOOL)state;
+- (void)reverb1Select:(NSInteger)select;
+- (void)reverb2Select:(NSInteger)select;
+- (void)FXBusLevel:(NSInteger)select :(float)value;
+- (nonnull instancetype)initWithAvAudioNode:(AVAudioNode * _Nonnull)avAudioNode attach:(BOOL)attach SWIFT_UNAVAILABLE;
 @end
 
 enum KnobStyleKitResizingBehavior : NSInteger;
@@ -202,9 +262,69 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL requiresConstra
 - (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 @end
 
-@class KnobView;
+@class verticalMeter;
 @class UILabel;
+@class NSTimer;
+@class UISwitch;
 @class NSBundle;
+
+SWIFT_CLASS("_TtC5Mixer18CompViewController")
+@interface CompViewController : UIViewController
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp1Thresh;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp1Amount;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp1Attack;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp1Release;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp1Gain;
+@property (nonatomic, weak) IBOutlet verticalMeter * _Null_unspecified comp1Meter;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified comp1OnLabel;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp2Thresh;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp2Amount;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp2Attack;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp2Release;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp2Gain;
+@property (nonatomic, weak) IBOutlet verticalMeter * _Null_unspecified comp2Meter;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified comp2OnLabel;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp3Thresh;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp3Amount;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp3Attack;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp3Release;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp3Gain;
+@property (nonatomic, weak) IBOutlet verticalMeter * _Null_unspecified comp3Meter;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified comp3OnLabel;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp4Thresh;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp4Amount;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp4Attack;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp4Release;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp4Gain;
+@property (nonatomic, weak) IBOutlet verticalMeter * _Null_unspecified comp4Meter;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified comp4OnLabel;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp5Thresh;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp5Amount;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp5Attack;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp5Release;
+@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified comp5Gain;
+@property (nonatomic, weak) IBOutlet verticalMeter * _Null_unspecified comp5Meter;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified comp5OnLabel;
+@property (nonatomic, strong) NSTimer * _Nonnull meterTimer;
+@property (nonatomic, strong) AudioMixerSkeleton * _Null_unspecified audioMixer;
+- (void)viewDidLoad;
+- (void)setDelegates;
+- (void)meterUpdate;
+- (IBAction)comp1OnOff:(UISwitch * _Nonnull)sender;
+- (IBAction)comp2OnOff:(UISwitch * _Nonnull)sender;
+- (IBAction)comp3OnOff:(UISwitch * _Nonnull)sender;
+- (IBAction)comp4OnOff:(UISwitch * _Nonnull)sender;
+- (IBAction)comp5OnOff:(UISwitch * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface CompViewController (SWIFT_EXTENSION(Mixer))
+- (void)updateCompKnobValue:(double)value tag:(NSInteger)tag;
+@end
+
+@class KnobView;
 
 SWIFT_CLASS("_TtC5Mixer16EQViewController")
 @interface EQViewController : UIViewController
@@ -273,6 +393,7 @@ SWIFT_CLASS("_TtC5Mixer16EQViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified mf5FreqLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified hf5GainLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified hf5FreqLabel;
+@property (nonatomic, strong) AudioMixerSkeleton * _Null_unspecified audioMixer;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -281,6 +402,133 @@ SWIFT_CLASS("_TtC5Mixer16EQViewController")
 
 @interface EQViewController (SWIFT_EXTENSION(Mixer))
 - (void)updateKnobValue:(double)value tag:(NSInteger)tag;
+@end
+
+@class FXKnobView;
+@class UISegmentedControl;
+
+SWIFT_CLASS("_TtC5Mixer20FXEditViewController")
+@interface FXEditViewController : UIViewController
+@property (nonatomic, strong) AudioMixerSkeleton * _Null_unspecified audioMixer;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delayTime;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delayFeedback;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delayCutoff;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified reverb1Select;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified reverb2Select;
+- (void)viewDidLoad;
+- (IBAction)reverb1Select:(UISegmentedControl * _Nonnull)sender;
+- (IBAction)reverb2Select:(UISegmentedControl * _Nonnull)sender;
+- (IBAction)reverb1On:(UISwitch * _Nonnull)sender;
+- (IBAction)reverb2On:(UISwitch * _Nonnull)sender;
+- (IBAction)delayOn:(UISwitch * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface FXEditViewController (SWIFT_EXTENSION(Mixer))
+- (void)updateFXKnobValue:(double)value tag:(NSInteger)tag;
+@end
+
+enum KnobStyleKitResizingBehavior : NSInteger;
+
+SWIFT_CLASS("_TtC5Mixer14FXKnobStyleKit")
+@interface FXKnobStyleKit : NSObject
+/// / Drawing Methods
++ (void)drawKnobOneWithFrame:(CGRect)targetFrame resizing:(enum KnobStyleKitResizingBehavior)resizing knobValue:(CGFloat)knobValue;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+typedef SWIFT_ENUM_NAMED(NSInteger, KnobStyleKitResizingBehavior, "ResizingBehavior") {
+  KnobStyleKitResizingBehaviorAspectFit = 0,
+/// The content is proportionally resized to fit into the target rectangle.
+  KnobStyleKitResizingBehaviorAspectFill = 1,
+/// The content is proportionally resized to completely fill the target rectangle.
+  KnobStyleKitResizingBehaviorStretch = 2,
+/// The content is stretched to match the entire target rectangle.
+  KnobStyleKitResizingBehaviorCenter = 3,
+};
+
+
+SWIFT_CLASS("_TtC5Mixer10FXKnobView")
+@interface FXKnobView : UIView
+@property (nonatomic) double minimum;
+@property (nonatomic) double maximum;
+@property (nonatomic) double value;
+@property (nonatomic) CGFloat knobValue;
+@property (nonatomic) CGFloat knobFill;
+@property (nonatomic) double knobSensitivity;
+@property (nonatomic) CGFloat lastX;
+@property (nonatomic) CGFloat lastY;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)prepareForInterfaceBuilder;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL requiresConstraintBasedLayout;)
++ (BOOL)requiresConstraintBasedLayout SWIFT_WARN_UNUSED_RESULT;
+- (void)drawRect:(CGRect)rect;
+- (void)setPercentagesWithTouchPoint:(CGPoint)touchPoint;
+@end
+
+
+@interface FXKnobView (SWIFT_EXTENSION(Mixer))
+- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+@end
+
+
+SWIFT_CLASS("_TtC5Mixer16FXViewController")
+@interface FXViewController : UIViewController
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb1_1;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb1_2;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb1_3;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb1_4;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb1_5;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb2_1;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb2_2;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb2_3;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb2_4;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified reverb2_5;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delay1;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delay2;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delay3;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delay4;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified delay5;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified chorus1;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified chorus2;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified chorus3;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified chorus4;
+@property (nonatomic, weak) IBOutlet FXKnobView * _Null_unspecified chorus5;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb1_1Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb2_1Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified delay1Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified chorus1Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb1_2Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb2_2Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified delay2Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified chorus2Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb1_3Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb2_3Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified delay3Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified chorus3Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb1_4Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb2_4Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified delay4Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified chorus4Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb1_5Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverb2_5Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified delay5Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified chorus5Label;
+@property (nonatomic, strong) AudioMixerSkeleton * _Null_unspecified audioMixer;
+- (void)viewDidLoad;
+- (void)setDelegates;
+- (void)knobInit;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface FXViewController (SWIFT_EXTENSION(Mixer))
+- (void)updateFXKnobValue:(double)value tag:(NSInteger)tag;
 @end
 
 enum KnobStyleKitResizingBehavior : NSInteger;
@@ -336,26 +584,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL requiresConstra
 @interface UIColor (SWIFT_EXTENSION(Mixer))
 @end
 
-@class verticalMeter;
-@class UISegmentedControl;
+
+@interface UIColor (SWIFT_EXTENSION(Mixer))
+@end
+
 @class UISlider;
-@class horizontalFader;
+@class verticalFader;
 @class muteButton;
 @class soloButton;
+@class horizontalFader;
 @class UIButton;
-@class NSTimer;
-@class UISwitch;
+@class EZAudioPlot;
+@class UIStepper;
 
 SWIFT_CLASS("_TtC5Mixer14ViewController")
 @interface ViewController : UIViewController
-@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified compThresh1;
-@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified compAmount1;
-@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified compAttack1;
-@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified compRelease1;
-@property (nonatomic, weak) IBOutlet CompKnobView * _Null_unspecified compGain1;
-@property (nonatomic, weak) IBOutlet verticalMeter * _Null_unspecified comp1Meter;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified comp1OnLabel;
-@property (nonatomic, strong) IBOutlet UISegmentedControl * _Null_unspecified viewSwitch;
 @property (nonatomic, strong) IBOutlet UISlider * _Null_unspecified drumsVolumeSlider;
 @property (nonatomic, strong) IBOutlet UISlider * _Null_unspecified bassVolumeSlider;
 @property (nonatomic, strong) IBOutlet UISlider * _Null_unspecified guitarVolumeSlider;
@@ -368,15 +611,16 @@ SWIFT_CLASS("_TtC5Mixer14ViewController")
 @property (nonatomic, strong) IBOutlet UISlider * _Null_unspecified bassPan;
 @property (nonatomic, strong) IBOutlet UISlider * _Null_unspecified guitarPan;
 @property (nonatomic, strong) IBOutlet UISlider * _Null_unspecified leadPan;
-@property (nonatomic, weak) IBOutlet horizontalFader * _Null_unspecified drumEQ;
 @property (nonatomic, strong) IBOutlet UISlider * _Null_unspecified masterVolumeSlider;
-@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified reverbSlider;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reverbLabel;
-@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified reverbType;
+@property (nonatomic, weak) IBOutlet verticalFader * _Null_unspecified reverb1Slider;
+@property (nonatomic, weak) IBOutlet verticalFader * _Null_unspecified reverb2Slider;
+@property (nonatomic, weak) IBOutlet verticalFader * _Null_unspecified delaySlider;
+@property (nonatomic, weak) IBOutlet verticalFader * _Null_unspecified chorusSlider;
 @property (nonatomic, weak) IBOutlet muteButton * _Null_unspecified drumMute;
 @property (nonatomic, weak) IBOutlet muteButton * _Null_unspecified bassMute;
 @property (nonatomic, weak) IBOutlet muteButton * _Null_unspecified guitarMute;
 @property (nonatomic, weak) IBOutlet muteButton * _Null_unspecified leadMute;
+@property (nonatomic, weak) IBOutlet muteButton * _Null_unspecified masterMute;
 @property (nonatomic, weak) IBOutlet soloButton * _Null_unspecified drumSolo;
 @property (nonatomic, weak) IBOutlet soloButton * _Null_unspecified bassSolo;
 @property (nonatomic, weak) IBOutlet soloButton * _Null_unspecified guitarSolo;
@@ -393,6 +637,7 @@ SWIFT_CLASS("_TtC5Mixer14ViewController")
 @property (nonatomic) BOOL bassSoloToggle;
 @property (nonatomic) BOOL guitarSoloToggle;
 @property (nonatomic) BOOL leadSoloToggle;
+@property (nonatomic) BOOL masterMuteToggle;
 @property (nonatomic) BOOL playToggle;
 @property (nonatomic, strong) NSTimer * _Nonnull meterTimer;
 @property (nonatomic, weak) IBOutlet verticalMeter * _Null_unspecified meterMaster;
@@ -401,14 +646,25 @@ SWIFT_CLASS("_TtC5Mixer14ViewController")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified guitarVolumeLabel;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified leadLineVolumeLabel;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified masterVolumeLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified EQView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified CompView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified FXSendsView;
+@property (nonatomic, weak) IBOutlet EZAudioPlot * _Null_unspecified outputPlot;
+@property (nonatomic, weak) IBOutlet UIStepper * _Null_unspecified plotZoom;
+@property (nonatomic, strong) AudioMixerSkeleton * _Null_unspecified audioMixer;
 - (void)viewDidLoad;
+- (void)setupPlot:(BOOL)zoom;
+- (void)setupPlotZoom;
+- (IBAction)plotZoom:(UIStepper * _Nonnull)sender;
 - (IBAction)setDrumsVolume:(UISlider * _Nonnull)sender;
 - (IBAction)setBassVolume:(UISlider * _Nonnull)sender;
 - (IBAction)setGuitarVolume:(UISlider * _Nonnull)sender;
 - (IBAction)setLeadVolume:(UISlider * _Nonnull)sender;
 - (IBAction)masterVolumeSlider:(UISlider * _Nonnull)sender;
-- (IBAction)reverbSlider:(UISlider * _Nonnull)sender;
-- (IBAction)reverbType:(UISegmentedControl * _Nonnull)sender;
+- (IBAction)reverb1Slider:(verticalFader * _Nonnull)sender;
+- (IBAction)reverb2Slider:(verticalFader * _Nonnull)sender;
+- (IBAction)delaySlider:(verticalFader * _Nonnull)sender;
+- (IBAction)chorusSlider:(verticalFader * _Nonnull)sender;
 - (IBAction)drumPan:(UISlider * _Nonnull)sender;
 - (IBAction)bassPan:(UISlider * _Nonnull)sender;
 - (IBAction)guitarPan:(UISlider * _Nonnull)sender;
@@ -417,20 +673,16 @@ SWIFT_CLASS("_TtC5Mixer14ViewController")
 - (IBAction)bassMute:(muteButton * _Nonnull)sender;
 - (IBAction)guitarMute:(muteButton * _Nonnull)sender;
 - (IBAction)leadMute:(muteButton * _Nonnull)sender;
+- (IBAction)masterMute:(muteButton * _Nonnull)sender;
 - (IBAction)drumSolo:(soloButton * _Nonnull)sender;
 - (IBAction)bassSolo:(soloButton * _Nonnull)sender;
 - (IBAction)guitarSolo:(soloButton * _Nonnull)sender;
 - (IBAction)leadSolo:(soloButton * _Nonnull)sender;
 - (void)meterUpdate;
 - (IBAction)playPause:(UIButton * _Nonnull)sender;
-- (IBAction)comp1OnOff:(UISwitch * _Nonnull)sender;
+- (IBAction)selectView:(UISegmentedControl * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface ViewController (SWIFT_EXTENSION(Mixer))
-- (void)updateCompKnobValue:(double)value tag:(NSInteger)tag;
 @end
 
 @class UIImage;
