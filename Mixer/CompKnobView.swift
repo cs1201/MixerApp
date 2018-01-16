@@ -1,10 +1,10 @@
 //
 //  KnobView.swift
-//  SynthUISpike
-//
-//  Created by Matthew Fecher on 7/20/17.
-//  Copyright © 2017 Matthew Fecher. All rights reserved.
-//
+
+//  Adapted by Y1480077 from: https://github.com/AudioKit/AudioKit/tree/master/Examples/iOS/AnalogSynthX/AnalogSynthX
+//  Copyright © 2017 Y1480077. All rights reserved.
+
+// Custom rotary knob
 
 import UIKit
 

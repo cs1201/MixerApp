@@ -2,9 +2,10 @@
 //  verticalMeter.swift
 //  Mixer
 //
-//  Created by cs1201 on 13/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
+//  Created by Y1480077 on 13/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
 //
+// Custom vertical meter UI element extending UISlider
 
 import UIKit
 
@@ -13,6 +14,7 @@ import UIKit
 class verticalMeter: UISlider {
 
     override open func draw(_ rect: CGRect) {
+        //Turn 90 degrees to make vertical
         self.transform = CGAffineTransform(rotationAngle: CGFloat(-Double.pi/2))
     }
     

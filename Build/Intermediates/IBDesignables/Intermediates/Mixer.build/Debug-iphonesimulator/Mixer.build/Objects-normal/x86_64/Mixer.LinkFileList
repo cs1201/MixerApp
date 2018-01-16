@@ -1,22 +1,26 @@
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/horizontalFader.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/verticalMeter.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/EQViewController.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompKnobStyleKit.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXKnobView.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/ViewController.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompViewController.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/muteButton.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/startViewController.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXKnob+Touches.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXViewController.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/Knob+Touches.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXEditViewController.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/soloButton.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/AppDelegate.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompKnobView.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/AudioMixer.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/KnobStyleKit.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXKnobStyleKit.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompKnob+Touches.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/KnobView.o
-/Users/Connor/Desktop/iOS Module/4-Mixer/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/verticalFader.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/masterViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/horizontalFader.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/verticalMeter.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/EQViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompKnobStyleKit.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/tutorialViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/tutorialAudioMixer.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXKnobView.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/ViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/muteButton.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/startViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXKnob+Touches.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/Knob+Touches.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/TrackViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXEditViewController.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/soloButton.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/AppDelegate.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompKnobView.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/AudioMixer.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/KnobStyleKit.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/FXKnobStyleKit.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/CompKnob+Touches.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/KnobView.o
+/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/Build/Intermediates/IBDesignables/Intermediates/Mixer.build/Debug-iphonesimulator/Mixer.build/Objects-normal/x86_64/verticalFader.o

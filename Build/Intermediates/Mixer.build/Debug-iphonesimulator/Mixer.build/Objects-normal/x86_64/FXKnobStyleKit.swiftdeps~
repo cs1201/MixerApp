@@ -1,12 +1,12 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "KnobStyleKit"
+- "FXKnobStyleKit"
 provides-nominal:
-- "C5Mixer12KnobStyleKit"
-- "OC5Mixer12KnobStyleKit16ResizingBehavior"
+- "C5Mixer14FXKnobStyleKit"
+- "OC5Mixer14FXKnobStyleKit16ResizingBehavior"
 provides-member:
-- ["C5Mixer12KnobStyleKit", ""]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", ""]
+- ["C5Mixer14FXKnobStyleKit", ""]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", ""]
 provides-dynamic-lookup:
 - "drawKnobOne"
 depends-top-level:
@@ -25,8 +25,8 @@ depends-top-level:
 - "CGRect"
 - !private "CGSize"
 - "CastingPrecedence"
+- "FXKnobStyleKit"
 - "Int"
-- "KnobStyleKit"
 - "NSObject"
 - !private "NSShadow"
 - !private "UIBezierPath"
@@ -78,6 +78,7 @@ depends-member:
 - !private ["Ps9AnyObject", "shadowOffset"]
 - !private ["Ps9AnyObject", "translateBy"]
 - !private ["Ps9AnyObject", "withAlphaComponent"]
+- ["Ps9AnyObject", ""]
 - !private ["Ps19BinaryFloatingPoint", "pi"]
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
@@ -140,6 +141,7 @@ depends-member:
 - !private ["Ps7CVarArg", "shadowColor"]
 - !private ["Ps7CVarArg", "shadowOffset"]
 - !private ["Ps7CVarArg", "withAlphaComponent"]
+- ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "hashValue"]
 - !private ["Ps10Comparable", "pi"]
 - !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
@@ -177,6 +179,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "x"]
 - !private ["Ps28CustomDebugStringConvertible", "y"]
 - !private ["Ps28CustomDebugStringConvertible", "zero"]
+- ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "height"]
@@ -232,6 +235,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "shadowColor"]
 - !private ["Ps23CustomStringConvertible", "shadowOffset"]
 - !private ["Ps23CustomStringConvertible", "withAlphaComponent"]
+- ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "CGFloat"]
 - !private ["Ps9Equatable", "CGGradient"]
 - !private ["Ps9Equatable", "CGPoint"]
@@ -284,6 +288,24 @@ depends-member:
 - !private ["Ps25ExpressibleByFloatLiteral", "pi"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "pi"]
+- !private ["C5Mixer14FXKnobStyleKit", "CFArray"]
+- ["C5Mixer14FXKnobStyleKit", "CGFloat"]
+- !private ["C5Mixer14FXKnobStyleKit", "CGGradient"]
+- !private ["C5Mixer14FXKnobStyleKit", "CGPoint"]
+- ["C5Mixer14FXKnobStyleKit", "CGRect"]
+- !private ["C5Mixer14FXKnobStyleKit", "CGSize"]
+- ["C5Mixer14FXKnobStyleKit", "Int"]
+- !private ["C5Mixer14FXKnobStyleKit", "NSShadow"]
+- ["C5Mixer14FXKnobStyleKit", "ResizingBehavior"]
+- !private ["C5Mixer14FXKnobStyleKit", "UIBezierPath"]
+- !private ["C5Mixer14FXKnobStyleKit", "UIColor"]
+- !private ["C5Mixer14FXKnobStyleKit", "UIGraphicsGetCurrentContext"]
+- !private ["C5Mixer14FXKnobStyleKit", "abs"]
+- ["C5Mixer14FXKnobStyleKit", "deinit"]
+- ["C5Mixer14FXKnobStyleKit", "drawKnobOne"]
+- ["C5Mixer14FXKnobStyleKit", "init"]
+- !private ["C5Mixer14FXKnobStyleKit", "max"]
+- !private ["C5Mixer14FXKnobStyleKit", "min"]
 - !private ["Ps13FloatingPoint", "pi"]
 - !private ["Ps8Hashable", "CGFloat"]
 - !private ["Ps8Hashable", "CGGradient"]
@@ -325,23 +347,6 @@ depends-member:
 - !private ["Si", "hashValue"]
 - !private ["Ps7Integer", "hashValue"]
 - !private ["Ps17IntegerArithmetic", "hashValue"]
-- !private ["C5Mixer12KnobStyleKit", "CFArray"]
-- ["C5Mixer12KnobStyleKit", "CGFloat"]
-- !private ["C5Mixer12KnobStyleKit", "CGGradient"]
-- !private ["C5Mixer12KnobStyleKit", "CGPoint"]
-- ["C5Mixer12KnobStyleKit", "CGRect"]
-- !private ["C5Mixer12KnobStyleKit", "CGSize"]
-- ["C5Mixer12KnobStyleKit", "Int"]
-- !private ["C5Mixer12KnobStyleKit", "NSShadow"]
-- ["C5Mixer12KnobStyleKit", "ResizingBehavior"]
-- !private ["C5Mixer12KnobStyleKit", "UIBezierPath"]
-- !private ["C5Mixer12KnobStyleKit", "UIColor"]
-- !private ["C5Mixer12KnobStyleKit", "UIGraphicsGetCurrentContext"]
-- !private ["C5Mixer12KnobStyleKit", "abs"]
-- ["C5Mixer12KnobStyleKit", "deinit"]
-- ["C5Mixer12KnobStyleKit", "drawKnobOne"]
-- !private ["C5Mixer12KnobStyleKit", "max"]
-- !private ["C5Mixer12KnobStyleKit", "min"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps10MirrorPath", "hashValue"]
 - !private ["PSo8NSCoding", "UIColor"]
@@ -393,7 +398,7 @@ depends-member:
 - ["CSo8NSObject", "drawKnobOne"]
 - !private ["CSo8NSObject", "fill"]
 - !private ["CSo8NSObject", "getRed"]
-- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "max"]
 - !private ["CSo8NSObject", "min"]
 - !private ["CSo8NSObject", "setFill"]
@@ -427,6 +432,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "shadowColor"]
 - !private ["PSo16NSObjectProtocol", "shadowOffset"]
 - !private ["PSo16NSObjectProtocol", "withAlphaComponent"]
+- ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "UIColor"]
 - !private ["PSo14NSSecureCoding", "black"]
 - !private ["PSo14NSSecureCoding", "blended"]
@@ -456,22 +462,22 @@ depends-member:
 - !private ["Ps16RawRepresentable", "sourceOut"]
 - ["Ps16RawRepresentable", "stretch"]
 - ["Ps16RawRepresentable", ""]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "CGRect"]
-- !private ["OC5Mixer12KnobStyleKit16ResizingBehavior", "CGSize"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "RawValue"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "_toAnyHashable"]
-- !private ["OC5Mixer12KnobStyleKit16ResizingBehavior", "abs"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "apply"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "aspectFill"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "aspectFit"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "center"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "deinit"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "hashValue"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "init"]
-- !private ["OC5Mixer12KnobStyleKit16ResizingBehavior", "max"]
-- !private ["OC5Mixer12KnobStyleKit16ResizingBehavior", "min"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "rawValue"]
-- ["OC5Mixer12KnobStyleKit16ResizingBehavior", "stretch"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "CGRect"]
+- !private ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "CGSize"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "RawValue"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "_toAnyHashable"]
+- !private ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "abs"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "apply"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "aspectFill"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "aspectFit"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "center"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "deinit"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "hashValue"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "init"]
+- !private ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "max"]
+- !private ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "min"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "rawValue"]
+- ["OC5Mixer14FXKnobStyleKit16ResizingBehavior", "stretch"]
 - !private ["Ps13SignedInteger", "hashValue"]
 - !private ["Ps12SignedNumber", "hashValue"]
 - !private ["Ps12SignedNumber", "pi"]
@@ -562,7 +568,7 @@ depends-member:
 depends-nominal:
 - !private "P8AudioKit11AKParameter"
 - !private "Ps16AbsoluteValuable"
-- !private "Ps9AnyObject"
+- "Ps9AnyObject"
 - !private "Ps19BinaryFloatingPoint"
 - !private "Ps17BitwiseOperations"
 - !private "Sb"
@@ -574,33 +580,33 @@ depends-nominal:
 - !private "VSC7CGPoint"
 - !private "VSC6CGRect"
 - !private "VSC6CGSize"
-- !private "Ps7CVarArg"
+- "Ps7CVarArg"
 - !private "Ps10Comparable"
-- !private "Ps28CustomDebugStringConvertible"
+- "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
-- !private "Ps23CustomStringConvertible"
+- "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
+- "C5Mixer14FXKnobStyleKit"
 - !private "Ps13FloatingPoint"
 - "Ps8Hashable"
 - !private "Si"
 - !private "Ps7Integer"
 - !private "Ps17IntegerArithmetic"
-- "C5Mixer12KnobStyleKit"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - "CSo8NSObject"
-- !private "PSo16NSObjectProtocol"
+- "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSShadow"
 - !private "P8AudioKit7Numeric"
 - "Ps16RawRepresentable"
-- "OC5Mixer12KnobStyleKit16ResizingBehavior"
+- "OC5Mixer14FXKnobStyleKit16ResizingBehavior"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
 - !private "Ps10Strideable"
@@ -629,7 +635,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Modules/AudioKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
@@ -645,97 +651,97 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlotGL.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFFT.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatData.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDevice.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFile.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZMicrophone.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSporthStack.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioDisplayLink.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudio.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZRecorder.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/TPCircularBuffer.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFileMarker.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOfflineRenderer.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioFloatConverter.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlayer.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioUtilities.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit-Swift.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AudioKit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFluteAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDripAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKShakerAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPannerAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClipperAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTesterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZPlot.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
-- "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
-interface-hash: "6528c8d053c8ddd635e7f7e367f645bb"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioPlotGL.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioFFT.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioFloatData.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioDevice.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioFile.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZMicrophone.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKSporthStack.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioDisplayLink.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudio.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZRecorder.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/TPCircularBuffer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioFileMarker.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKOfflineRenderer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioFloatConverter.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioPlayer.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioUtilities.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AudioKit-Swift.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AudioKit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKZitaReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKBrownianNoiseAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKFluteAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKAutoWahAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKDCBlockAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKMandolinAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKConvolutionAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKTremoloAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKRhodesPianoAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKDripAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKMetalBarAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKBalancerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKShakerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPannerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKClipperAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPhaserAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKStereoFieldLimiterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKToneFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKTesterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKBoosterAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKSamplePlayerAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKDynamicRangeCompressorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKTubularBellsAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKVocalTractAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKClarinetAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZAudioPlot.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Headers/EZOutput.h"
+- "/Users/Connor/Desktop/iOS Module/4-Mixer - Re-trace name changes/AudioKit.framework/Modules/module.modulemap"
+interface-hash: "f119d39105c8ad02af8fe9317158f232"

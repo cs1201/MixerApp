@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>9W3UJK335F.nfa.Mixer</string>
+	<string>2LZ39NG4RS.nfa.Mixer</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>9W3UJK335F.nfa.Mixer</string>
+		<string>2LZ39NG4RS.nfa.Mixer</string>
 	</array>
 </dict>
 </plist>

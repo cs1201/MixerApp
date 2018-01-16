@@ -66,6 +66,7 @@ depends-member:
 - !private ["Ps9AnyObject", "setNeedsDisplay"]
 - !private ["Ps9AnyObject", "tag"]
 - !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
 - !private ["Ps19BinaryFloatingPoint", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["PSo15CALayerDelegate", "CGFloat"]
@@ -88,6 +89,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "setNeedsDisplay"]
 - !private ["PSo15CALayerDelegate", "tag"]
 - !private ["PSo15CALayerDelegate", "value"]
+- ["PSo15CALayerDelegate", ""]
 - !private ["V12CoreGraphics7CGFloat", "init"]
 - !private ["VSC7CGPoint", "x"]
 - !private ["VSC7CGPoint", "y"]
@@ -115,6 +117,7 @@ depends-member:
 - !private ["Ps7CVarArg", "setNeedsDisplay"]
 - !private ["Ps7CVarArg", "tag"]
 - !private ["Ps7CVarArg", "value"]
+- ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
 - !private ["Ps28CustomDebugStringConvertible", "CGRect"]
@@ -141,6 +144,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "width"]
 - !private ["Ps28CustomDebugStringConvertible", "x"]
 - !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "height"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
@@ -175,6 +179,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "setNeedsDisplay"]
 - !private ["Ps23CustomStringConvertible", "tag"]
 - !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
 - !private ["Sd", "init"]
 - !private ["Ps9Equatable", "CGFloat"]
 - !private ["Ps9Equatable", "CGRect"]
@@ -204,6 +209,7 @@ depends-member:
 - !private ["Ps9Equatable", "width"]
 - !private ["Ps9Equatable", "x"]
 - !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps25ExpressibleByFloatLiteral", "init"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
@@ -232,10 +238,10 @@ depends-member:
 - !private ["Ps8Hashable", "setNeedsDisplay"]
 - !private ["Ps8Hashable", "tag"]
 - !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
 - ["P5Mixer12KnobDelegate", "Double"]
 - ["P5Mixer12KnobDelegate", "Int"]
 - ["P5Mixer12KnobDelegate", "updateKnobValue"]
-- !private ["C5Mixer12KnobStyleKit", "drawKnobOne"]
 - !private ["C5Mixer12KnobStyleKit", "drawKnobOne"]
 - ["C5Mixer8KnobView", "Bool"]
 - ["C5Mixer8KnobView", "CGFloat"]
@@ -249,7 +255,7 @@ depends-member:
 - !private ["C5Mixer8KnobView", "clipsToBounds"]
 - !private ["C5Mixer8KnobView", "contentMode"]
 - ["C5Mixer8KnobView", "deinit"]
-- !private ["C5Mixer8KnobView", "delegate"]
+- ["C5Mixer8KnobView", "delegate"]
 - ["C5Mixer8KnobView", "draw"]
 - ["C5Mixer8KnobView", "init"]
 - !private ["C5Mixer8KnobView", "isUserInteractionEnabled"]
@@ -288,6 +294,7 @@ depends-member:
 - !private ["PSo8NSCoding", "setNeedsDisplay"]
 - !private ["PSo8NSCoding", "tag"]
 - !private ["PSo8NSCoding", "value"]
+- ["PSo8NSCoding", ""]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "CGFloat"]
 - ["CSo8NSObject", "CGPoint"]
@@ -299,7 +306,7 @@ depends-member:
 - !private ["CSo8NSObject", "bounds"]
 - !private ["CSo8NSObject", "clipsToBounds"]
 - !private ["CSo8NSObject", "contentMode"]
-- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "draw"]
 - !private ["CSo8NSObject", "drawKnobOne"]
 - ["CSo8NSObject", "init"]
@@ -338,6 +345,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "setNeedsDisplay"]
 - !private ["PSo16NSObjectProtocol", "tag"]
 - !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
 - !private ["P8AudioKit7Numeric", "init"]
 - !private ["Ps16RawRepresentable", "redraw"]
 - !private ["Ps16RawRepresentable", "scaleAspectFit"]
@@ -363,6 +371,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "setNeedsDisplay"]
 - !private ["PSo29UIAccessibilityIdentification", "tag"]
 - !private ["PSo29UIAccessibilityIdentification", "value"]
+- ["PSo29UIAccessibilityIdentification", ""]
 - !private ["PSo12UIAppearance", "CGFloat"]
 - !private ["PSo12UIAppearance", "CGRect"]
 - !private ["PSo12UIAppearance", "Double"]
@@ -383,6 +392,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "setNeedsDisplay"]
 - !private ["PSo12UIAppearance", "tag"]
 - !private ["PSo12UIAppearance", "value"]
+- ["PSo12UIAppearance", ""]
 - !private ["PSo21UIAppearanceContainer", "CGFloat"]
 - !private ["PSo21UIAppearanceContainer", "CGRect"]
 - !private ["PSo21UIAppearanceContainer", "Double"]
@@ -403,6 +413,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "setNeedsDisplay"]
 - !private ["PSo21UIAppearanceContainer", "tag"]
 - !private ["PSo21UIAppearanceContainer", "value"]
+- ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo17UICoordinateSpace", "CGFloat"]
 - !private ["PSo17UICoordinateSpace", "CGRect"]
 - !private ["PSo17UICoordinateSpace", "Double"]
@@ -423,6 +434,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "setNeedsDisplay"]
 - !private ["PSo17UICoordinateSpace", "tag"]
 - !private ["PSo17UICoordinateSpace", "value"]
+- ["PSo17UICoordinateSpace", ""]
 - !private ["PSo13UIDynamicItem", "CGFloat"]
 - !private ["PSo13UIDynamicItem", "CGRect"]
 - !private ["PSo13UIDynamicItem", "Double"]
@@ -443,6 +455,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "setNeedsDisplay"]
 - !private ["PSo13UIDynamicItem", "tag"]
 - !private ["PSo13UIDynamicItem", "value"]
+- ["PSo13UIDynamicItem", ""]
 - !private ["PSo18UIFocusEnvironment", "CGFloat"]
 - !private ["PSo18UIFocusEnvironment", "CGRect"]
 - !private ["PSo18UIFocusEnvironment", "Double"]
@@ -463,6 +476,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "setNeedsDisplay"]
 - !private ["PSo18UIFocusEnvironment", "tag"]
 - !private ["PSo18UIFocusEnvironment", "value"]
+- ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "CGFloat"]
 - !private ["PSo11UIFocusItem", "CGRect"]
 - !private ["PSo11UIFocusItem", "Double"]
@@ -483,6 +497,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "setNeedsDisplay"]
 - !private ["PSo11UIFocusItem", "tag"]
 - !private ["PSo11UIFocusItem", "value"]
+- ["PSo11UIFocusItem", ""]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CGFloat"]
 - ["CSo11UIResponder", "CGPoint"]
@@ -494,7 +509,7 @@ depends-member:
 - !private ["CSo11UIResponder", "bounds"]
 - !private ["CSo11UIResponder", "clipsToBounds"]
 - !private ["CSo11UIResponder", "contentMode"]
-- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "delegate"]
 - ["CSo11UIResponder", "draw"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "isUserInteractionEnabled"]
@@ -531,6 +546,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "setNeedsDisplay"]
 - !private ["PSo30UIResponderStandardEditActions", "tag"]
 - !private ["PSo30UIResponderStandardEditActions", "value"]
+- ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo18UITraitEnvironment", "CGFloat"]
 - !private ["PSo18UITraitEnvironment", "CGRect"]
 - !private ["PSo18UITraitEnvironment", "Double"]
@@ -551,6 +567,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "setNeedsDisplay"]
 - !private ["PSo18UITraitEnvironment", "tag"]
 - !private ["PSo18UITraitEnvironment", "value"]
+- ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "Bool"]
 - ["CSo6UIView", "CGFloat"]
 - ["CSo6UIView", "CGPoint"]
@@ -562,7 +579,7 @@ depends-member:
 - !private ["CSo6UIView", "bounds"]
 - !private ["CSo6UIView", "clipsToBounds"]
 - !private ["CSo6UIView", "contentMode"]
-- !private ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "delegate"]
 - ["CSo6UIView", "draw"]
 - ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "isUserInteractionEnabled"]
@@ -604,6 +621,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsDisplay"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tag"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "value"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
@@ -631,6 +649,7 @@ depends-member:
 - !private ["Ps9_Hashable", "setNeedsDisplay"]
 - !private ["Ps9_Hashable", "tag"]
 - !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", ""]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "height"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
@@ -641,57 +660,56 @@ depends-member:
 depends-nominal:
 - !private "P8AudioKit11AKParameter"
 - !private "Ps16AbsoluteValuable"
-- !private "Ps9AnyObject"
+- "Ps9AnyObject"
 - !private "Ps19BinaryFloatingPoint"
 - !private "Sb"
-- !private "PSo15CALayerDelegate"
+- "PSo15CALayerDelegate"
 - !private "V12CoreGraphics7CGFloat"
 - !private "VSC7CGPoint"
 - !private "VSC6CGRect"
-- !private "Ps7CVarArg"
+- "Ps7CVarArg"
 - !private "Ps10Comparable"
-- !private "Ps28CustomDebugStringConvertible"
+- "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
-- !private "Ps23CustomStringConvertible"
+- "Ps23CustomStringConvertible"
 - !private "Sd"
-- !private "Ps9Equatable"
+- "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
 - !private "Ps13FloatingPoint"
-- !private "Ps8Hashable"
+- "Ps8Hashable"
 - "P5Mixer12KnobDelegate"
-- !private "C5Mixer12KnobStyleKit"
 - !private "C5Mixer12KnobStyleKit"
 - "C5Mixer8KnobView"
 - !private "Ps25LosslessStringConvertible"
-- !private "PSo8NSCoding"
+- "PSo8NSCoding"
 - "CSo8NSObject"
-- !private "PSo16NSObjectProtocol"
+- "PSo16NSObjectProtocol"
 - !private "P8AudioKit7Numeric"
 - !private "Ps16RawRepresentable"
 - !private "Ps12SignedNumber"
 - !private "Ps10Strideable"
-- !private "PSo29UIAccessibilityIdentification"
-- !private "PSo12UIAppearance"
-- !private "PSo21UIAppearanceContainer"
-- !private "PSo17UICoordinateSpace"
-- !private "PSo13UIDynamicItem"
-- !private "PSo18UIFocusEnvironment"
-- !private "PSo11UIFocusItem"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
 - "CSo11UIResponder"
-- !private "PSo30UIResponderStandardEditActions"
-- !private "PSo18UITraitEnvironment"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
 - "CSo6UIView"
 - !private "OSC17UIViewContentMode"
 - !private "Ps15_CVarArgAligned"
 - !private "Ps22_CVarArgPassedAsDouble"
-- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps33_ExpressibleByBuiltinFloatLiteral"
 - !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
-- !private "Ps9_Hashable"
+- "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:

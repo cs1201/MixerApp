@@ -2,14 +2,16 @@
 //  muteButton.swift
 //  Mixer
 //
-//  Created by cs1201 on 12/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
-//  Sourced from Sean Allen Youtube
+//  Created by Y1480077 on 12/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
+
+// Custom Toggle Mute button with two UI states
+//  Adapted from tutorial code from Sean Allen: https://www.youtube.com/watch?v=14rwyDsFma8&t=486s
 
 import UIKit
 
 class muteButton: UIButton {
-
+    //is selected toggle
     var isOn = true
     
     //Required overrides for editing UIbutton
@@ -37,7 +39,7 @@ class muteButton: UIButton {
     func activateButton(bool: Bool) {
         
         isOn = bool
-        
+        //Change button and title colours based on selected state
         let color = bool ? UIColor.darkGray : UIColor.red
         let titleColor = bool ? UIColor.red : UIColor.black
         

@@ -120,7 +120,7 @@ depends-member:
 - ["Ps7CVarArg", ""]
 - ["P5Mixer16CompKnobDelegate", "Double"]
 - ["P5Mixer16CompKnobDelegate", "Int"]
-- ["P5Mixer16CompKnobDelegate", "updateKnobValue"]
+- ["P5Mixer16CompKnobDelegate", "updateCompKnobValue"]
 - !private ["C5Mixer16CompKnobStyleKit", "drawCompKnobOne"]
 - ["C5Mixer12CompKnobView", "Bool"]
 - ["C5Mixer12CompKnobView", "CGFloat"]
@@ -832,4 +832,4 @@ depends-external:
 - "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
 - "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
 - "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
-interface-hash: "82a13033357b7ef1668b4fd5513fb693"
+interface-hash: "59b9bb5ee39224484cfaf32a5ea6e480"

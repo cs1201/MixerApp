@@ -1,10 +1,10 @@
 //
 //  Knob+Touches.swift
-//  Swift Synth
-//
-//  Created by Matthew Fecher on 1/9/16.
-//  Copyright © 2016 AudioKit. All rights reserved.
-//
+
+//  Adapted by Y1480077 from: https://github.com/AudioKit/AudioKit/tree/master/Examples/iOS/AnalogSynthX/AnalogSynthX
+//  Copyright © 2017 Y1480077. All rights reserved.
+
+// Custom rotary knob
 
 import UIKit
 

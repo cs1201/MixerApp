@@ -11,19 +11,32 @@
 		A17560CF1F5071D90024BC99 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A17560CD1F5071D80024BC99 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B33AD96E1F90F74100EFE929 /* verticalMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33AD96D1F90F74100EFE929 /* verticalMeter.swift */; };
 		B33AD9701F90F7A700EFE929 /* meterImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B33AD96F1F90F7A700EFE929 /* meterImage.png */; };
+		B33E88391FF44EDE0083290E /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E88381FF44EDE0083290E /* TrackViewController.swift */; };
 		B360FB351F8F7BF000B04F9E /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B360FB341F8F7BF000B04F9E /* startViewController.swift */; };
-		B37119CB1F8FCF1400FC766C /* 12_LeadVox2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119BE1F8FCF1400FC766C /* 12_LeadVox2.wav */; };
-		B37119CC1F8FCF1400FC766C /* 10_ElecGtr3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119BF1F8FCF1400FC766C /* 10_ElecGtr3.wav */; };
-		B37119CD1F8FCF1400FC766C /* 11_LeadVox1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C01F8FCF1400FC766C /* 11_LeadVox1.wav */; };
-		B37119CE1F8FCF1400FC766C /* 09_ElecGtr2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C11F8FCF1400FC766C /* 09_ElecGtr2.wav */; };
-		B37119CF1F8FCF1400FC766C /* 07_BassAmp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C21F8FCF1400FC766C /* 07_BassAmp.wav */; };
-		B37119D01F8FCF1400FC766C /* 08_ElecGtr1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C31F8FCF1400FC766C /* 08_ElecGtr1.wav */; };
-		B37119D11F8FCF1400FC766C /* 05_Tom2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C41F8FCF1400FC766C /* 05_Tom2.wav */; };
-		B37119D21F8FCF1400FC766C /* 06_BassDI.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C51F8FCF1400FC766C /* 06_BassDI.wav */; };
-		B37119D31F8FCF1400FC766C /* 03_Overheads.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C61F8FCF1400FC766C /* 03_Overheads.wav */; };
-		B37119D41F8FCF1400FC766C /* 04_Tom1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C71F8FCF1400FC766C /* 04_Tom1.wav */; };
-		B37119D51F8FCF1400FC766C /* 01_Kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C81F8FCF1400FC766C /* 01_Kick.wav */; };
-		B37119D61F8FCF1400FC766C /* 02_Snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = B37119C91F8FCF1400FC766C /* 02_Snare.wav */; };
+		B36D5A12200D0D0C00060D90 /* TransportPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A11200D0D0C00060D90 /* TransportPanel.png */; };
+		B36D5A16200D0ECB00060D90 /* Tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A13200D0ECB00060D90 /* Tutorial.png */; };
+		B36D5A17200D0ECB00060D90 /* BlankPanel_EqComp.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A14200D0ECB00060D90 /* BlankPanel_EqComp.png */; };
+		B36D5A18200D0ECB00060D90 /* BlankPanel_FX.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A15200D0ECB00060D90 /* BlankPanel_FX.png */; };
+		B36D5A1A200D1C2400060D90 /* HomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A19200D1C2400060D90 /* HomeScreen.png */; };
+		B36D5A1C200D21EF00060D90 /* MixerInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A1B200D21EF00060D90 /* MixerInfo.png */; };
+		B36D5A1E200D407A00060D90 /* helpPage.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A1D200D407A00060D90 /* helpPage.png */; };
+		B36D5A20200D491800060D90 /* Launch_landscape2.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A1F200D491800060D90 /* Launch_landscape2.png */; };
+		B36D5A22200D508C00060D90 /* infoPage.png in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A21200D508C00060D90 /* infoPage.png */; };
+		B36D5A32200D573D00060D90 /* electro5.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A2D200D573D00060D90 /* electro5.wav */; };
+		B36D5A33200D573D00060D90 /* electro4.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A2E200D573D00060D90 /* electro4.wav */; };
+		B36D5A34200D573D00060D90 /* electro3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A2F200D573D00060D90 /* electro3.wav */; };
+		B36D5A35200D573D00060D90 /* electro2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A30200D573D00060D90 /* electro2.wav */; };
+		B36D5A36200D573D00060D90 /* electro1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A31200D573D00060D90 /* electro1.wav */; };
+		B36D5A3E200D5AF700060D90 /* pop5.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A39200D5AF700060D90 /* pop5.wav */; };
+		B36D5A3F200D5AF700060D90 /* pop4.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A3A200D5AF700060D90 /* pop4.wav */; };
+		B36D5A40200D5AF700060D90 /* pop3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A3B200D5AF700060D90 /* pop3.wav */; };
+		B36D5A41200D5AF700060D90 /* pop2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A3C200D5AF700060D90 /* pop2.wav */; };
+		B36D5A42200D5AF700060D90 /* pop1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A3D200D5AF700060D90 /* pop1.wav */; };
+		B36D5A4D200D83C800060D90 /* rock3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A48200D83C700060D90 /* rock3.wav */; };
+		B36D5A4E200D83C800060D90 /* rock2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A49200D83C700060D90 /* rock2.wav */; };
+		B36D5A4F200D83C800060D90 /* rock1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A4A200D83C700060D90 /* rock1.wav */; };
+		B36D5A52200D876D00060D90 /* rock4.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A50200D876D00060D90 /* rock4.wav */; };
+		B36D5A53200D876D00060D90 /* rock5.wav in Resources */ = {isa = PBXBuildFile; fileRef = B36D5A51200D876D00060D90 /* rock5.wav */; };
 		B37119DC1F8FD92000FC766C /* fader.png in Resources */ = {isa = PBXBuildFile; fileRef = B37119DB1F8FD92000FC766C /* fader.png */; };
 		B37119E01F8FDF7800FC766C /* verticalFader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37119DF1F8FDF7800FC766C /* verticalFader.swift */; };
 		B37119E21F8FE20200FC766C /* horizontalFader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37119E11F8FE20200FC766C /* horizontalFader.swift */; };
@@ -41,6 +54,40 @@
 		B38D12831F9CC3DC007092A2 /* Entypo_25be(0)_48.png in Resources */ = {isa = PBXBuildFile; fileRef = B38D12821F9CC3DC007092A2 /* Entypo_25be(0)_48.png */; };
 		B38D12871F9FE9B9007092A2 /* CompViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D12861F9FE9B9007092A2 /* CompViewController.swift */; };
 		B3AF95201F963BE30002CF60 /* EQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AF951F1F963BE30002CF60 /* EQViewController.swift */; };
+		B3B1DEF41FF52945002E6A5F /* jazz5.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DEEF1FF52945002E6A5F /* jazz5.wav */; };
+		B3B1DEF51FF52945002E6A5F /* jazz4.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DEF01FF52945002E6A5F /* jazz4.wav */; };
+		B3B1DEF61FF52945002E6A5F /* jazz3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DEF11FF52945002E6A5F /* jazz3.wav */; };
+		B3B1DEF71FF52945002E6A5F /* jazz2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DEF21FF52945002E6A5F /* jazz2.wav */; };
+		B3B1DEF81FF52945002E6A5F /* jazz1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DEF31FF52945002E6A5F /* jazz1.wav */; };
+		B3B1DF121FF53A36002E6A5F /* choral5.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF0D1FF53A36002E6A5F /* choral5.wav */; };
+		B3B1DF131FF53A36002E6A5F /* choral4.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF0E1FF53A36002E6A5F /* choral4.wav */; };
+		B3B1DF141FF53A36002E6A5F /* choral3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF0F1FF53A36002E6A5F /* choral3.wav */; };
+		B3B1DF151FF53A36002E6A5F /* choral2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF101FF53A36002E6A5F /* choral2.wav */; };
+		B3B1DF161FF53A36002E6A5F /* choral1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF111FF53A36002E6A5F /* choral1.wav */; };
+		B3B1DF181FF54551002E6A5F /* masterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1DF171FF54551002E6A5F /* masterViewController.swift */; };
+		B3B1DF1A1FF6BEC9002E6A5F /* loop.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF191FF6BEC9002E6A5F /* loop.png */; };
+		B3B1DF1C1FF6BF46002E6A5F /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF1B1FF6BF46002E6A5F /* rewind.png */; };
+		B3B1DF1E1FF6D348002E6A5F /* tutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1DF1D1FF6D348002E6A5F /* tutorialViewController.swift */; };
+		B3B1DF201FF6D923002E6A5F /* tutorialAudioMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1DF1F1FF6D923002E6A5F /* tutorialAudioMixer.swift */; };
+		B3B1DF241FFA8713002E6A5F /* GEQ-Fader.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF231FFA8713002E6A5F /* GEQ-Fader.png */; };
+		B3B1DF261FFA8EF7002E6A5F /* FaderStrip.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF251FFA8EF7002E6A5F /* FaderStrip.png */; };
+		B3B1DF281FFA9817002E6A5F /* EQ-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF271FFA9817002E6A5F /* EQ-Background.png */; };
+		B3B1DF2A1FFAAA36002E6A5F /* Fader-Strip.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF291FFAAA36002E6A5F /* Fader-Strip.png */; };
+		B3B1DF2C1FFAF809002E6A5F /* FX-Rack.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF2B1FFAF809002E6A5F /* FX-Rack.png */; };
+		B3B1DF2E1FFAF9AB002E6A5F /* Pan-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF2D1FFAF9AB002E6A5F /* Pan-Background.png */; };
+		B3B1DF301FFAFA73002E6A5F /* MIxer-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF2F1FFAFA73002E6A5F /* MIxer-BG.png */; };
+		B3B1DF321FFB0042002E6A5F /* FX-Masters.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF311FFB0042002E6A5F /* FX-Masters.png */; };
+		B3B1DF341FFB0A19002E6A5F /* Comp-Panel.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF331FFB0A19002E6A5F /* Comp-Panel.png */; };
+		B3B1DF361FFBC0C2002E6A5F /* FX-SendRack.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF351FFBC0C2002E6A5F /* FX-SendRack.png */; };
+		B3B1DF381FFBD6A2002E6A5F /* WaveformPlayheadStrip.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF371FFBD6A2002E6A5F /* WaveformPlayheadStrip.png */; };
+		B3B1DF3A1FFC07BA002E6A5F /* Song-SelectPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF391FFC07BA002E6A5F /* Song-SelectPanel.png */; };
+		B3B1DF3C1FFC1207002E6A5F /* GraphicPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF3B1FFC1207002E6A5F /* GraphicPanel.png */; };
+		B3B1DF401FFFCEF3002E6A5F /* Master_Fader.png in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF3F1FFFCEF3002E6A5F /* Master_Fader.png */; };
+		B3B1DF5120000B94002E6A5F /* metal5.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF4C20000B94002E6A5F /* metal5.wav */; };
+		B3B1DF5220000B94002E6A5F /* metal4.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF4D20000B94002E6A5F /* metal4.wav */; };
+		B3B1DF5320000B94002E6A5F /* metal3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF4E20000B94002E6A5F /* metal3.wav */; };
+		B3B1DF5420000B94002E6A5F /* metal2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF4F20000B94002E6A5F /* metal2.wav */; };
+		B3B1DF5520000B94002E6A5F /* metal1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3B1DF5020000B94002E6A5F /* metal1.wav */; };
 		B3C8C2021FA0D0BF00605E97 /* FXKnobStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C2011FA0D0BF00605E97 /* FXKnobStyleKit.swift */; };
 		B3C8C2041FA0D0CB00605E97 /* FXKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C2031FA0D0CB00605E97 /* FXKnobView.swift */; };
 		B3C8C2061FA0D0D400605E97 /* FXKnob+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C8C2051FA0D0D400605E97 /* FXKnob+Touches.swift */; };
@@ -54,10 +101,6 @@
 		E43600621CD77AE900809924 /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43600611CD77AE900809924 /* MixerTests.swift */; };
 		E436006D1CD77AE900809924 /* MixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436006C1CD77AE900809924 /* MixerUITests.swift */; };
 		E43600801CD77B8700809924 /* AudioMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436007F1CD77B8700809924 /* AudioMixer.swift */; };
-		E4AA6D151D3EFE9B0081A107 /* bassloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E43600811CD77C1A00809924 /* bassloop.wav */; };
-		E4AA6D161D3EFEA10081A107 /* drumloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E43600821CD77C1A00809924 /* drumloop.wav */; };
-		E4AA6D171D3EFEA30081A107 /* guitarloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E43600831CD77C1A00809924 /* guitarloop.wav */; };
-		E4AA6D181D3EFEA50081A107 /* leadloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E43600841CD77C1A00809924 /* leadloop.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,19 +138,32 @@
 		A17560CD1F5071D80024BC99 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
 		B33AD96D1F90F74100EFE929 /* verticalMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verticalMeter.swift; sourceTree = "<group>"; };
 		B33AD96F1F90F7A700EFE929 /* meterImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meterImage.png; sourceTree = "<group>"; };
+		B33E88381FF44EDE0083290E /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		B360FB341F8F7BF000B04F9E /* startViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
-		B37119BE1F8FCF1400FC766C /* 12_LeadVox2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12_LeadVox2.wav; sourceTree = "<group>"; };
-		B37119BF1F8FCF1400FC766C /* 10_ElecGtr3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10_ElecGtr3.wav; sourceTree = "<group>"; };
-		B37119C01F8FCF1400FC766C /* 11_LeadVox1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 11_LeadVox1.wav; sourceTree = "<group>"; };
-		B37119C11F8FCF1400FC766C /* 09_ElecGtr2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 09_ElecGtr2.wav; sourceTree = "<group>"; };
-		B37119C21F8FCF1400FC766C /* 07_BassAmp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 07_BassAmp.wav; sourceTree = "<group>"; };
-		B37119C31F8FCF1400FC766C /* 08_ElecGtr1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 08_ElecGtr1.wav; sourceTree = "<group>"; };
-		B37119C41F8FCF1400FC766C /* 05_Tom2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 05_Tom2.wav; sourceTree = "<group>"; };
-		B37119C51F8FCF1400FC766C /* 06_BassDI.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 06_BassDI.wav; sourceTree = "<group>"; };
-		B37119C61F8FCF1400FC766C /* 03_Overheads.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 03_Overheads.wav; sourceTree = "<group>"; };
-		B37119C71F8FCF1400FC766C /* 04_Tom1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 04_Tom1.wav; sourceTree = "<group>"; };
-		B37119C81F8FCF1400FC766C /* 01_Kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 01_Kick.wav; sourceTree = "<group>"; };
-		B37119C91F8FCF1400FC766C /* 02_Snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 02_Snare.wav; sourceTree = "<group>"; };
+		B36D5A11200D0D0C00060D90 /* TransportPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TransportPanel.png; sourceTree = "<group>"; };
+		B36D5A13200D0ECB00060D90 /* Tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial.png; sourceTree = "<group>"; };
+		B36D5A14200D0ECB00060D90 /* BlankPanel_EqComp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlankPanel_EqComp.png; sourceTree = "<group>"; };
+		B36D5A15200D0ECB00060D90 /* BlankPanel_FX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlankPanel_FX.png; sourceTree = "<group>"; };
+		B36D5A19200D1C2400060D90 /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
+		B36D5A1B200D21EF00060D90 /* MixerInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MixerInfo.png; sourceTree = "<group>"; };
+		B36D5A1D200D407A00060D90 /* helpPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpPage.png; sourceTree = "<group>"; };
+		B36D5A1F200D491800060D90 /* Launch_landscape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch_landscape2.png; sourceTree = "<group>"; };
+		B36D5A21200D508C00060D90 /* infoPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoPage.png; sourceTree = "<group>"; };
+		B36D5A2D200D573D00060D90 /* electro5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electro5.wav; sourceTree = "<group>"; };
+		B36D5A2E200D573D00060D90 /* electro4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electro4.wav; sourceTree = "<group>"; };
+		B36D5A2F200D573D00060D90 /* electro3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electro3.wav; sourceTree = "<group>"; };
+		B36D5A30200D573D00060D90 /* electro2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electro2.wav; sourceTree = "<group>"; };
+		B36D5A31200D573D00060D90 /* electro1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electro1.wav; sourceTree = "<group>"; };
+		B36D5A39200D5AF700060D90 /* pop5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop5.wav; sourceTree = "<group>"; };
+		B36D5A3A200D5AF700060D90 /* pop4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop4.wav; sourceTree = "<group>"; };
+		B36D5A3B200D5AF700060D90 /* pop3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop3.wav; sourceTree = "<group>"; };
+		B36D5A3C200D5AF700060D90 /* pop2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop2.wav; sourceTree = "<group>"; };
+		B36D5A3D200D5AF700060D90 /* pop1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop1.wav; sourceTree = "<group>"; };
+		B36D5A48200D83C700060D90 /* rock3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock3.wav; sourceTree = "<group>"; };
+		B36D5A49200D83C700060D90 /* rock2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock2.wav; sourceTree = "<group>"; };
+		B36D5A4A200D83C700060D90 /* rock1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock1.wav; sourceTree = "<group>"; };
+		B36D5A50200D876D00060D90 /* rock4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock4.wav; sourceTree = "<group>"; };
+		B36D5A51200D876D00060D90 /* rock5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock5.wav; sourceTree = "<group>"; };
 		B37119DB1F8FD92000FC766C /* fader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fader.png; sourceTree = "<group>"; };
 		B37119DF1F8FDF7800FC766C /* verticalFader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verticalFader.swift; sourceTree = "<group>"; };
 		B37119E11F8FE20200FC766C /* horizontalFader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = horizontalFader.swift; sourceTree = "<group>"; };
@@ -125,6 +181,40 @@
 		B38D12821F9CC3DC007092A2 /* Entypo_25be(0)_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Entypo_25be(0)_48.png"; sourceTree = "<group>"; };
 		B38D12861F9FE9B9007092A2 /* CompViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompViewController.swift; sourceTree = "<group>"; };
 		B3AF951F1F963BE30002CF60 /* EQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EQViewController.swift; sourceTree = "<group>"; };
+		B3B1DEEF1FF52945002E6A5F /* jazz5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jazz5.wav; sourceTree = "<group>"; };
+		B3B1DEF01FF52945002E6A5F /* jazz4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jazz4.wav; sourceTree = "<group>"; };
+		B3B1DEF11FF52945002E6A5F /* jazz3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jazz3.wav; sourceTree = "<group>"; };
+		B3B1DEF21FF52945002E6A5F /* jazz2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jazz2.wav; sourceTree = "<group>"; };
+		B3B1DEF31FF52945002E6A5F /* jazz1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jazz1.wav; sourceTree = "<group>"; };
+		B3B1DF0D1FF53A36002E6A5F /* choral5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = choral5.wav; sourceTree = "<group>"; };
+		B3B1DF0E1FF53A36002E6A5F /* choral4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = choral4.wav; sourceTree = "<group>"; };
+		B3B1DF0F1FF53A36002E6A5F /* choral3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = choral3.wav; sourceTree = "<group>"; };
+		B3B1DF101FF53A36002E6A5F /* choral2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = choral2.wav; sourceTree = "<group>"; };
+		B3B1DF111FF53A36002E6A5F /* choral1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = choral1.wav; sourceTree = "<group>"; };
+		B3B1DF171FF54551002E6A5F /* masterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masterViewController.swift; sourceTree = "<group>"; };
+		B3B1DF191FF6BEC9002E6A5F /* loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loop.png; sourceTree = "<group>"; };
+		B3B1DF1B1FF6BF46002E6A5F /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		B3B1DF1D1FF6D348002E6A5F /* tutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialViewController.swift; sourceTree = "<group>"; };
+		B3B1DF1F1FF6D923002E6A5F /* tutorialAudioMixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialAudioMixer.swift; sourceTree = "<group>"; };
+		B3B1DF231FFA8713002E6A5F /* GEQ-Fader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GEQ-Fader.png"; sourceTree = "<group>"; };
+		B3B1DF251FFA8EF7002E6A5F /* FaderStrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaderStrip.png; sourceTree = "<group>"; };
+		B3B1DF271FFA9817002E6A5F /* EQ-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EQ-Background.png"; sourceTree = "<group>"; };
+		B3B1DF291FFAAA36002E6A5F /* Fader-Strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fader-Strip.png"; sourceTree = "<group>"; };
+		B3B1DF2B1FFAF809002E6A5F /* FX-Rack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FX-Rack.png"; sourceTree = "<group>"; };
+		B3B1DF2D1FFAF9AB002E6A5F /* Pan-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pan-Background.png"; sourceTree = "<group>"; };
+		B3B1DF2F1FFAFA73002E6A5F /* MIxer-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MIxer-BG.png"; sourceTree = "<group>"; };
+		B3B1DF311FFB0042002E6A5F /* FX-Masters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FX-Masters.png"; sourceTree = "<group>"; };
+		B3B1DF331FFB0A19002E6A5F /* Comp-Panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Comp-Panel.png"; sourceTree = "<group>"; };
+		B3B1DF351FFBC0C2002E6A5F /* FX-SendRack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FX-SendRack.png"; sourceTree = "<group>"; };
+		B3B1DF371FFBD6A2002E6A5F /* WaveformPlayheadStrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaveformPlayheadStrip.png; sourceTree = "<group>"; };
+		B3B1DF391FFC07BA002E6A5F /* Song-SelectPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Song-SelectPanel.png"; sourceTree = "<group>"; };
+		B3B1DF3B1FFC1207002E6A5F /* GraphicPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GraphicPanel.png; sourceTree = "<group>"; };
+		B3B1DF3F1FFFCEF3002E6A5F /* Master_Fader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Master_Fader.png; sourceTree = "<group>"; };
+		B3B1DF4C20000B94002E6A5F /* metal5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metal5.wav; sourceTree = "<group>"; };
+		B3B1DF4D20000B94002E6A5F /* metal4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metal4.wav; sourceTree = "<group>"; };
+		B3B1DF4E20000B94002E6A5F /* metal3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metal3.wav; sourceTree = "<group>"; };
+		B3B1DF4F20000B94002E6A5F /* metal2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metal2.wav; sourceTree = "<group>"; };
+		B3B1DF5020000B94002E6A5F /* metal1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metal1.wav; sourceTree = "<group>"; };
 		B3C8C2011FA0D0BF00605E97 /* FXKnobStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXKnobStyleKit.swift; sourceTree = "<group>"; };
 		B3C8C2031FA0D0CB00605E97 /* FXKnobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXKnobView.swift; sourceTree = "<group>"; };
 		B3C8C2051FA0D0D400605E97 /* FXKnob+Touches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FXKnob+Touches.swift"; sourceTree = "<group>"; };
@@ -144,10 +234,6 @@
 		E436006C1CD77AE900809924 /* MixerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerUITests.swift; sourceTree = "<group>"; };
 		E436006E1CD77AE900809924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E436007F1CD77B8700809924 /* AudioMixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioMixer.swift; sourceTree = "<group>"; };
-		E43600811CD77C1A00809924 /* bassloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bassloop.wav; sourceTree = "<group>"; };
-		E43600821CD77C1A00809924 /* drumloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drumloop.wav; sourceTree = "<group>"; };
-		E43600831CD77C1A00809924 /* guitarloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitarloop.wav; sourceTree = "<group>"; };
-		E43600841CD77C1A00809924 /* leadloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = leadloop.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +262,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B36D5A43200D7A8800060D90 /* Mixer */ = {
+			isa = PBXGroup;
+			children = (
+				E436004E1CD77AE900809924 /* ViewController.swift */,
+				E436007F1CD77B8700809924 /* AudioMixer.swift */,
+				B36D5A45200D7ACF00060D90 /* Container Views */,
+			);
+			name = Mixer;
+			sourceTree = "<group>";
+		};
+		B36D5A44200D7AA800060D90 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1DF1D1FF6D348002E6A5F /* tutorialViewController.swift */,
+				B3B1DF1F1FF6D923002E6A5F /* tutorialAudioMixer.swift */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		B36D5A45200D7ACF00060D90 /* Container Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3AF951F1F963BE30002CF60 /* EQViewController.swift */,
+				B38D12861F9FE9B9007092A2 /* CompViewController.swift */,
+				B3C8C2081FA0DC9100605E97 /* FXViewController.swift */,
+				B3C8C20A1FA2368A00605E97 /* FXEditViewController.swift */,
+				B3B1DF171FF54551002E6A5F /* masterViewController.swift */,
+				B33E88381FF44EDE0083290E /* TrackViewController.swift */,
+			);
+			name = "Container Views";
+			sourceTree = "<group>";
+		};
 		B38D126D1F9B912A007092A2 /* Knob */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +345,81 @@
 			name = "Comp Knob";
 			sourceTree = "<group>";
 		};
+		B3B1DF4B20000B18002E6A5F /* Song Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36D5A51200D876D00060D90 /* rock5.wav */,
+				B36D5A50200D876D00060D90 /* rock4.wav */,
+				B36D5A48200D83C700060D90 /* rock3.wav */,
+				B36D5A49200D83C700060D90 /* rock2.wav */,
+				B36D5A4A200D83C700060D90 /* rock1.wav */,
+				B36D5A39200D5AF700060D90 /* pop5.wav */,
+				B36D5A3A200D5AF700060D90 /* pop4.wav */,
+				B36D5A3B200D5AF700060D90 /* pop3.wav */,
+				B36D5A3C200D5AF700060D90 /* pop2.wav */,
+				B36D5A3D200D5AF700060D90 /* pop1.wav */,
+				B36D5A2D200D573D00060D90 /* electro5.wav */,
+				B36D5A2E200D573D00060D90 /* electro4.wav */,
+				B36D5A2F200D573D00060D90 /* electro3.wav */,
+				B36D5A30200D573D00060D90 /* electro2.wav */,
+				B36D5A31200D573D00060D90 /* electro1.wav */,
+				B3B1DEEF1FF52945002E6A5F /* jazz5.wav */,
+				B3B1DF4C20000B94002E6A5F /* metal5.wav */,
+				B3B1DF4D20000B94002E6A5F /* metal4.wav */,
+				B3B1DF4E20000B94002E6A5F /* metal3.wav */,
+				B3B1DF4F20000B94002E6A5F /* metal2.wav */,
+				B3B1DF5020000B94002E6A5F /* metal1.wav */,
+				B3B1DEF01FF52945002E6A5F /* jazz4.wav */,
+				B3B1DEF11FF52945002E6A5F /* jazz3.wav */,
+				B3B1DEF21FF52945002E6A5F /* jazz2.wav */,
+				B3B1DEF31FF52945002E6A5F /* jazz1.wav */,
+				B3B1DF0D1FF53A36002E6A5F /* choral5.wav */,
+				B3B1DF0E1FF53A36002E6A5F /* choral4.wav */,
+				B3B1DF0F1FF53A36002E6A5F /* choral3.wav */,
+				B3B1DF101FF53A36002E6A5F /* choral2.wav */,
+				B3B1DF111FF53A36002E6A5F /* choral1.wav */,
+			);
+			name = "Song Files";
+			sourceTree = "<group>";
+		};
+		B3B1DF5620000C10002E6A5F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B36D5A21200D508C00060D90 /* infoPage.png */,
+				B36D5A1F200D491800060D90 /* Launch_landscape2.png */,
+				B36D5A1D200D407A00060D90 /* helpPage.png */,
+				B36D5A1B200D21EF00060D90 /* MixerInfo.png */,
+				B36D5A19200D1C2400060D90 /* HomeScreen.png */,
+				B36D5A13200D0ECB00060D90 /* Tutorial.png */,
+				B36D5A14200D0ECB00060D90 /* BlankPanel_EqComp.png */,
+				B36D5A15200D0ECB00060D90 /* BlankPanel_FX.png */,
+				B36D5A11200D0D0C00060D90 /* TransportPanel.png */,
+				B3B1DF251FFA8EF7002E6A5F /* FaderStrip.png */,
+				B3B1DF191FF6BEC9002E6A5F /* loop.png */,
+				B33AD96F1F90F7A700EFE929 /* meterImage.png */,
+				B3B1DF3B1FFC1207002E6A5F /* GraphicPanel.png */,
+				B38D12821F9CC3DC007092A2 /* Entypo_25be(0)_48.png */,
+				B384F9911F964B9000D7670D /* playIcon.png */,
+				B3B1DF1B1FF6BF46002E6A5F /* rewind.png */,
+				B384F9921F964B9000D7670D /* pauseIcon.png */,
+				B3B1DF3F1FFFCEF3002E6A5F /* Master_Fader.png */,
+				B3B1DF331FFB0A19002E6A5F /* Comp-Panel.png */,
+				B384F98F1F9649E500D7670D /* playPauseIcon.png */,
+				B3B1DF2B1FFAF809002E6A5F /* FX-Rack.png */,
+				B3B1DF371FFBD6A2002E6A5F /* WaveformPlayheadStrip.png */,
+				B3B1DF351FFBC0C2002E6A5F /* FX-SendRack.png */,
+				B3B1DF311FFB0042002E6A5F /* FX-Masters.png */,
+				B3B1DF271FFA9817002E6A5F /* EQ-Background.png */,
+				B3B1DF2D1FFAF9AB002E6A5F /* Pan-Background.png */,
+				B3B1DF231FFA8713002E6A5F /* GEQ-Fader.png */,
+				B3B1DF291FFAAA36002E6A5F /* Fader-Strip.png */,
+				B37119DB1F8FD92000FC766C /* fader.png */,
+				B3B1DF391FFC07BA002E6A5F /* Song-SelectPanel.png */,
+				B3B1DF2F1FFAFA73002E6A5F /* MIxer-BG.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
 		B3C8C2071FA0D0E000605E97 /* FX Knob */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,40 +455,16 @@
 			isa = PBXGroup;
 			children = (
 				E436004C1CD77AE900809924 /* AppDelegate.swift */,
-				E436004E1CD77AE900809924 /* ViewController.swift */,
-				B3AF951F1F963BE30002CF60 /* EQViewController.swift */,
-				B38D12861F9FE9B9007092A2 /* CompViewController.swift */,
-				B3C8C2081FA0DC9100605E97 /* FXViewController.swift */,
-				B3C8C20A1FA2368A00605E97 /* FXEditViewController.swift */,
 				B360FB341F8F7BF000B04F9E /* startViewController.swift */,
-				E436007F1CD77B8700809924 /* AudioMixer.swift */,
-				B38D12761F9BC29A007092A2 /* Custom Controls */,
+				B36D5A43200D7A8800060D90 /* Mixer */,
+				B36D5A44200D7AA800060D90 /* Tutorial */,
 				E43600501CD77AE900809924 /* Main.storyboard */,
-				B33AD96F1F90F7A700EFE929 /* meterImage.png */,
-				B38D12821F9CC3DC007092A2 /* Entypo_25be(0)_48.png */,
-				B384F9911F964B9000D7670D /* playIcon.png */,
-				B384F9921F964B9000D7670D /* pauseIcon.png */,
-				B384F98F1F9649E500D7670D /* playPauseIcon.png */,
-				E43600531CD77AE900809924 /* Assets.xcassets */,
 				E43600551CD77AE900809924 /* LaunchScreen.storyboard */,
+				B38D12761F9BC29A007092A2 /* Custom Controls */,
+				B3B1DF4B20000B18002E6A5F /* Song Files */,
+				B3B1DF5620000C10002E6A5F /* Graphics */,
+				E43600531CD77AE900809924 /* Assets.xcassets */,
 				E43600581CD77AE900809924 /* Info.plist */,
-				E43600811CD77C1A00809924 /* bassloop.wav */,
-				E43600821CD77C1A00809924 /* drumloop.wav */,
-				B37119DB1F8FD92000FC766C /* fader.png */,
-				B37119BE1F8FCF1400FC766C /* 12_LeadVox2.wav */,
-				B37119BF1F8FCF1400FC766C /* 10_ElecGtr3.wav */,
-				B37119C01F8FCF1400FC766C /* 11_LeadVox1.wav */,
-				B37119C11F8FCF1400FC766C /* 09_ElecGtr2.wav */,
-				B37119C21F8FCF1400FC766C /* 07_BassAmp.wav */,
-				B37119C31F8FCF1400FC766C /* 08_ElecGtr1.wav */,
-				B37119C41F8FCF1400FC766C /* 05_Tom2.wav */,
-				B37119C51F8FCF1400FC766C /* 06_BassDI.wav */,
-				B37119C61F8FCF1400FC766C /* 03_Overheads.wav */,
-				B37119C71F8FCF1400FC766C /* 04_Tom1.wav */,
-				B37119C81F8FCF1400FC766C /* 01_Kick.wav */,
-				B37119C91F8FCF1400FC766C /* 02_Snare.wav */,
-				E43600831CD77C1A00809924 /* guitarloop.wav */,
-				E43600841CD77C1A00809924 /* leadloop.wav */,
 			);
 			path = Mixer;
 			sourceTree = "<group>";
@@ -387,7 +556,7 @@
 				TargetAttributes = {
 					E43600481CD77AE900809924 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9W3UJK335F;
+						DevelopmentTeam = 2LZ39NG4RS;
 						LastSwiftMigration = 0800;
 					};
 					E436005C1CD77AE900809924 = {
@@ -427,31 +596,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37119D11F8FCF1400FC766C /* 05_Tom2.wav in Resources */,
-				E4AA6D161D3EFEA10081A107 /* drumloop.wav in Resources */,
-				E4AA6D171D3EFEA30081A107 /* guitarloop.wav in Resources */,
+				B3B1DF3A1FFC07BA002E6A5F /* Song-SelectPanel.png in Resources */,
+				B36D5A35200D573D00060D90 /* electro2.wav in Resources */,
+				B3B1DF161FF53A36002E6A5F /* choral1.wav in Resources */,
+				B36D5A18200D0ECB00060D90 /* BlankPanel_FX.png in Resources */,
+				B3B1DF1A1FF6BEC9002E6A5F /* loop.png in Resources */,
+				B3B1DF5420000B94002E6A5F /* metal2.wav in Resources */,
 				B384F9931F964B9000D7670D /* playIcon.png in Resources */,
-				B37119D51F8FCF1400FC766C /* 01_Kick.wav in Resources */,
-				B37119D31F8FCF1400FC766C /* 03_Overheads.wav in Resources */,
+				B3B1DF261FFA8EF7002E6A5F /* FaderStrip.png in Resources */,
+				B36D5A3E200D5AF700060D90 /* pop5.wav in Resources */,
+				B3B1DEF41FF52945002E6A5F /* jazz5.wav in Resources */,
 				B33AD9701F90F7A700EFE929 /* meterImage.png in Resources */,
-				E4AA6D181D3EFEA50081A107 /* leadloop.wav in Resources */,
-				B37119D61F8FCF1400FC766C /* 02_Snare.wav in Resources */,
-				B37119D21F8FCF1400FC766C /* 06_BassDI.wav in Resources */,
+				B36D5A20200D491800060D90 /* Launch_landscape2.png in Resources */,
+				B3B1DF361FFBC0C2002E6A5F /* FX-SendRack.png in Resources */,
+				B3B1DEF71FF52945002E6A5F /* jazz2.wav in Resources */,
+				B3B1DF131FF53A36002E6A5F /* choral4.wav in Resources */,
 				B384F9941F964B9000D7670D /* pauseIcon.png in Resources */,
-				B37119D01F8FCF1400FC766C /* 08_ElecGtr1.wav in Resources */,
-				E4AA6D151D3EFE9B0081A107 /* bassloop.wav in Resources */,
-				B37119CD1F8FCF1400FC766C /* 11_LeadVox1.wav in Resources */,
-				B37119D41F8FCF1400FC766C /* 04_Tom1.wav in Resources */,
+				B3B1DEF61FF52945002E6A5F /* jazz3.wav in Resources */,
+				B3B1DF281FFA9817002E6A5F /* EQ-Background.png in Resources */,
+				B3B1DF381FFBD6A2002E6A5F /* WaveformPlayheadStrip.png in Resources */,
+				B3B1DF151FF53A36002E6A5F /* choral2.wav in Resources */,
+				B36D5A17200D0ECB00060D90 /* BlankPanel_EqComp.png in Resources */,
+				B36D5A52200D876D00060D90 /* rock4.wav in Resources */,
+				B3B1DEF81FF52945002E6A5F /* jazz1.wav in Resources */,
+				B3B1DF321FFB0042002E6A5F /* FX-Masters.png in Resources */,
+				B3B1DF2E1FFAF9AB002E6A5F /* Pan-Background.png in Resources */,
+				B3B1DF5520000B94002E6A5F /* metal1.wav in Resources */,
+				B3B1DF3C1FFC1207002E6A5F /* GraphicPanel.png in Resources */,
+				B36D5A16200D0ECB00060D90 /* Tutorial.png in Resources */,
+				B3B1DF2A1FFAAA36002E6A5F /* Fader-Strip.png in Resources */,
+				B3B1DEF51FF52945002E6A5F /* jazz4.wav in Resources */,
 				B384F9901F9649E500D7670D /* playPauseIcon.png in Resources */,
-				B37119CC1F8FCF1400FC766C /* 10_ElecGtr3.wav in Resources */,
-				B37119CF1F8FCF1400FC766C /* 07_BassAmp.wav in Resources */,
+				B3B1DF301FFAFA73002E6A5F /* MIxer-BG.png in Resources */,
+				B36D5A32200D573D00060D90 /* electro5.wav in Resources */,
+				B36D5A1A200D1C2400060D90 /* HomeScreen.png in Resources */,
+				B36D5A36200D573D00060D90 /* electro1.wav in Resources */,
 				B38D12831F9CC3DC007092A2 /* Entypo_25be(0)_48.png in Resources */,
-				B37119CB1F8FCF1400FC766C /* 12_LeadVox2.wav in Resources */,
-				B37119CE1F8FCF1400FC766C /* 09_ElecGtr2.wav in Resources */,
 				E43600571CD77AE900809924 /* LaunchScreen.storyboard in Resources */,
+				B36D5A4F200D83C800060D90 /* rock1.wav in Resources */,
+				B36D5A12200D0D0C00060D90 /* TransportPanel.png in Resources */,
+				B3B1DF5220000B94002E6A5F /* metal4.wav in Resources */,
+				B36D5A40200D5AF700060D90 /* pop3.wav in Resources */,
+				B36D5A53200D876D00060D90 /* rock5.wav in Resources */,
+				B36D5A33200D573D00060D90 /* electro4.wav in Resources */,
+				B36D5A42200D5AF700060D90 /* pop1.wav in Resources */,
+				B3B1DF241FFA8713002E6A5F /* GEQ-Fader.png in Resources */,
+				B36D5A41200D5AF700060D90 /* pop2.wav in Resources */,
 				E43600541CD77AE900809924 /* Assets.xcassets in Resources */,
+				B3B1DF341FFB0A19002E6A5F /* Comp-Panel.png in Resources */,
+				B3B1DF401FFFCEF3002E6A5F /* Master_Fader.png in Resources */,
+				B3B1DF121FF53A36002E6A5F /* choral5.wav in Resources */,
+				B36D5A4E200D83C800060D90 /* rock2.wav in Resources */,
+				B36D5A1C200D21EF00060D90 /* MixerInfo.png in Resources */,
+				B3B1DF1C1FF6BF46002E6A5F /* rewind.png in Resources */,
 				B37119DC1F8FD92000FC766C /* fader.png in Resources */,
+				B3B1DF5120000B94002E6A5F /* metal5.wav in Resources */,
+				B3B1DF5320000B94002E6A5F /* metal3.wav in Resources */,
 				E43600521CD77AE900809924 /* Main.storyboard in Resources */,
+				B36D5A1E200D407A00060D90 /* helpPage.png in Resources */,
+				B36D5A4D200D83C800060D90 /* rock3.wav in Resources */,
+				B36D5A34200D573D00060D90 /* electro3.wav in Resources */,
+				B3B1DF141FF53A36002E6A5F /* choral3.wav in Resources */,
+				B36D5A3F200D5AF700060D90 /* pop4.wav in Resources */,
+				B36D5A22200D508C00060D90 /* infoPage.png in Resources */,
+				B3B1DF2C1FFAF809002E6A5F /* FX-Rack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,10 +684,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B1DF181FF54551002E6A5F /* masterViewController.swift in Sources */,
 				B37119E21F8FE20200FC766C /* horizontalFader.swift in Sources */,
 				B33AD96E1F90F74100EFE929 /* verticalMeter.swift in Sources */,
 				B3AF95201F963BE30002CF60 /* EQViewController.swift in Sources */,
 				B38D127C1F9BC843007092A2 /* CompKnobStyleKit.swift in Sources */,
+				B3B1DF1E1FF6D348002E6A5F /* tutorialViewController.swift in Sources */,
+				B3B1DF201FF6D923002E6A5F /* tutorialAudioMixer.swift in Sources */,
 				B3C8C2041FA0D0CB00605E97 /* FXKnobView.swift in Sources */,
 				E436004F1CD77AE900809924 /* ViewController.swift in Sources */,
 				B38D12871F9FE9B9007092A2 /* CompViewController.swift in Sources */,
@@ -488,6 +699,7 @@
 				B3C8C2061FA0D0D400605E97 /* FXKnob+Touches.swift in Sources */,
 				B3C8C2091FA0DC9100605E97 /* FXViewController.swift in Sources */,
 				B38D12731F9B9148007092A2 /* Knob+Touches.swift in Sources */,
+				B33E88391FF44EDE0083290E /* TrackViewController.swift in Sources */,
 				B3C8C20B1FA2368A00605E97 /* FXEditViewController.swift in Sources */,
 				B37119E61F900ADE00FC766C /* soloButton.swift in Sources */,
 				E436004D1CD77AE900809924 /* AppDelegate.swift in Sources */,
@@ -645,8 +857,9 @@
 		E43600721CD77AE900809924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9W3UJK335F;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2LZ39NG4RS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -663,8 +876,9 @@
 		E43600731CD77AE900809924 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9W3UJK335F;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2LZ39NG4RS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

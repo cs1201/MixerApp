@@ -2,32 +2,31 @@
 //  FXViewController.swift
 //  Mixer
 //
-//  Created by cs1201 on 25/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
+//  Created by Y1480077 on 25/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
 //
+//
+//  Contains all knob controls for FX Section in specific container view. And handles label returns from AudioMixer.swift
 
 import UIKit
 
 class FXViewController: UIViewController {
-
+    //Outlets to all knobs and labels
     @IBOutlet weak var reverb1_1 : FXKnobView!
     @IBOutlet weak var reverb1_2 : FXKnobView!
     @IBOutlet weak var reverb1_3 : FXKnobView!
     @IBOutlet weak var reverb1_4 : FXKnobView!
     @IBOutlet weak var reverb1_5 : FXKnobView!
-    
     @IBOutlet weak var reverb2_1 : FXKnobView!
     @IBOutlet weak var reverb2_2 : FXKnobView!
     @IBOutlet weak var reverb2_3 : FXKnobView!
     @IBOutlet weak var reverb2_4 : FXKnobView!
     @IBOutlet weak var reverb2_5 : FXKnobView!
-    
     @IBOutlet weak var delay1 : FXKnobView!
     @IBOutlet weak var delay2 : FXKnobView!
     @IBOutlet weak var delay3 : FXKnobView!
     @IBOutlet weak var delay4 : FXKnobView!
     @IBOutlet weak var delay5 : FXKnobView!
-    
     @IBOutlet weak var chorus1 : FXKnobView!
     @IBOutlet weak var chorus2 : FXKnobView!
     @IBOutlet weak var chorus3 : FXKnobView!
@@ -38,42 +37,33 @@ class FXViewController: UIViewController {
     @IBOutlet weak var reverb2_1Label: UILabel!
     @IBOutlet weak var delay1Label: UILabel!
     @IBOutlet weak var chorus1Label: UILabel!
-    
     @IBOutlet weak var reverb1_2Label: UILabel!
     @IBOutlet weak var reverb2_2Label: UILabel!
     @IBOutlet weak var delay2Label: UILabel!
     @IBOutlet weak var chorus2Label: UILabel!
-    
     @IBOutlet weak var reverb1_3Label: UILabel!
     @IBOutlet weak var reverb2_3Label: UILabel!
     @IBOutlet weak var delay3Label: UILabel!
     @IBOutlet weak var chorus3Label: UILabel!
-    
     @IBOutlet weak var reverb1_4Label: UILabel!
     @IBOutlet weak var reverb2_4Label: UILabel!
     @IBOutlet weak var delay4Label: UILabel!
     @IBOutlet weak var chorus4Label: UILabel!
-    
     @IBOutlet weak var reverb1_5Label: UILabel!
     @IBOutlet weak var reverb2_5Label: UILabel!
     @IBOutlet weak var delay5Label: UILabel!
     @IBOutlet weak var chorus5Label: UILabel!
-
-    
     
     var audioMixer: AudioMixerSkeleton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         setDelegates()
-        
+        //Initialise Knobs to 0
         knobInit()
-        
-        
+        //Access shared instance of audioMixer class
         audioMixer = AudioMixerSkeleton.sharedInstance
-
     }
     
 //*****************************************************************
@@ -106,9 +96,8 @@ class FXViewController: UIViewController {
         chorus5.delegate = self
     
     }
-    
+    //initialise  FX Sends knobsto 0
     func knobInit(){
-        
         reverb1_1.value = 0.0
         reverb1_2.value = 0.0
         reverb1_3.value = 0.0
@@ -130,7 +119,6 @@ class FXViewController: UIViewController {
         chorus4.value = 0.0
         chorus5.value = 0.0
     }
-
 }
 
 //*****************************************************************
@@ -140,9 +128,9 @@ class FXViewController: UIViewController {
 extension FXViewController: FXKnobDelegate {
     
     func updateFXKnobValue(_ value: Double, tag: Int){
-        
+        //Send knob value to audioMixer
         audioMixer.FXSends(tag, value)
-        
+        //Update relevant label with percentage of FX send value
         let display = Int(value * 100)
         
         switch(tag){

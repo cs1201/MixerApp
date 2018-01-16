@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Mixer
 //
-//  Created by Nicholas Arner on 5/2/16.
-//  Copyright © 2016 University of York Department of Electronics 
+//  Created by Y1480077
+//  Copyright © 2017 Y1480077
 //
 
 import UIKit

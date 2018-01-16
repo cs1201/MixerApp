@@ -78,6 +78,7 @@ depends-member:
 - !private ["Ps9AnyObject", "shadowOffset"]
 - !private ["Ps9AnyObject", "translateBy"]
 - !private ["Ps9AnyObject", "withAlphaComponent"]
+- ["Ps9AnyObject", ""]
 - !private ["Ps19BinaryFloatingPoint", "pi"]
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
@@ -140,6 +141,7 @@ depends-member:
 - !private ["Ps7CVarArg", "shadowColor"]
 - !private ["Ps7CVarArg", "shadowOffset"]
 - !private ["Ps7CVarArg", "withAlphaComponent"]
+- ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "hashValue"]
 - !private ["Ps10Comparable", "pi"]
 - !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
@@ -177,6 +179,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "x"]
 - !private ["Ps28CustomDebugStringConvertible", "y"]
 - !private ["Ps28CustomDebugStringConvertible", "zero"]
+- ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "height"]
@@ -232,6 +235,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "shadowColor"]
 - !private ["Ps23CustomStringConvertible", "shadowOffset"]
 - !private ["Ps23CustomStringConvertible", "withAlphaComponent"]
+- ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "CGFloat"]
 - !private ["Ps9Equatable", "CGGradient"]
 - !private ["Ps9Equatable", "CGPoint"]
@@ -340,6 +344,7 @@ depends-member:
 - !private ["C5Mixer12KnobStyleKit", "abs"]
 - ["C5Mixer12KnobStyleKit", "deinit"]
 - ["C5Mixer12KnobStyleKit", "drawKnobOne"]
+- ["C5Mixer12KnobStyleKit", "init"]
 - !private ["C5Mixer12KnobStyleKit", "max"]
 - !private ["C5Mixer12KnobStyleKit", "min"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
@@ -393,7 +398,7 @@ depends-member:
 - ["CSo8NSObject", "drawKnobOne"]
 - !private ["CSo8NSObject", "fill"]
 - !private ["CSo8NSObject", "getRed"]
-- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "max"]
 - !private ["CSo8NSObject", "min"]
 - !private ["CSo8NSObject", "setFill"]
@@ -427,6 +432,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "shadowColor"]
 - !private ["PSo16NSObjectProtocol", "shadowOffset"]
 - !private ["PSo16NSObjectProtocol", "withAlphaComponent"]
+- ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "UIColor"]
 - !private ["PSo14NSSecureCoding", "black"]
 - !private ["PSo14NSSecureCoding", "blended"]
@@ -562,7 +568,7 @@ depends-member:
 depends-nominal:
 - !private "P8AudioKit11AKParameter"
 - !private "Ps16AbsoluteValuable"
-- !private "Ps9AnyObject"
+- "Ps9AnyObject"
 - !private "Ps19BinaryFloatingPoint"
 - !private "Ps17BitwiseOperations"
 - !private "Sb"
@@ -574,12 +580,12 @@ depends-nominal:
 - !private "VSC7CGPoint"
 - !private "VSC6CGRect"
 - !private "VSC6CGSize"
-- !private "Ps7CVarArg"
+- "Ps7CVarArg"
 - !private "Ps10Comparable"
-- !private "Ps28CustomDebugStringConvertible"
+- "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
-- !private "Ps23CustomStringConvertible"
+- "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
@@ -595,7 +601,7 @@ depends-nominal:
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - "CSo8NSObject"
-- !private "PSo16NSObjectProtocol"
+- "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSShadow"
 - !private "P8AudioKit7Numeric"

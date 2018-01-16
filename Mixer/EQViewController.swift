@@ -2,14 +2,15 @@
 //  EQViewController.swift
 //  Mixer
 //
-//  Created by cs1201 on 17/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
+//  Created by Y1480077 on 17/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
 //
+//  Contains all knob controls for EQ Section in specific container view. And handles label returns from AudioMixer.swift
 
 import UIKit
 
 class EQViewController: UIViewController {
-    
+   //Outlets to all knob controls
     @IBOutlet weak var lf1Gain: KnobView!
     @IBOutlet weak var lf1Freq: KnobView!
     @IBOutlet weak var mf1Gain: KnobView!
@@ -49,7 +50,7 @@ class EQViewController: UIViewController {
     @IBOutlet weak var mf5Q:    KnobView!
     @IBOutlet weak var hf5Gain: KnobView!
     @IBOutlet weak var hf5Freq: KnobView!
-    
+    //Outlets to all labels
     @IBOutlet weak var lf1GainLabel: UILabel!
     @IBOutlet weak var lf1FreqLabel: UILabel!
     @IBOutlet weak var mf1GainLabel: UILabel!
@@ -89,7 +90,7 @@ class EQViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //Instantiate knob delegates
         lf1Gain.delegate = self
         lf1Freq.delegate = self
         mf1Gain.delegate = self
@@ -130,10 +131,8 @@ class EQViewController: UIViewController {
         hf5Gain.delegate = self
         hf5Freq.delegate = self
         
-        
+        //Access shared instance of audioMixer
         audioMixer = AudioMixerSkeleton.sharedInstance
-        
-        // Do any additional setup after loading the view.
     }
 }
 
@@ -145,11 +144,8 @@ class EQViewController: UIViewController {
 extension EQViewController: KnobDelegate {
     
     func updateKnobValue(_ value: Double, tag: Int) {
-        
-        let returnValue = audioMixer.drumEQ(tag, value)
-        
-        print(tag)
-        print(value)
+        //Send knob value to audioMixer 
+        let returnValue = audioMixer.adjustEQ(tag, value)
         
         switch(tag){
             

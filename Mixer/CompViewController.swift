@@ -2,14 +2,16 @@
 //  CompViewController.swift
 //  Mixer
 //
-//  Created by cs1201 on 24/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
+//  Created by Y1480077 on 24/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
 //
+//
+//  Contains all knob controls for Compressor Section in specific container view. And handles label returns from AudioMixer.swift
 
 import UIKit
 
 class CompViewController: UIViewController {
-    
+    //ALL knobs, labels and on switches
     //COMP1
     @IBOutlet weak var comp1Thresh: CompKnobView!
     @IBOutlet weak var comp1Amount: CompKnobView!
@@ -19,62 +21,47 @@ class CompViewController: UIViewController {
     
     @IBOutlet weak var comp1Meter: verticalMeter!
     @IBOutlet weak var comp1OnLabel: UILabel!
-    
-    
     //COMP2
     @IBOutlet weak var comp2Thresh: CompKnobView!
     @IBOutlet weak var comp2Amount: CompKnobView!
     @IBOutlet weak var comp2Attack: CompKnobView!
     @IBOutlet weak var comp2Release: CompKnobView!
     @IBOutlet weak var comp2Gain: CompKnobView!
-    
     @IBOutlet weak var comp2Meter: verticalMeter!
     @IBOutlet weak var comp2OnLabel: UILabel!
-    
-    
     //COMP3
     @IBOutlet weak var comp3Thresh: CompKnobView!
     @IBOutlet weak var comp3Amount: CompKnobView!
     @IBOutlet weak var comp3Attack: CompKnobView!
     @IBOutlet weak var comp3Release: CompKnobView!
     @IBOutlet weak var comp3Gain: CompKnobView!
-    
     @IBOutlet weak var comp3Meter: verticalMeter!
     @IBOutlet weak var comp3OnLabel: UILabel!
-    
-    
     //COMP4
     @IBOutlet weak var comp4Thresh: CompKnobView!
     @IBOutlet weak var comp4Amount: CompKnobView!
     @IBOutlet weak var comp4Attack: CompKnobView!
     @IBOutlet weak var comp4Release: CompKnobView!
     @IBOutlet weak var comp4Gain: CompKnobView!
-    
     @IBOutlet weak var comp4Meter: verticalMeter!
     @IBOutlet weak var comp4OnLabel: UILabel!
-    
-    
     //COMP5
     @IBOutlet weak var comp5Thresh: CompKnobView!
     @IBOutlet weak var comp5Amount: CompKnobView!
     @IBOutlet weak var comp5Attack: CompKnobView!
     @IBOutlet weak var comp5Release: CompKnobView!
     @IBOutlet weak var comp5Gain: CompKnobView!
-    
     @IBOutlet weak var comp5Meter: verticalMeter!
     @IBOutlet weak var comp5OnLabel: UILabel!
-    
 
-    
-    
-    var meterTimer = Timer()
+    var meterTimer = Timer() //Timer for compressor meters
     var audioMixer: AudioMixerSkeleton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+         //Timer calls meter values every 0.1 seconds
          meterTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: (#selector(self.meterUpdate)), userInfo: nil, repeats: true)
-        
+        //Instantiate all knob delegates
         setDelegates()
         
         //Access a pre-called singleton instance of the audio mixer
@@ -123,13 +110,12 @@ class CompViewController: UIViewController {
     //*****************************************************************
 
     func meterUpdate(){
-        
+        //Update all meter values
         comp1Meter.value = audioMixer.comp1Meter()
         comp2Meter.value = audioMixer.comp2Meter()
         comp3Meter.value = audioMixer.comp3Meter()
         comp4Meter.value = audioMixer.comp4Meter()
         comp5Meter.value = audioMixer.comp5Meter()
-        
     }
     
     //*****************************************************************
@@ -195,9 +181,8 @@ class CompViewController: UIViewController {
 //*****************************************************************
 // MARK: - Knob Delegate
 //*****************************************************************
-
 extension CompViewController: CompKnobDelegate {
-    
+    //Send knob value to audioMixer
     func updateCompKnobValue(_ value: Double, tag: Int){
         audioMixer.compressor(tag, value)
     }

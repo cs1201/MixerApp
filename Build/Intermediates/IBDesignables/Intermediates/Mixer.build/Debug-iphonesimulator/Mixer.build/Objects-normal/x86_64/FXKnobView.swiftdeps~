@@ -215,7 +215,7 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
 - ["P5Mixer14FXKnobDelegate", "Double"]
 - ["P5Mixer14FXKnobDelegate", "Int"]
-- ["P5Mixer14FXKnobDelegate", "updateKnobValue"]
+- ["P5Mixer14FXKnobDelegate", "updateFXKnobValue"]
 - !private ["C5Mixer14FXKnobStyleKit", "drawKnobOne"]
 - ["C5Mixer10FXKnobView", "Bool"]
 - ["C5Mixer10FXKnobView", "CGFloat"]
@@ -832,4 +832,4 @@ depends-external:
 - "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZAudioPlot.h"
 - "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Headers/EZOutput.h"
 - "/Users/Connor/Desktop/iOS Module/4-Mixer/AudioKit.framework/Modules/module.modulemap"
-interface-hash: "0708c4a29ebd83b485fa4a7f6b0ccab2"
+interface-hash: "c24984acf544089a3c18cf2edb8e62da"

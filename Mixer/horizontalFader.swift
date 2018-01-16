@@ -2,9 +2,10 @@
 //  verticalFader.swift
 //  Mixer
 //
-//  Created by cs1201 on 12/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
+//  Created by Y1480077 on 12/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
 //
+// Custom horizontal meter UI element extending UISlider
 
 import UIKit
 

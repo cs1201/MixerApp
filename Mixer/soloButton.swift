@@ -2,9 +2,11 @@
 //  soloButton.swift
 //  Mixer
 //
-//  Created by cs1201 on 12/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
+//  Created by Y1480077 on 12/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
 //
+// Custom Toggle SOlo button with two UI states
+//  Adapted from tutorial code from Sean Allen: https://www.youtube.com/watch?v=14rwyDsFma8&t=486s
 
 import UIKit
 
@@ -38,7 +40,7 @@ class soloButton: UIButton {
     func activateButton(bool: Bool) {
         
         isOn = bool
-        
+        //Change button and title colours based on selected state
         let color = bool ? UIColor.darkGray : UIColor.yellow
         let titleColor = bool ? UIColor.yellow : UIColor.black
         

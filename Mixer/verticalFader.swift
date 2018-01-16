@@ -2,9 +2,10 @@
 //  verticalFader.swift
 //  Mixer
 //
-//  Created by cs1201 on 12/10/2017.
-//  Copyright © 2017 Nicholas Arner. All rights reserved.
+//  Created by Y1480077 on 12/10/2017.
+//  Copyright © 2017 Y1480077. All rights reserved.
 //
+// Custom vertical fader UI element extending UISlider
 
 import UIKit
 
@@ -13,6 +14,7 @@ import UIKit
 class verticalFader: UISlider {
     
     override open func draw(_ rect: CGRect) {
+        //Rotate UISlider 90 degrees to make horizontal
         self.transform = CGAffineTransform(rotationAngle: CGFloat(-Double.pi/2))
     }
     
@@ -24,7 +26,7 @@ class verticalFader: UISlider {
         super.trackRect(forBounds: customBounds)
         return customBounds
     }
-    
+    //Set to fader button image
     @IBInspectable var faderImage: UIImage? {
         didSet{
             setThumbImage(faderImage, for: .normal)
